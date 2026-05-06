@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# IDE - Complete coverage for all IDEs
+.vscode/
+.cursor/
+.windsurf/
+.idea/
+*.swp
+*.swo
+*~
+.#*
+*.sublime-project
+
+# Project-specific
+outputs/*
+!outputs/.gitkeep
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local workspace - never commit
+nexolocal/
+context_log.md

@@ -1,0 +1,66 @@
+# =============================================================================
+# AI Operations Agent — docker-compose.yml
+# =============================================================================
+# Two profiles:
+#   - default:  just the agent (use with cloud LLMs: groq/openai/anthropic).
+#   - ollama:   agent + a local Ollama server (fully offline, no API key).
+#
+# Usage:
+#   docker compose run --rm agent --demo
+#   docker compose run --rm agent --goal "Analyze data/sales.csv"
+#   docker compose --profile ollama up -d ollama
+#   docker compose --profile ollama run --rm agent --goal "..."
+# =============================================================================
+
+services:
+
+  # ---------------------------------------------------------------------------
+  # The agent itself.
+  # ---------------------------------------------------------------------------
+  agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ai-operations-agent:latest
+    container_name: ai-ops-agent
+    # Read all LLM_* / *_API_KEY vars from a .env file on the host.
+    # If you don't have one, only --demo mode will work (no key needed).
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      # When using the ollama profile, the agent talks to the ollama service
+      # by its compose-network hostname instead of localhost.
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://ollama:11434}
+    volumes:
+      # Mount data & outputs from the host so users see their reports
+      # appear in their filesystem, not trapped in the container.
+      - ./data:/app/data
+      - ./outputs:/app/outputs
+    # The default command is --demo (set in the Dockerfile).
+    # Override at run-time with: docker compose run --rm agent --goal "..."
+    stdin_open: true
+    tty: true
+
+  # ---------------------------------------------------------------------------
+  # Optional: local Ollama server. Enable with `--profile ollama`.
+  # Lets users run the whole stack offline, with zero API keys.
+  # ---------------------------------------------------------------------------
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ai-ops-ollama
+    profiles: ["ollama"]
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-data:/root/.ollama
+    healthcheck:
+      test: ["CMD-SHELL", "ollama list || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+    restart: unless-stopped
+
+volumes:
+  ollama-data:
+    name: ai-ops-ollama-data

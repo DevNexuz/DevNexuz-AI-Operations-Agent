@@ -1,0 +1,801 @@
+ticket_id,created_at,category,priority,assigned_team,status,resolution_hours,customer_satisfaction
+TCK-00001,2024-06-01 00:00:00,Bug,Low,Platform,Open,13.4,2
+TCK-00002,2024-06-01 03:00:00,Bug,High,Data,Resolved,5.5,3
+TCK-00003,2024-06-01 06:00:00,Feature Request,Medium,Platform,Open,6.6,4
+TCK-00004,2024-06-01 09:00:00,Outage,High,Platform,In Progress,8.9,5
+TCK-00005,2024-06-01 12:00:00,Bug,Low,Web,Resolved,5.4,4
+TCK-00006,2024-06-01 15:00:00,Billing,Medium,Billing,Open,13.3,3
+TCK-00007,2024-06-01 18:00:00,Bug,Medium,Billing,Closed,5.3,5
+TCK-00008,2024-06-01 21:00:00,Bug,Medium,Web,Closed,20.1,5
+TCK-00009,2024-06-02 00:00:00,Question,Medium,Platform,Resolved,15.2,4
+TCK-00010,2024-06-02 03:00:00,Question,Medium,Billing,Resolved,21.1,5
+TCK-00011,2024-06-02 06:00:00,Outage,Low,Data,Resolved,7.1,4
+TCK-00012,2024-06-02 09:00:00,Feature Request,High,Data,Open,13.7,4
+TCK-00013,2024-06-02 12:00:00,Outage,Medium,Data,Resolved,3.7,4
+TCK-00014,2024-06-02 15:00:00,Outage,Low,Mobile,Resolved,12.0,4
+TCK-00015,2024-06-02 18:00:00,Question,Low,Data,Resolved,9.3,4
+TCK-00016,2024-06-02 21:00:00,Bug,Medium,Mobile,Resolved,2.8,2
+TCK-00017,2024-06-03 00:00:00,Question,Medium,Platform,Open,6.3,3
+TCK-00018,2024-06-03 03:00:00,Outage,Low,Platform,Open,38.6,3
+TCK-00019,2024-06-03 06:00:00,Feature Request,Medium,Mobile,Resolved,4.1,3
+TCK-00020,2024-06-03 09:00:00,Bug,Medium,Web,Resolved,12.2,5
+TCK-00021,2024-06-03 12:00:00,Bug,Medium,Platform,In Progress,4.4,4
+TCK-00022,2024-06-03 15:00:00,Billing,Critical,Platform,In Progress,7.6,3
+TCK-00023,2024-06-03 18:00:00,Bug,Low,Data,Resolved,7.9,4
+TCK-00024,2024-06-03 21:00:00,Feature Request,Critical,Data,Resolved,18.3,5
+TCK-00025,2024-06-04 00:00:00,Bug,Medium,Mobile,Open,10.8,4
+TCK-00026,2024-06-04 03:00:00,Bug,Low,Platform,Resolved,5.3,4
+TCK-00027,2024-06-04 06:00:00,Outage,High,Web,Resolved,16.1,2
+TCK-00028,2024-06-04 09:00:00,Bug,Medium,Data,Open,27.0,
+TCK-00029,2024-06-04 12:00:00,Question,Low,Data,Resolved,65.9,3
+TCK-00030,2024-06-04 15:00:00,Question,Critical,Web,Open,22.9,5
+TCK-00031,2024-06-04 18:00:00,Bug,High,Data,Resolved,23.9,4
+TCK-00032,2024-06-04 21:00:00,Bug,High,Platform,Resolved,17.0,2
+TCK-00033,2024-06-05 00:00:00,Question,High,Web,Open,12.1,
+TCK-00034,2024-06-05 03:00:00,Feature Request,Medium,Platform,Resolved,17.1,3
+TCK-00035,2024-06-05 06:00:00,Bug,Low,Data,Open,6.2,3
+TCK-00036,2024-06-05 09:00:00,Bug,Medium,Platform,Resolved,27.1,1
+TCK-00037,2024-06-05 12:00:00,Outage,Medium,Platform,Closed,6.0,5
+TCK-00038,2024-06-05 15:00:00,Question,Low,Data,Open,16.7,5
+TCK-00039,2024-06-05 18:00:00,Feature Request,Medium,Web,In Progress,15.0,3
+TCK-00040,2024-06-05 21:00:00,Bug,Medium,Platform,Resolved,6.8,5
+TCK-00041,2024-06-06 00:00:00,Outage,High,Billing,In Progress,5.6,4
+TCK-00042,2024-06-06 03:00:00,Bug,Medium,Data,Closed,14.7,
+TCK-00043,2024-06-06 06:00:00,Question,High,Mobile,Open,31.8,4
+TCK-00044,2024-06-06 09:00:00,Outage,Medium,Mobile,Open,4.5,4
+TCK-00045,2024-06-06 12:00:00,Bug,High,Platform,Closed,13.7,5
+TCK-00046,2024-06-06 15:00:00,Outage,Low,Platform,Resolved,7.8,5
+TCK-00047,2024-06-06 18:00:00,Billing,Critical,Mobile,Open,80.8,1
+TCK-00048,2024-06-06 21:00:00,Question,Low,Platform,In Progress,12.3,5
+TCK-00049,2024-06-07 00:00:00,Question,Low,Platform,Open,7.7,3
+TCK-00050,2024-06-07 03:00:00,Bug,Medium,Data,Resolved,29.3,4
+TCK-00051,2024-06-07 06:00:00,Question,Medium,Platform,Resolved,15.1,4
+TCK-00052,2024-06-07 09:00:00,Feature Request,Medium,Platform,Open,3.4,3
+TCK-00053,2024-06-07 12:00:00,Bug,Medium,Platform,Resolved,0.8,3
+TCK-00054,2024-06-07 15:00:00,Question,Low,Platform,Open,17.4,5
+TCK-00055,2024-06-07 18:00:00,Bug,Medium,Web,In Progress,31.2,3
+TCK-00056,2024-06-07 21:00:00,Question,Critical,Web,Resolved,15.0,4
+TCK-00057,2024-06-08 00:00:00,Billing,Medium,Web,Closed,26.0,3
+TCK-00058,2024-06-08 03:00:00,Bug,Medium,Mobile,Open,16.3,4
+TCK-00059,2024-06-08 06:00:00,Bug,Medium,Web,Open,8.2,3
+TCK-00060,2024-06-08 09:00:00,Bug,Critical,Platform,Open,25.1,4
+TCK-00061,2024-06-08 12:00:00,Feature Request,High,Web,In Progress,32.4,2
+TCK-00062,2024-06-08 15:00:00,Question,Medium,Platform,Resolved,4.4,1
+TCK-00063,2024-06-08 18:00:00,Feature Request,Medium,Platform,In Progress,5.0,3
+TCK-00064,2024-06-08 21:00:00,Question,Medium,Platform,In Progress,5.7,
+TCK-00065,2024-06-09 00:00:00,Outage,Low,Data,Resolved,17.2,2
+TCK-00066,2024-06-09 03:00:00,Bug,High,Platform,Resolved,14.1,4
+TCK-00067,2024-06-09 06:00:00,Question,Low,Mobile,Resolved,2.6,5
+TCK-00068,2024-06-09 09:00:00,Feature Request,Low,Platform,Resolved,6.0,5
+TCK-00069,2024-06-09 12:00:00,Feature Request,Low,Mobile,Closed,26.1,3
+TCK-00070,2024-06-09 15:00:00,Question,Medium,Data,Resolved,29.2,5
+TCK-00071,2024-06-09 18:00:00,Bug,Low,Billing,Resolved,1.2,2
+TCK-00072,2024-06-09 21:00:00,Bug,Low,Platform,Closed,9.8,3
+TCK-00073,2024-06-10 00:00:00,Bug,Low,Billing,Open,18.3,4
+TCK-00074,2024-06-10 03:00:00,Question,Medium,Web,Resolved,12.7,4
+TCK-00075,2024-06-10 06:00:00,Bug,Medium,Web,Resolved,1.9,
+TCK-00076,2024-06-10 09:00:00,Bug,Low,Data,Open,20.1,5
+TCK-00077,2024-06-10 12:00:00,Bug,Low,Data,Open,9.1,4
+TCK-00078,2024-06-10 15:00:00,Question,Low,Mobile,In Progress,25.7,5
+TCK-00079,2024-06-10 18:00:00,Question,Low,Web,Closed,28.4,5
+TCK-00080,2024-06-10 21:00:00,Billing,Low,Mobile,In Progress,5.0,3
+TCK-00081,2024-06-11 00:00:00,Question,Low,Data,Resolved,7.3,3
+TCK-00082,2024-06-11 03:00:00,Bug,Low,Billing,Closed,4.1,5
+TCK-00083,2024-06-11 06:00:00,Question,Medium,Web,Open,16.0,4
+TCK-00084,2024-06-11 09:00:00,Feature Request,Medium,Platform,Open,14.0,4
+TCK-00085,2024-06-11 12:00:00,Outage,Critical,Platform,Open,15.1,
+TCK-00086,2024-06-11 15:00:00,Bug,Medium,Data,Resolved,16.7,3
+TCK-00087,2024-06-11 18:00:00,Bug,Medium,Mobile,Resolved,15.4,4
+TCK-00088,2024-06-11 21:00:00,Billing,High,Mobile,Resolved,21.7,4
+TCK-00089,2024-06-12 00:00:00,Feature Request,Low,Web,In Progress,8.1,3
+TCK-00090,2024-06-12 03:00:00,Feature Request,Medium,Billing,Closed,11.7,2
+TCK-00091,2024-06-12 06:00:00,Question,Low,Platform,Resolved,4.1,4
+TCK-00092,2024-06-12 09:00:00,Bug,Low,Data,Resolved,64.9,3
+TCK-00093,2024-06-12 12:00:00,Feature Request,Low,Mobile,In Progress,8.6,5
+TCK-00094,2024-06-12 15:00:00,Billing,Medium,Billing,Resolved,5.6,4
+TCK-00095,2024-06-12 18:00:00,Question,Medium,Platform,In Progress,14.3,4
+TCK-00096,2024-06-12 21:00:00,Outage,Medium,Billing,In Progress,37.7,4
+TCK-00097,2024-06-13 00:00:00,Billing,Critical,Mobile,Closed,1.3,3
+TCK-00098,2024-06-13 03:00:00,Bug,Medium,Web,Closed,1.7,4
+TCK-00099,2024-06-13 06:00:00,Question,Medium,Web,Resolved,15.5,5
+TCK-00100,2024-06-13 09:00:00,Question,High,Web,Open,1.1,3
+TCK-00101,2024-06-13 12:00:00,Bug,High,Web,In Progress,20.6,4
+TCK-00102,2024-06-13 15:00:00,Bug,Low,Web,Open,25.0,4
+TCK-00103,2024-06-13 18:00:00,Question,Low,Mobile,Closed,8.2,4
+TCK-00104,2024-06-13 21:00:00,Billing,Medium,Platform,In Progress,11.7,
+TCK-00105,2024-06-14 00:00:00,Bug,Medium,Platform,In Progress,20.0,2
+TCK-00106,2024-06-14 03:00:00,Question,Low,Data,Resolved,14.4,3
+TCK-00107,2024-06-14 06:00:00,Bug,High,Web,Resolved,10.7,4
+TCK-00108,2024-06-14 09:00:00,Bug,Medium,Platform,In Progress,12.9,1
+TCK-00109,2024-06-14 12:00:00,Bug,Medium,Billing,Resolved,10.7,3
+TCK-00110,2024-06-14 15:00:00,Bug,Medium,Platform,Resolved,0.5,
+TCK-00111,2024-06-14 18:00:00,Feature Request,Low,Mobile,Open,40.4,5
+TCK-00112,2024-06-14 21:00:00,Bug,Medium,Platform,Closed,33.0,4
+TCK-00113,2024-06-15 00:00:00,Question,Low,Web,Resolved,20.7,3
+TCK-00114,2024-06-15 03:00:00,Billing,High,Web,Closed,2.6,5
+TCK-00115,2024-06-15 06:00:00,Feature Request,Low,Billing,In Progress,13.3,5
+TCK-00116,2024-06-15 09:00:00,Question,Low,Mobile,Resolved,34.9,2
+TCK-00117,2024-06-15 12:00:00,Billing,Medium,Mobile,In Progress,1.8,4
+TCK-00118,2024-06-15 15:00:00,Billing,Low,Platform,Open,1.7,
+TCK-00119,2024-06-15 18:00:00,Bug,High,Platform,In Progress,10.2,2
+TCK-00120,2024-06-15 21:00:00,Question,Low,Data,In Progress,9.3,
+TCK-00121,2024-06-16 00:00:00,Feature Request,High,Web,Resolved,7.2,5
+TCK-00122,2024-06-16 03:00:00,Bug,High,Web,Resolved,41.6,2
+TCK-00123,2024-06-16 06:00:00,Bug,Low,Platform,Closed,14.2,4
+TCK-00124,2024-06-16 09:00:00,Bug,Medium,Platform,Resolved,27.3,5
+TCK-00125,2024-06-16 12:00:00,Bug,Low,Web,Closed,8.0,5
+TCK-00126,2024-06-16 15:00:00,Outage,Low,Platform,In Progress,18.9,5
+TCK-00127,2024-06-16 18:00:00,Outage,Low,Platform,Resolved,0.5,3
+TCK-00128,2024-06-16 21:00:00,Billing,Medium,Billing,Resolved,17.3,4
+TCK-00129,2024-06-17 00:00:00,Billing,Low,Platform,Resolved,11.1,3
+TCK-00130,2024-06-17 03:00:00,Outage,Medium,Data,Resolved,25.7,4
+TCK-00131,2024-06-17 06:00:00,Bug,Medium,Platform,In Progress,7.0,5
+TCK-00132,2024-06-17 09:00:00,Question,Medium,Web,In Progress,10.6,4
+TCK-00133,2024-06-17 12:00:00,Bug,Medium,Billing,Open,34.6,4
+TCK-00134,2024-06-17 15:00:00,Bug,High,Data,Open,15.2,4
+TCK-00135,2024-06-17 18:00:00,Bug,Medium,Platform,Resolved,7.3,5
+TCK-00136,2024-06-17 21:00:00,Billing,Low,Platform,Resolved,5.5,
+TCK-00137,2024-06-18 00:00:00,Question,Low,Platform,Resolved,30.5,5
+TCK-00138,2024-06-18 03:00:00,Question,Medium,Web,Resolved,9.2,5
+TCK-00139,2024-06-18 06:00:00,Billing,Medium,Platform,Resolved,2.2,4
+TCK-00140,2024-06-18 09:00:00,Bug,Medium,Platform,Resolved,6.9,
+TCK-00141,2024-06-18 12:00:00,Outage,High,Billing,Open,10.3,2
+TCK-00142,2024-06-18 15:00:00,Feature Request,Medium,Mobile,Open,30.5,4
+TCK-00143,2024-06-18 18:00:00,Bug,High,Platform,Resolved,19.7,3
+TCK-00144,2024-06-18 21:00:00,Outage,Low,Web,Resolved,11.7,3
+TCK-00145,2024-06-19 00:00:00,Bug,Low,Platform,Resolved,29.0,3
+TCK-00146,2024-06-19 03:00:00,Billing,High,Mobile,In Progress,14.2,
+TCK-00147,2024-06-19 06:00:00,Bug,Medium,Platform,In Progress,9.4,4
+TCK-00148,2024-06-19 09:00:00,Question,Low,Data,Resolved,36.0,
+TCK-00149,2024-06-19 12:00:00,Question,Low,Platform,Open,17.3,3
+TCK-00150,2024-06-19 15:00:00,Bug,Low,Platform,Resolved,24.6,
+TCK-00151,2024-06-19 18:00:00,Question,Medium,Data,Resolved,6.7,4
+TCK-00152,2024-06-19 21:00:00,Outage,Medium,Platform,Resolved,7.3,4
+TCK-00153,2024-06-20 00:00:00,Bug,Medium,Data,Resolved,40.8,2
+TCK-00154,2024-06-20 03:00:00,Bug,Low,Platform,Resolved,18.7,
+TCK-00155,2024-06-20 06:00:00,Feature Request,Low,Web,In Progress,26.9,4
+TCK-00156,2024-06-20 09:00:00,Bug,High,Mobile,Closed,14.9,5
+TCK-00157,2024-06-20 12:00:00,Question,Medium,Billing,In Progress,5.3,4
+TCK-00158,2024-06-20 15:00:00,Question,Medium,Mobile,Resolved,12.9,1
+TCK-00159,2024-06-20 18:00:00,Bug,Medium,Web,Resolved,13.6,3
+TCK-00160,2024-06-20 21:00:00,Billing,Medium,Data,Resolved,25.4,1
+TCK-00161,2024-06-21 00:00:00,Question,Low,Mobile,Resolved,8.5,5
+TCK-00162,2024-06-21 03:00:00,Feature Request,Medium,Data,Closed,18.7,5
+TCK-00163,2024-06-21 06:00:00,Bug,High,Mobile,Resolved,4.0,2
+TCK-00164,2024-06-21 09:00:00,Bug,Critical,Platform,Closed,10.0,4
+TCK-00165,2024-06-21 12:00:00,Feature Request,Low,Web,Open,5.2,3
+TCK-00166,2024-06-21 15:00:00,Billing,Medium,Platform,Resolved,17.8,
+TCK-00167,2024-06-21 18:00:00,Bug,Medium,Mobile,Resolved,39.9,3
+TCK-00168,2024-06-21 21:00:00,Question,Medium,Web,Resolved,12.6,4
+TCK-00169,2024-06-22 00:00:00,Bug,High,Platform,In Progress,18.8,4
+TCK-00170,2024-06-22 03:00:00,Feature Request,Low,Platform,Resolved,14.6,
+TCK-00171,2024-06-22 06:00:00,Bug,Medium,Platform,In Progress,11.2,3
+TCK-00172,2024-06-22 09:00:00,Question,Medium,Platform,Open,44.0,3
+TCK-00173,2024-06-22 12:00:00,Bug,Low,Platform,Open,17.6,3
+TCK-00174,2024-06-22 15:00:00,Billing,Medium,Web,In Progress,7.5,
+TCK-00175,2024-06-22 18:00:00,Question,Medium,Platform,Open,10.3,3
+TCK-00176,2024-06-22 21:00:00,Outage,Medium,Mobile,Closed,31.2,
+TCK-00177,2024-06-23 00:00:00,Feature Request,Medium,Data,Resolved,1.3,4
+TCK-00178,2024-06-23 03:00:00,Bug,Low,Mobile,Closed,2.8,2
+TCK-00179,2024-06-23 06:00:00,Question,High,Platform,Resolved,28.0,1
+TCK-00180,2024-06-23 09:00:00,Feature Request,Medium,Platform,Resolved,37.7,4
+TCK-00181,2024-06-23 12:00:00,Bug,Low,Platform,Resolved,3.6,3
+TCK-00182,2024-06-23 15:00:00,Bug,High,Web,Closed,13.8,5
+TCK-00183,2024-06-23 18:00:00,Bug,Medium,Platform,Open,29.1,3
+TCK-00184,2024-06-23 21:00:00,Question,High,Platform,In Progress,16.6,3
+TCK-00185,2024-06-24 00:00:00,Billing,Low,Data,Resolved,28.6,5
+TCK-00186,2024-06-24 03:00:00,Bug,High,Mobile,Open,32.3,5
+TCK-00187,2024-06-24 06:00:00,Feature Request,Medium,Platform,Resolved,25.8,3
+TCK-00188,2024-06-24 09:00:00,Question,Medium,Mobile,Open,0.6,4
+TCK-00189,2024-06-24 12:00:00,Billing,Low,Billing,Closed,12.4,5
+TCK-00190,2024-06-24 15:00:00,Billing,Low,Platform,Resolved,3.4,5
+TCK-00191,2024-06-24 18:00:00,Feature Request,Low,Platform,In Progress,4.2,4
+TCK-00192,2024-06-24 21:00:00,Bug,Low,Web,Closed,14.7,5
+TCK-00193,2024-06-25 00:00:00,Bug,Low,Platform,Resolved,16.0,4
+TCK-00194,2024-06-25 03:00:00,Question,Medium,Platform,In Progress,16.8,1
+TCK-00195,2024-06-25 06:00:00,Feature Request,Low,Platform,Open,32.6,3
+TCK-00196,2024-06-25 09:00:00,Bug,Low,Mobile,In Progress,20.3,
+TCK-00197,2024-06-25 12:00:00,Outage,Medium,Platform,Resolved,0.3,1
+TCK-00198,2024-06-25 15:00:00,Question,Medium,Data,Open,37.1,2
+TCK-00199,2024-06-25 18:00:00,Billing,Low,Billing,In Progress,22.2,3
+TCK-00200,2024-06-25 21:00:00,Bug,Low,Platform,In Progress,13.8,4
+TCK-00201,2024-06-26 00:00:00,Feature Request,High,Mobile,Resolved,4.9,4
+TCK-00202,2024-06-26 03:00:00,Bug,Medium,Platform,Open,15.4,5
+TCK-00203,2024-06-26 06:00:00,Bug,Low,Billing,Closed,2.1,5
+TCK-00204,2024-06-26 09:00:00,Outage,Low,Mobile,Resolved,21.2,
+TCK-00205,2024-06-26 12:00:00,Billing,Medium,Data,In Progress,36.3,1
+TCK-00206,2024-06-26 15:00:00,Question,Low,Platform,Open,22.5,
+TCK-00207,2024-06-26 18:00:00,Bug,Low,Platform,Resolved,13.5,4
+TCK-00208,2024-06-26 21:00:00,Bug,Low,Platform,Open,20.9,5
+TCK-00209,2024-06-27 00:00:00,Bug,Medium,Platform,Resolved,44.5,4
+TCK-00210,2024-06-27 03:00:00,Question,Medium,Web,In Progress,20.7,2
+TCK-00211,2024-06-27 06:00:00,Bug,High,Data,In Progress,16.8,4
+TCK-00212,2024-06-27 09:00:00,Question,Medium,Platform,In Progress,12.1,5
+TCK-00213,2024-06-27 12:00:00,Question,Low,Data,Open,8.9,5
+TCK-00214,2024-06-27 15:00:00,Bug,High,Web,Closed,27.6,3
+TCK-00215,2024-06-27 18:00:00,Question,Low,Web,In Progress,6.1,2
+TCK-00216,2024-06-27 21:00:00,Question,Critical,Data,In Progress,3.0,5
+TCK-00217,2024-06-28 00:00:00,Bug,High,Mobile,Open,19.5,1
+TCK-00218,2024-06-28 03:00:00,Question,Low,Data,Closed,30.3,4
+TCK-00219,2024-06-28 06:00:00,Bug,Medium,Data,In Progress,14.2,4
+TCK-00220,2024-06-28 09:00:00,Feature Request,Low,Billing,Resolved,28.8,5
+TCK-00221,2024-06-28 12:00:00,Bug,Low,Billing,Open,8.0,4
+TCK-00222,2024-06-28 15:00:00,Bug,Medium,Platform,Open,3.5,2
+TCK-00223,2024-06-28 18:00:00,Question,High,Mobile,In Progress,14.2,4
+TCK-00224,2024-06-28 21:00:00,Question,Low,Web,In Progress,25.9,3
+TCK-00225,2024-06-29 00:00:00,Question,High,Data,Closed,48.2,5
+TCK-00226,2024-06-29 03:00:00,Feature Request,Low,Platform,In Progress,16.7,4
+TCK-00227,2024-06-29 06:00:00,Bug,High,Mobile,Resolved,12.7,4
+TCK-00228,2024-06-29 09:00:00,Question,Low,Data,Resolved,10.1,
+TCK-00229,2024-06-29 12:00:00,Bug,Low,Platform,Resolved,27.6,2
+TCK-00230,2024-06-29 15:00:00,Question,Low,Platform,Open,27.0,3
+TCK-00231,2024-06-29 18:00:00,Bug,Medium,Platform,In Progress,15.5,4
+TCK-00232,2024-06-29 21:00:00,Bug,Critical,Billing,Open,1.9,3
+TCK-00233,2024-06-30 00:00:00,Billing,Medium,Platform,Resolved,38.3,1
+TCK-00234,2024-06-30 03:00:00,Bug,Medium,Billing,Resolved,5.0,5
+TCK-00235,2024-06-30 06:00:00,Bug,High,Platform,Resolved,20.6,5
+TCK-00236,2024-06-30 09:00:00,Bug,Critical,Platform,Closed,16.5,
+TCK-00237,2024-06-30 12:00:00,Bug,Low,Data,Open,10.5,4
+TCK-00238,2024-06-30 15:00:00,Bug,High,Mobile,Open,8.5,3
+TCK-00239,2024-06-30 18:00:00,Feature Request,Low,Mobile,Resolved,49.6,1
+TCK-00240,2024-06-30 21:00:00,Bug,Medium,Mobile,Resolved,2.8,3
+TCK-00241,2024-07-01 00:00:00,Outage,High,Billing,Closed,1.0,5
+TCK-00242,2024-07-01 03:00:00,Feature Request,Medium,Web,Closed,1.9,4
+TCK-00243,2024-07-01 06:00:00,Bug,Low,Data,Open,15.4,5
+TCK-00244,2024-07-01 09:00:00,Bug,Medium,Mobile,Resolved,20.7,2
+TCK-00245,2024-07-01 12:00:00,Billing,Low,Platform,In Progress,19.2,3
+TCK-00246,2024-07-01 15:00:00,Feature Request,Low,Platform,Open,36.8,5
+TCK-00247,2024-07-01 18:00:00,Bug,Low,Billing,In Progress,37.0,3
+TCK-00248,2024-07-01 21:00:00,Bug,Low,Mobile,Resolved,35.3,4
+TCK-00249,2024-07-02 00:00:00,Question,Critical,Data,Closed,5.7,4
+TCK-00250,2024-07-02 03:00:00,Question,High,Billing,Resolved,7.9,3
+TCK-00251,2024-07-02 06:00:00,Feature Request,Low,Platform,In Progress,4.9,5
+TCK-00252,2024-07-02 09:00:00,Bug,High,Platform,Open,17.4,4
+TCK-00253,2024-07-02 12:00:00,Bug,Medium,Platform,Open,1.5,3
+TCK-00254,2024-07-02 15:00:00,Bug,Low,Web,In Progress,21.0,4
+TCK-00255,2024-07-02 18:00:00,Bug,Medium,Billing,Closed,13.5,
+TCK-00256,2024-07-02 21:00:00,Bug,Medium,Platform,Resolved,19.1,4
+TCK-00257,2024-07-03 00:00:00,Question,Medium,Platform,Resolved,3.9,3
+TCK-00258,2024-07-03 03:00:00,Bug,High,Platform,Open,11.3,3
+TCK-00259,2024-07-03 06:00:00,Question,Medium,Web,Open,3.9,4
+TCK-00260,2024-07-03 09:00:00,Bug,Medium,Data,Open,22.2,3
+TCK-00261,2024-07-03 12:00:00,Feature Request,Low,Platform,Resolved,17.4,4
+TCK-00262,2024-07-03 15:00:00,Question,Low,Platform,Resolved,12.8,5
+TCK-00263,2024-07-03 18:00:00,Question,Low,Data,In Progress,4.7,
+TCK-00264,2024-07-03 21:00:00,Feature Request,Low,Data,Open,8.4,4
+TCK-00265,2024-07-04 00:00:00,Bug,Medium,Web,Resolved,2.8,
+TCK-00266,2024-07-04 03:00:00,Bug,Low,Billing,Resolved,1.7,4
+TCK-00267,2024-07-04 06:00:00,Question,Medium,Platform,In Progress,10.3,
+TCK-00268,2024-07-04 09:00:00,Billing,Low,Data,Resolved,11.8,3
+TCK-00269,2024-07-04 12:00:00,Bug,Low,Platform,Resolved,3.4,2
+TCK-00270,2024-07-04 15:00:00,Bug,Low,Mobile,Open,11.2,4
+TCK-00271,2024-07-04 18:00:00,Billing,Low,Web,Resolved,9.2,3
+TCK-00272,2024-07-04 21:00:00,Bug,Medium,Platform,Resolved,25.9,3
+TCK-00273,2024-07-05 00:00:00,Bug,Low,Platform,In Progress,10.2,4
+TCK-00274,2024-07-05 03:00:00,Billing,Low,Platform,Resolved,11.5,2
+TCK-00275,2024-07-05 06:00:00,Bug,Low,Mobile,Open,9.7,5
+TCK-00276,2024-07-05 09:00:00,Bug,High,Mobile,Open,29.6,3
+TCK-00277,2024-07-05 12:00:00,Bug,Low,Mobile,In Progress,1.6,4
+TCK-00278,2024-07-05 15:00:00,Bug,Medium,Platform,Closed,41.2,1
+TCK-00279,2024-07-05 18:00:00,Question,Low,Mobile,Resolved,22.4,5
+TCK-00280,2024-07-05 21:00:00,Bug,Low,Data,Resolved,9.5,3
+TCK-00281,2024-07-06 00:00:00,Billing,High,Mobile,Closed,12.4,
+TCK-00282,2024-07-06 03:00:00,Outage,Low,Web,Closed,18.6,5
+TCK-00283,2024-07-06 06:00:00,Billing,Medium,Billing,Closed,22.9,3
+TCK-00284,2024-07-06 09:00:00,Bug,High,Billing,In Progress,7.8,4
+TCK-00285,2024-07-06 12:00:00,Question,Medium,Web,Open,5.5,5
+TCK-00286,2024-07-06 15:00:00,Billing,Low,Platform,Open,22.5,3
+TCK-00287,2024-07-06 18:00:00,Bug,Medium,Web,In Progress,17.3,3
+TCK-00288,2024-07-06 21:00:00,Question,Critical,Mobile,Resolved,21.4,5
+TCK-00289,2024-07-07 00:00:00,Bug,Low,Web,Open,22.5,4
+TCK-00290,2024-07-07 03:00:00,Question,Low,Platform,In Progress,22.8,
+TCK-00291,2024-07-07 06:00:00,Bug,Low,Platform,Resolved,18.9,1
+TCK-00292,2024-07-07 09:00:00,Bug,Low,Billing,Open,33.1,2
+TCK-00293,2024-07-07 12:00:00,Bug,High,Platform,In Progress,6.7,4
+TCK-00294,2024-07-07 15:00:00,Bug,Medium,Web,Resolved,19.5,5
+TCK-00295,2024-07-07 18:00:00,Question,Low,Platform,Open,11.5,5
+TCK-00296,2024-07-07 21:00:00,Feature Request,Low,Data,Resolved,15.0,5
+TCK-00297,2024-07-08 00:00:00,Billing,High,Platform,Resolved,10.9,5
+TCK-00298,2024-07-08 03:00:00,Bug,High,Data,Resolved,11.4,
+TCK-00299,2024-07-08 06:00:00,Bug,Medium,Data,Resolved,17.1,4
+TCK-00300,2024-07-08 09:00:00,Question,Low,Web,Resolved,13.2,5
+TCK-00301,2024-07-08 12:00:00,Bug,Medium,Data,Resolved,30.3,4
+TCK-00302,2024-07-08 15:00:00,Feature Request,High,Data,Open,8.4,4
+TCK-00303,2024-07-08 18:00:00,Bug,High,Billing,Closed,7.5,5
+TCK-00304,2024-07-08 21:00:00,Bug,Medium,Platform,Open,10.8,3
+TCK-00305,2024-07-09 00:00:00,Feature Request,Medium,Platform,Resolved,16.5,4
+TCK-00306,2024-07-09 03:00:00,Billing,Low,Platform,Closed,44.3,4
+TCK-00307,2024-07-09 06:00:00,Bug,Critical,Platform,Resolved,14.8,5
+TCK-00308,2024-07-09 09:00:00,Feature Request,Critical,Platform,Open,15.3,3
+TCK-00309,2024-07-09 12:00:00,Bug,Medium,Platform,Closed,32.3,2
+TCK-00310,2024-07-09 15:00:00,Bug,Medium,Data,Closed,6.8,5
+TCK-00311,2024-07-09 18:00:00,Billing,Medium,Mobile,In Progress,27.6,2
+TCK-00312,2024-07-09 21:00:00,Billing,Low,Mobile,Open,8.1,5
+TCK-00313,2024-07-10 00:00:00,Bug,Medium,Platform,Open,19.1,
+TCK-00314,2024-07-10 03:00:00,Billing,Medium,Web,Closed,14.0,3
+TCK-00315,2024-07-10 06:00:00,Question,Low,Mobile,In Progress,3.5,4
+TCK-00316,2024-07-10 09:00:00,Question,Low,Mobile,Resolved,2.7,5
+TCK-00317,2024-07-10 12:00:00,Outage,Medium,Mobile,Open,14.9,2
+TCK-00318,2024-07-10 15:00:00,Question,High,Platform,Closed,11.1,5
+TCK-00319,2024-07-10 18:00:00,Feature Request,Medium,Mobile,In Progress,8.6,
+TCK-00320,2024-07-10 21:00:00,Feature Request,Medium,Data,In Progress,6.6,5
+TCK-00321,2024-07-11 00:00:00,Outage,Medium,Web,Resolved,17.6,5
+TCK-00322,2024-07-11 03:00:00,Feature Request,Low,Web,Closed,2.7,4
+TCK-00323,2024-07-11 06:00:00,Bug,Medium,Platform,Resolved,13.0,4
+TCK-00324,2024-07-11 09:00:00,Feature Request,Low,Platform,Open,8.2,4
+TCK-00325,2024-07-11 12:00:00,Bug,Medium,Billing,Open,8.6,3
+TCK-00326,2024-07-11 15:00:00,Feature Request,High,Platform,Resolved,20.6,
+TCK-00327,2024-07-11 18:00:00,Billing,Low,Billing,Resolved,16.3,5
+TCK-00328,2024-07-11 21:00:00,Bug,High,Data,Resolved,19.1,4
+TCK-00329,2024-07-12 00:00:00,Bug,Critical,Data,Open,5.1,3
+TCK-00330,2024-07-12 03:00:00,Question,Medium,Mobile,In Progress,12.2,4
+TCK-00331,2024-07-12 06:00:00,Bug,Low,Web,Resolved,12.0,2
+TCK-00332,2024-07-12 09:00:00,Bug,Medium,Platform,Closed,28.4,5
+TCK-00333,2024-07-12 12:00:00,Question,Medium,Mobile,Closed,12.1,5
+TCK-00334,2024-07-12 15:00:00,Feature Request,Medium,Platform,Resolved,7.6,4
+TCK-00335,2024-07-12 18:00:00,Bug,Low,Billing,In Progress,16.0,4
+TCK-00336,2024-07-12 21:00:00,Bug,High,Platform,Open,13.4,3
+TCK-00337,2024-07-13 00:00:00,Question,Low,Billing,In Progress,19.3,
+TCK-00338,2024-07-13 03:00:00,Feature Request,Medium,Mobile,In Progress,1.8,
+TCK-00339,2024-07-13 06:00:00,Bug,High,Web,In Progress,4.8,1
+TCK-00340,2024-07-13 09:00:00,Bug,Low,Platform,In Progress,2.8,5
+TCK-00341,2024-07-13 12:00:00,Question,Low,Billing,Open,6.0,5
+TCK-00342,2024-07-13 15:00:00,Question,Medium,Data,Resolved,18.7,4
+TCK-00343,2024-07-13 18:00:00,Question,Medium,Mobile,Resolved,31.2,4
+TCK-00344,2024-07-13 21:00:00,Question,Medium,Platform,Resolved,2.8,4
+TCK-00345,2024-07-14 00:00:00,Feature Request,Low,Web,Resolved,19.4,3
+TCK-00346,2024-07-14 03:00:00,Feature Request,High,Data,Resolved,19.4,3
+TCK-00347,2024-07-14 06:00:00,Bug,High,Web,In Progress,22.3,1
+TCK-00348,2024-07-14 09:00:00,Bug,Low,Mobile,Closed,20.3,5
+TCK-00349,2024-07-14 12:00:00,Outage,Medium,Mobile,In Progress,28.4,4
+TCK-00350,2024-07-14 15:00:00,Bug,Medium,Web,Resolved,14.1,4
+TCK-00351,2024-07-14 18:00:00,Question,Low,Web,Resolved,10.3,5
+TCK-00352,2024-07-14 21:00:00,Bug,Medium,Data,Open,9.8,3
+TCK-00353,2024-07-15 00:00:00,Feature Request,High,Platform,Open,16.0,4
+TCK-00354,2024-07-15 03:00:00,Outage,Medium,Platform,In Progress,18.8,
+TCK-00355,2024-07-15 06:00:00,Outage,Medium,Data,Closed,24.5,5
+TCK-00356,2024-07-15 09:00:00,Bug,High,Mobile,Resolved,22.8,
+TCK-00357,2024-07-15 12:00:00,Bug,Low,Platform,Open,13.4,3
+TCK-00358,2024-07-15 15:00:00,Outage,High,Web,Resolved,15.7,4
+TCK-00359,2024-07-15 18:00:00,Question,Low,Mobile,In Progress,7.3,3
+TCK-00360,2024-07-15 21:00:00,Billing,Medium,Data,Resolved,8.3,4
+TCK-00361,2024-07-16 00:00:00,Billing,High,Mobile,Resolved,17.7,2
+TCK-00362,2024-07-16 03:00:00,Feature Request,Low,Data,Resolved,9.1,3
+TCK-00363,2024-07-16 06:00:00,Question,High,Platform,Resolved,2.7,3
+TCK-00364,2024-07-16 09:00:00,Bug,Low,Billing,Closed,21.2,3
+TCK-00365,2024-07-16 12:00:00,Bug,Medium,Platform,In Progress,20.7,3
+TCK-00366,2024-07-16 15:00:00,Feature Request,Medium,Platform,Resolved,12.3,4
+TCK-00367,2024-07-16 18:00:00,Billing,Low,Data,In Progress,7.0,4
+TCK-00368,2024-07-16 21:00:00,Bug,Low,Billing,Closed,22.0,5
+TCK-00369,2024-07-17 00:00:00,Bug,Medium,Billing,Closed,31.9,5
+TCK-00370,2024-07-17 03:00:00,Feature Request,Medium,Platform,In Progress,3.0,2
+TCK-00371,2024-07-17 06:00:00,Bug,Low,Web,Closed,14.3,4
+TCK-00372,2024-07-17 09:00:00,Feature Request,Low,Platform,Closed,0.9,5
+TCK-00373,2024-07-17 12:00:00,Question,Low,Platform,Resolved,16.8,4
+TCK-00374,2024-07-17 15:00:00,Feature Request,Medium,Mobile,Closed,4.4,3
+TCK-00375,2024-07-17 18:00:00,Question,Low,Billing,Open,12.0,
+TCK-00376,2024-07-17 21:00:00,Bug,Medium,Platform,Closed,31.6,4
+TCK-00377,2024-07-18 00:00:00,Question,Medium,Platform,In Progress,10.0,4
+TCK-00378,2024-07-18 03:00:00,Billing,High,Web,Open,18.0,5
+TCK-00379,2024-07-18 06:00:00,Question,High,Platform,In Progress,2.9,1
+TCK-00380,2024-07-18 09:00:00,Question,Medium,Data,Resolved,7.5,4
+TCK-00381,2024-07-18 12:00:00,Billing,Medium,Billing,Open,8.8,
+TCK-00382,2024-07-18 15:00:00,Bug,Low,Platform,Resolved,21.9,1
+TCK-00383,2024-07-18 18:00:00,Feature Request,Low,Mobile,In Progress,34.9,4
+TCK-00384,2024-07-18 21:00:00,Question,Medium,Billing,Resolved,8.6,5
+TCK-00385,2024-07-19 00:00:00,Bug,Medium,Platform,Resolved,1.7,5
+TCK-00386,2024-07-19 03:00:00,Feature Request,Medium,Platform,Open,4.0,3
+TCK-00387,2024-07-19 06:00:00,Outage,Low,Platform,Closed,9.8,
+TCK-00388,2024-07-19 09:00:00,Bug,Medium,Platform,Resolved,20.2,4
+TCK-00389,2024-07-19 12:00:00,Outage,Medium,Billing,Open,16.6,
+TCK-00390,2024-07-19 15:00:00,Billing,High,Web,Resolved,21.4,3
+TCK-00391,2024-07-19 18:00:00,Bug,Low,Platform,Resolved,33.5,5
+TCK-00392,2024-07-19 21:00:00,Feature Request,Medium,Platform,Open,25.7,3
+TCK-00393,2024-07-20 00:00:00,Billing,Low,Platform,Resolved,6.1,4
+TCK-00394,2024-07-20 03:00:00,Bug,Low,Platform,Resolved,5.3,4
+TCK-00395,2024-07-20 06:00:00,Question,Medium,Platform,In Progress,16.7,1
+TCK-00396,2024-07-20 09:00:00,Bug,Medium,Data,Open,9.6,4
+TCK-00397,2024-07-20 12:00:00,Outage,Medium,Mobile,Open,13.1,5
+TCK-00398,2024-07-20 15:00:00,Bug,Low,Platform,Resolved,30.0,5
+TCK-00399,2024-07-20 18:00:00,Feature Request,High,Platform,Resolved,9.7,5
+TCK-00400,2024-07-20 21:00:00,Feature Request,High,Platform,Closed,0.8,1
+TCK-00401,2024-07-21 00:00:00,Feature Request,Medium,Web,Resolved,22.3,5
+TCK-00402,2024-07-21 03:00:00,Outage,Medium,Billing,In Progress,16.8,5
+TCK-00403,2024-07-21 06:00:00,Question,Medium,Platform,In Progress,12.5,3
+TCK-00404,2024-07-21 09:00:00,Bug,Medium,Mobile,Resolved,33.4,
+TCK-00405,2024-07-21 12:00:00,Question,Medium,Billing,Resolved,5.8,4
+TCK-00406,2024-07-21 15:00:00,Bug,Low,Platform,Closed,24.7,4
+TCK-00407,2024-07-21 18:00:00,Bug,Medium,Web,Open,16.2,5
+TCK-00408,2024-07-21 21:00:00,Outage,Medium,Mobile,Resolved,17.2,2
+TCK-00409,2024-07-22 00:00:00,Bug,Critical,Platform,Closed,19.7,4
+TCK-00410,2024-07-22 03:00:00,Outage,Medium,Billing,Resolved,15.3,5
+TCK-00411,2024-07-22 06:00:00,Bug,Low,Platform,Resolved,11.2,4
+TCK-00412,2024-07-22 09:00:00,Bug,Medium,Platform,In Progress,5.7,3
+TCK-00413,2024-07-22 12:00:00,Bug,High,Data,Closed,46.2,3
+TCK-00414,2024-07-22 15:00:00,Billing,Critical,Platform,Open,10.4,2
+TCK-00415,2024-07-22 18:00:00,Outage,Medium,Web,Resolved,23.9,4
+TCK-00416,2024-07-22 21:00:00,Question,High,Platform,Resolved,24.2,5
+TCK-00417,2024-07-23 00:00:00,Bug,Critical,Platform,Open,2.4,3
+TCK-00418,2024-07-23 03:00:00,Billing,High,Platform,Resolved,21.5,
+TCK-00419,2024-07-23 06:00:00,Feature Request,High,Mobile,Resolved,2.1,4
+TCK-00420,2024-07-23 09:00:00,Bug,Medium,Platform,Open,3.3,4
+TCK-00421,2024-07-23 12:00:00,Feature Request,High,Data,In Progress,23.4,3
+TCK-00422,2024-07-23 15:00:00,Bug,Medium,Web,In Progress,33.5,3
+TCK-00423,2024-07-23 18:00:00,Feature Request,Medium,Platform,In Progress,5.1,4
+TCK-00424,2024-07-23 21:00:00,Feature Request,Medium,Data,Resolved,11.4,5
+TCK-00425,2024-07-24 00:00:00,Bug,High,Platform,Closed,7.9,5
+TCK-00426,2024-07-24 03:00:00,Bug,High,Platform,Resolved,6.4,4
+TCK-00427,2024-07-24 06:00:00,Outage,Low,Web,Closed,6.0,3
+TCK-00428,2024-07-24 09:00:00,Question,Critical,Web,Resolved,7.6,5
+TCK-00429,2024-07-24 12:00:00,Feature Request,High,Billing,Closed,30.4,5
+TCK-00430,2024-07-24 15:00:00,Question,Low,Platform,Resolved,2.3,3
+TCK-00431,2024-07-24 18:00:00,Bug,Medium,Mobile,Resolved,19.6,4
+TCK-00432,2024-07-24 21:00:00,Question,Low,Platform,Closed,8.1,4
+TCK-00433,2024-07-25 00:00:00,Question,Low,Platform,In Progress,56.2,4
+TCK-00434,2024-07-25 03:00:00,Bug,High,Mobile,In Progress,22.0,3
+TCK-00435,2024-07-25 06:00:00,Question,Medium,Platform,Closed,54.6,5
+TCK-00436,2024-07-25 09:00:00,Feature Request,Medium,Mobile,Open,5.1,4
+TCK-00437,2024-07-25 12:00:00,Question,Medium,Platform,In Progress,7.5,5
+TCK-00438,2024-07-25 15:00:00,Question,High,Data,Resolved,2.9,2
+TCK-00439,2024-07-25 18:00:00,Feature Request,Low,Platform,In Progress,24.5,5
+TCK-00440,2024-07-25 21:00:00,Question,Low,Platform,Open,29.0,3
+TCK-00441,2024-07-26 00:00:00,Bug,Low,Platform,Resolved,4.4,3
+TCK-00442,2024-07-26 03:00:00,Bug,Medium,Mobile,Resolved,3.1,5
+TCK-00443,2024-07-26 06:00:00,Bug,Medium,Data,Resolved,24.7,5
+TCK-00444,2024-07-26 09:00:00,Feature Request,Medium,Billing,Closed,10.0,5
+TCK-00445,2024-07-26 12:00:00,Bug,High,Platform,Open,67.5,4
+TCK-00446,2024-07-26 15:00:00,Question,High,Platform,In Progress,25.5,2
+TCK-00447,2024-07-26 18:00:00,Bug,Medium,Web,Resolved,8.4,3
+TCK-00448,2024-07-26 21:00:00,Feature Request,High,Mobile,Open,7.1,
+TCK-00449,2024-07-27 00:00:00,Bug,High,Platform,Resolved,17.3,
+TCK-00450,2024-07-27 03:00:00,Feature Request,Low,Web,Resolved,7.2,2
+TCK-00451,2024-07-27 06:00:00,Billing,Medium,Web,Resolved,13.9,4
+TCK-00452,2024-07-27 09:00:00,Question,High,Platform,Open,6.2,2
+TCK-00453,2024-07-27 12:00:00,Bug,High,Mobile,Closed,16.9,3
+TCK-00454,2024-07-27 15:00:00,Question,Low,Web,Resolved,5.4,3
+TCK-00455,2024-07-27 18:00:00,Question,Medium,Web,Open,15.4,5
+TCK-00456,2024-07-27 21:00:00,Question,Medium,Web,Resolved,19.1,3
+TCK-00457,2024-07-28 00:00:00,Bug,Medium,Platform,Closed,19.2,4
+TCK-00458,2024-07-28 03:00:00,Question,Critical,Mobile,Resolved,9.5,4
+TCK-00459,2024-07-28 06:00:00,Outage,High,Platform,In Progress,33.2,4
+TCK-00460,2024-07-28 09:00:00,Feature Request,Critical,Mobile,Closed,26.0,3
+TCK-00461,2024-07-28 12:00:00,Bug,Medium,Mobile,In Progress,8.6,5
+TCK-00462,2024-07-28 15:00:00,Billing,Low,Platform,Open,9.3,4
+TCK-00463,2024-07-28 18:00:00,Question,Low,Web,Resolved,18.9,3
+TCK-00464,2024-07-28 21:00:00,Question,High,Platform,Resolved,15.2,5
+TCK-00465,2024-07-29 00:00:00,Bug,High,Billing,In Progress,12.0,
+TCK-00466,2024-07-29 03:00:00,Feature Request,High,Platform,Open,29.5,2
+TCK-00467,2024-07-29 06:00:00,Question,Low,Web,Closed,4.3,2
+TCK-00468,2024-07-29 09:00:00,Outage,Medium,Billing,Open,12.9,
+TCK-00469,2024-07-29 12:00:00,Bug,Medium,Billing,Resolved,20.3,4
+TCK-00470,2024-07-29 15:00:00,Bug,High,Data,Open,21.1,
+TCK-00471,2024-07-29 18:00:00,Bug,Low,Platform,Open,9.5,4
+TCK-00472,2024-07-29 21:00:00,Bug,Low,Platform,In Progress,25.1,
+TCK-00473,2024-07-30 00:00:00,Bug,Medium,Billing,Closed,40.7,5
+TCK-00474,2024-07-30 03:00:00,Feature Request,Medium,Data,In Progress,14.8,3
+TCK-00475,2024-07-30 06:00:00,Bug,Low,Web,Resolved,28.4,4
+TCK-00476,2024-07-30 09:00:00,Billing,Low,Platform,Resolved,17.1,4
+TCK-00477,2024-07-30 12:00:00,Bug,Low,Mobile,Resolved,13.1,5
+TCK-00478,2024-07-30 15:00:00,Bug,High,Mobile,Closed,29.4,2
+TCK-00479,2024-07-30 18:00:00,Billing,Medium,Billing,Closed,26.8,3
+TCK-00480,2024-07-30 21:00:00,Billing,High,Billing,Open,51.2,2
+TCK-00481,2024-07-31 00:00:00,Bug,Medium,Mobile,Resolved,33.6,4
+TCK-00482,2024-07-31 03:00:00,Question,Low,Platform,Resolved,8.9,4
+TCK-00483,2024-07-31 06:00:00,Bug,Low,Mobile,Resolved,22.5,4
+TCK-00484,2024-07-31 09:00:00,Outage,Medium,Mobile,In Progress,51.1,2
+TCK-00485,2024-07-31 12:00:00,Outage,Medium,Data,Open,11.5,5
+TCK-00486,2024-07-31 15:00:00,Feature Request,Medium,Platform,Closed,8.1,5
+TCK-00487,2024-07-31 18:00:00,Bug,Medium,Data,Open,15.5,4
+TCK-00488,2024-07-31 21:00:00,Outage,Medium,Mobile,Resolved,21.9,4
+TCK-00489,2024-08-01 00:00:00,Bug,Low,Platform,Open,15.6,
+TCK-00490,2024-08-01 03:00:00,Bug,Critical,Platform,Resolved,19.9,5
+TCK-00491,2024-08-01 06:00:00,Billing,Critical,Platform,Closed,8.0,
+TCK-00492,2024-08-01 09:00:00,Outage,Medium,Platform,Resolved,11.6,2
+TCK-00493,2024-08-01 12:00:00,Billing,Low,Billing,Open,56.8,3
+TCK-00494,2024-08-01 15:00:00,Bug,Medium,Platform,Closed,2.5,4
+TCK-00495,2024-08-01 18:00:00,Outage,Low,Platform,Open,7.5,4
+TCK-00496,2024-08-01 21:00:00,Question,Medium,Billing,Closed,20.2,5
+TCK-00497,2024-08-02 00:00:00,Bug,Medium,Platform,Open,4.1,3
+TCK-00498,2024-08-02 03:00:00,Bug,High,Mobile,In Progress,9.8,5
+TCK-00499,2024-08-02 06:00:00,Bug,High,Platform,Open,32.8,5
+TCK-00500,2024-08-02 09:00:00,Bug,Medium,Mobile,In Progress,5.5,5
+TCK-00501,2024-08-02 12:00:00,Billing,Low,Platform,Resolved,9.9,3
+TCK-00502,2024-08-02 15:00:00,Billing,Low,Platform,Resolved,33.7,2
+TCK-00503,2024-08-02 18:00:00,Billing,Low,Billing,Resolved,24.7,3
+TCK-00504,2024-08-02 21:00:00,Outage,Low,Web,Closed,10.0,5
+TCK-00505,2024-08-03 00:00:00,Question,Low,Billing,Resolved,21.5,3
+TCK-00506,2024-08-03 03:00:00,Bug,Low,Billing,In Progress,11.0,4
+TCK-00507,2024-08-03 06:00:00,Bug,Low,Mobile,In Progress,26.9,2
+TCK-00508,2024-08-03 09:00:00,Bug,Low,Web,Resolved,10.1,3
+TCK-00509,2024-08-03 12:00:00,Question,Medium,Platform,In Progress,20.3,
+TCK-00510,2024-08-03 15:00:00,Feature Request,Medium,Mobile,In Progress,23.7,4
+TCK-00511,2024-08-03 18:00:00,Outage,Medium,Platform,Resolved,13.5,4
+TCK-00512,2024-08-03 21:00:00,Bug,High,Platform,Resolved,34.4,4
+TCK-00513,2024-08-04 00:00:00,Bug,High,Billing,In Progress,14.1,5
+TCK-00514,2024-08-04 03:00:00,Bug,Low,Web,Resolved,31.4,4
+TCK-00515,2024-08-04 06:00:00,Billing,Medium,Platform,Open,10.1,4
+TCK-00516,2024-08-04 09:00:00,Question,High,Platform,In Progress,34.7,4
+TCK-00517,2024-08-04 12:00:00,Bug,Medium,Billing,Resolved,60.6,4
+TCK-00518,2024-08-04 15:00:00,Outage,Medium,Data,Open,4.1,2
+TCK-00519,2024-08-04 18:00:00,Question,Low,Platform,Closed,24.3,5
+TCK-00520,2024-08-04 21:00:00,Question,Medium,Billing,Resolved,22.2,5
+TCK-00521,2024-08-05 00:00:00,Outage,Low,Platform,Resolved,11.4,5
+TCK-00522,2024-08-05 03:00:00,Bug,High,Data,Resolved,18.1,4
+TCK-00523,2024-08-05 06:00:00,Billing,Medium,Platform,In Progress,32.5,5
+TCK-00524,2024-08-05 09:00:00,Outage,Low,Platform,In Progress,11.5,3
+TCK-00525,2024-08-05 12:00:00,Bug,Medium,Platform,Open,6.7,4
+TCK-00526,2024-08-05 15:00:00,Feature Request,Low,Mobile,In Progress,6.4,3
+TCK-00527,2024-08-05 18:00:00,Feature Request,Low,Billing,Closed,28.9,
+TCK-00528,2024-08-05 21:00:00,Bug,Low,Web,Resolved,16.7,3
+TCK-00529,2024-08-06 00:00:00,Feature Request,Low,Web,Open,6.8,4
+TCK-00530,2024-08-06 03:00:00,Billing,High,Web,Resolved,20.2,5
+TCK-00531,2024-08-06 06:00:00,Bug,Medium,Platform,In Progress,7.0,2
+TCK-00532,2024-08-06 09:00:00,Bug,Low,Mobile,In Progress,0.9,3
+TCK-00533,2024-08-06 12:00:00,Feature Request,Low,Platform,In Progress,27.8,5
+TCK-00534,2024-08-06 15:00:00,Bug,Low,Billing,In Progress,5.3,4
+TCK-00535,2024-08-06 18:00:00,Bug,Medium,Platform,Resolved,16.1,5
+TCK-00536,2024-08-06 21:00:00,Feature Request,High,Billing,Resolved,7.2,5
+TCK-00537,2024-08-07 00:00:00,Question,Critical,Platform,Resolved,6.0,5
+TCK-00538,2024-08-07 03:00:00,Bug,Medium,Platform,Resolved,21.5,3
+TCK-00539,2024-08-07 06:00:00,Bug,Low,Web,In Progress,19.3,4
+TCK-00540,2024-08-07 09:00:00,Bug,Medium,Billing,Resolved,2.7,4
+TCK-00541,2024-08-07 12:00:00,Billing,Critical,Mobile,Resolved,10.8,
+TCK-00542,2024-08-07 15:00:00,Question,Low,Mobile,Resolved,18.1,3
+TCK-00543,2024-08-07 18:00:00,Bug,Low,Platform,Closed,21.6,5
+TCK-00544,2024-08-07 21:00:00,Feature Request,High,Mobile,In Progress,16.5,4
+TCK-00545,2024-08-08 00:00:00,Feature Request,High,Mobile,Closed,9.6,5
+TCK-00546,2024-08-08 03:00:00,Question,Medium,Mobile,In Progress,29.5,2
+TCK-00547,2024-08-08 06:00:00,Bug,Critical,Web,Resolved,31.1,2
+TCK-00548,2024-08-08 09:00:00,Bug,Medium,Platform,Open,30.3,2
+TCK-00549,2024-08-08 12:00:00,Outage,Medium,Platform,Resolved,18.9,
+TCK-00550,2024-08-08 15:00:00,Feature Request,Medium,Billing,Resolved,15.6,5
+TCK-00551,2024-08-08 18:00:00,Feature Request,Low,Data,Open,5.0,
+TCK-00552,2024-08-08 21:00:00,Question,High,Mobile,Closed,5.6,3
+TCK-00553,2024-08-09 00:00:00,Feature Request,Low,Platform,Resolved,2.7,3
+TCK-00554,2024-08-09 03:00:00,Question,Medium,Platform,Resolved,6.4,4
+TCK-00555,2024-08-09 06:00:00,Bug,Medium,Platform,Closed,38.8,3
+TCK-00556,2024-08-09 09:00:00,Bug,Low,Billing,Resolved,11.8,3
+TCK-00557,2024-08-09 12:00:00,Feature Request,Low,Web,Resolved,10.7,5
+TCK-00558,2024-08-09 15:00:00,Question,High,Platform,Open,17.6,5
+TCK-00559,2024-08-09 18:00:00,Question,Medium,Platform,In Progress,13.1,5
+TCK-00560,2024-08-09 21:00:00,Bug,High,Platform,Resolved,6.6,4
+TCK-00561,2024-08-10 00:00:00,Bug,Low,Data,Open,10.4,1
+TCK-00562,2024-08-10 03:00:00,Outage,Critical,Platform,Open,10.9,5
+TCK-00563,2024-08-10 06:00:00,Billing,High,Mobile,Resolved,13.7,
+TCK-00564,2024-08-10 09:00:00,Bug,High,Platform,Open,5.4,2
+TCK-00565,2024-08-10 12:00:00,Bug,Medium,Platform,Resolved,3.8,4
+TCK-00566,2024-08-10 15:00:00,Bug,Low,Platform,In Progress,9.1,5
+TCK-00567,2024-08-10 18:00:00,Question,High,Platform,In Progress,9.0,5
+TCK-00568,2024-08-10 21:00:00,Bug,Low,Platform,Resolved,27.4,
+TCK-00569,2024-08-11 00:00:00,Question,Medium,Data,Resolved,23.9,4
+TCK-00570,2024-08-11 03:00:00,Bug,Medium,Mobile,Closed,2.7,
+TCK-00571,2024-08-11 06:00:00,Bug,Critical,Platform,Resolved,22.9,5
+TCK-00572,2024-08-11 09:00:00,Bug,Low,Web,Resolved,10.0,3
+TCK-00573,2024-08-11 12:00:00,Feature Request,Low,Web,Resolved,13.3,4
+TCK-00574,2024-08-11 15:00:00,Question,Medium,Platform,In Progress,9.1,
+TCK-00575,2024-08-11 18:00:00,Question,Low,Platform,Resolved,52.4,4
+TCK-00576,2024-08-11 21:00:00,Bug,High,Data,In Progress,2.1,2
+TCK-00577,2024-08-12 00:00:00,Feature Request,High,Data,In Progress,10.7,5
+TCK-00578,2024-08-12 03:00:00,Question,Medium,Web,Open,7.9,5
+TCK-00579,2024-08-12 06:00:00,Outage,High,Platform,Resolved,5.7,2
+TCK-00580,2024-08-12 09:00:00,Bug,High,Platform,Closed,14.5,4
+TCK-00581,2024-08-12 12:00:00,Bug,Medium,Platform,In Progress,34.5,5
+TCK-00582,2024-08-12 15:00:00,Question,Low,Billing,Resolved,10.7,4
+TCK-00583,2024-08-12 18:00:00,Outage,Low,Billing,Closed,0.8,2
+TCK-00584,2024-08-12 21:00:00,Billing,Medium,Data,Resolved,13.4,3
+TCK-00585,2024-08-13 00:00:00,Bug,Low,Platform,Resolved,9.1,
+TCK-00586,2024-08-13 03:00:00,Bug,High,Web,Resolved,1.1,2
+TCK-00587,2024-08-13 06:00:00,Bug,High,Web,In Progress,18.8,5
+TCK-00588,2024-08-13 09:00:00,Bug,Low,Web,In Progress,49.9,2
+TCK-00589,2024-08-13 12:00:00,Bug,High,Platform,Resolved,4.3,4
+TCK-00590,2024-08-13 15:00:00,Bug,Medium,Platform,Closed,25.4,4
+TCK-00591,2024-08-13 18:00:00,Bug,Medium,Platform,Open,24.4,4
+TCK-00592,2024-08-13 21:00:00,Feature Request,Medium,Web,Resolved,24.3,5
+TCK-00593,2024-08-14 00:00:00,Question,Critical,Platform,Resolved,7.1,4
+TCK-00594,2024-08-14 03:00:00,Billing,Medium,Mobile,Open,25.0,3
+TCK-00595,2024-08-14 06:00:00,Feature Request,Low,Web,Closed,0.9,2
+TCK-00596,2024-08-14 09:00:00,Question,Medium,Mobile,Resolved,26.0,4
+TCK-00597,2024-08-14 12:00:00,Billing,Low,Platform,Resolved,30.7,4
+TCK-00598,2024-08-14 15:00:00,Bug,High,Platform,Resolved,56.9,2
+TCK-00599,2024-08-14 18:00:00,Question,High,Data,Closed,14.7,2
+TCK-00600,2024-08-14 21:00:00,Question,Low,Mobile,Resolved,10.5,4
+TCK-00601,2024-08-15 00:00:00,Bug,Medium,Data,Resolved,0.7,5
+TCK-00602,2024-08-15 03:00:00,Billing,Low,Data,Open,3.7,4
+TCK-00603,2024-08-15 06:00:00,Bug,Critical,Web,Resolved,23.1,5
+TCK-00604,2024-08-15 09:00:00,Bug,Low,Platform,Resolved,19.3,4
+TCK-00605,2024-08-15 12:00:00,Bug,Low,Platform,In Progress,11.0,5
+TCK-00606,2024-08-15 15:00:00,Outage,High,Platform,Resolved,44.0,1
+TCK-00607,2024-08-15 18:00:00,Bug,Critical,Platform,Resolved,8.6,4
+TCK-00608,2024-08-15 21:00:00,Question,Medium,Billing,Resolved,28.6,4
+TCK-00609,2024-08-16 00:00:00,Billing,High,Platform,In Progress,42.2,5
+TCK-00610,2024-08-16 03:00:00,Outage,Low,Mobile,Open,11.8,2
+TCK-00611,2024-08-16 06:00:00,Question,Medium,Platform,Resolved,6.0,
+TCK-00612,2024-08-16 09:00:00,Bug,High,Platform,Resolved,18.7,5
+TCK-00613,2024-08-16 12:00:00,Bug,Medium,Billing,Closed,27.9,
+TCK-00614,2024-08-16 15:00:00,Bug,Medium,Platform,In Progress,34.7,1
+TCK-00615,2024-08-16 18:00:00,Question,High,Web,Resolved,15.4,2
+TCK-00616,2024-08-16 21:00:00,Question,Low,Mobile,In Progress,13.5,4
+TCK-00617,2024-08-17 00:00:00,Question,Low,Platform,In Progress,8.3,5
+TCK-00618,2024-08-17 03:00:00,Bug,Medium,Mobile,In Progress,9.7,4
+TCK-00619,2024-08-17 06:00:00,Feature Request,Low,Platform,Resolved,21.2,3
+TCK-00620,2024-08-17 09:00:00,Bug,Low,Platform,Resolved,5.1,3
+TCK-00621,2024-08-17 12:00:00,Bug,Low,Mobile,Open,9.8,
+TCK-00622,2024-08-17 15:00:00,Feature Request,Medium,Web,Resolved,13.9,3
+TCK-00623,2024-08-17 18:00:00,Bug,High,Web,Resolved,5.5,2
+TCK-00624,2024-08-17 21:00:00,Billing,Low,Mobile,Resolved,14.6,3
+TCK-00625,2024-08-18 00:00:00,Outage,Low,Web,Open,8.8,4
+TCK-00626,2024-08-18 03:00:00,Feature Request,High,Data,Resolved,9.5,5
+TCK-00627,2024-08-18 06:00:00,Bug,Low,Data,Resolved,10.4,5
+TCK-00628,2024-08-18 09:00:00,Billing,High,Platform,Closed,11.9,4
+TCK-00629,2024-08-18 12:00:00,Bug,Low,Mobile,Closed,10.5,4
+TCK-00630,2024-08-18 15:00:00,Question,Critical,Mobile,In Progress,16.7,4
+TCK-00631,2024-08-18 18:00:00,Bug,Critical,Billing,Open,8.4,1
+TCK-00632,2024-08-18 21:00:00,Bug,Medium,Platform,Open,6.1,2
+TCK-00633,2024-08-19 00:00:00,Billing,Critical,Billing,In Progress,2.7,
+TCK-00634,2024-08-19 03:00:00,Bug,Low,Platform,Closed,8.1,4
+TCK-00635,2024-08-19 06:00:00,Feature Request,Medium,Billing,In Progress,3.7,5
+TCK-00636,2024-08-19 09:00:00,Bug,High,Web,Resolved,8.9,4
+TCK-00637,2024-08-19 12:00:00,Bug,High,Platform,Resolved,43.9,5
+TCK-00638,2024-08-19 15:00:00,Feature Request,Low,Platform,Open,22.2,5
+TCK-00639,2024-08-19 18:00:00,Question,High,Billing,Open,21.7,4
+TCK-00640,2024-08-19 21:00:00,Question,High,Platform,Resolved,18.9,
+TCK-00641,2024-08-20 00:00:00,Bug,Medium,Platform,In Progress,1.7,2
+TCK-00642,2024-08-20 03:00:00,Bug,Medium,Mobile,Open,5.7,3
+TCK-00643,2024-08-20 06:00:00,Question,High,Mobile,Open,31.3,2
+TCK-00644,2024-08-20 09:00:00,Bug,Low,Platform,In Progress,10.7,5
+TCK-00645,2024-08-20 12:00:00,Question,High,Web,Resolved,19.9,4
+TCK-00646,2024-08-20 15:00:00,Bug,Low,Platform,Open,6.8,
+TCK-00647,2024-08-20 18:00:00,Question,Low,Billing,Resolved,6.8,3
+TCK-00648,2024-08-20 21:00:00,Bug,Medium,Platform,Open,17.7,5
+TCK-00649,2024-08-21 00:00:00,Outage,High,Platform,Resolved,27.4,
+TCK-00650,2024-08-21 03:00:00,Feature Request,Critical,Platform,Open,21.5,5
+TCK-00651,2024-08-21 06:00:00,Billing,Low,Web,Closed,39.9,4
+TCK-00652,2024-08-21 09:00:00,Bug,High,Billing,Resolved,14.6,
+TCK-00653,2024-08-21 12:00:00,Question,Low,Mobile,Closed,10.4,4
+TCK-00654,2024-08-21 15:00:00,Feature Request,Medium,Platform,In Progress,16.2,4
+TCK-00655,2024-08-21 18:00:00,Bug,High,Web,Resolved,26.2,5
+TCK-00656,2024-08-21 21:00:00,Question,Medium,Mobile,Resolved,19.2,
+TCK-00657,2024-08-22 00:00:00,Feature Request,Medium,Platform,Resolved,14.3,
+TCK-00658,2024-08-22 03:00:00,Outage,Medium,Billing,In Progress,21.6,4
+TCK-00659,2024-08-22 06:00:00,Bug,Low,Platform,In Progress,14.5,5
+TCK-00660,2024-08-22 09:00:00,Bug,High,Data,Resolved,9.8,1
+TCK-00661,2024-08-22 12:00:00,Bug,Low,Web,Resolved,8.4,4
+TCK-00662,2024-08-22 15:00:00,Question,High,Platform,Resolved,3.8,3
+TCK-00663,2024-08-22 18:00:00,Feature Request,High,Web,Resolved,13.9,
+TCK-00664,2024-08-22 21:00:00,Question,Medium,Platform,Open,28.5,2
+TCK-00665,2024-08-23 00:00:00,Outage,Critical,Platform,Resolved,6.1,2
+TCK-00666,2024-08-23 03:00:00,Feature Request,Medium,Web,Open,19.4,5
+TCK-00667,2024-08-23 06:00:00,Question,High,Platform,Resolved,7.4,4
+TCK-00668,2024-08-23 09:00:00,Bug,High,Data,Closed,28.2,
+TCK-00669,2024-08-23 12:00:00,Billing,High,Web,Resolved,16.6,4
+TCK-00670,2024-08-23 15:00:00,Bug,Medium,Platform,Resolved,6.8,3
+TCK-00671,2024-08-23 18:00:00,Outage,Medium,Platform,Closed,12.2,3
+TCK-00672,2024-08-23 21:00:00,Billing,Medium,Data,Closed,31.3,3
+TCK-00673,2024-08-24 00:00:00,Question,Medium,Platform,Resolved,5.9,4
+TCK-00674,2024-08-24 03:00:00,Bug,Low,Platform,Resolved,1.8,3
+TCK-00675,2024-08-24 06:00:00,Billing,Low,Platform,Resolved,28.5,4
+TCK-00676,2024-08-24 09:00:00,Question,High,Billing,In Progress,5.0,5
+TCK-00677,2024-08-24 12:00:00,Question,High,Data,Resolved,5.2,4
+TCK-00678,2024-08-24 15:00:00,Bug,Medium,Platform,In Progress,7.5,4
+TCK-00679,2024-08-24 18:00:00,Question,Low,Platform,In Progress,6.8,3
+TCK-00680,2024-08-24 21:00:00,Billing,Medium,Platform,In Progress,34.4,1
+TCK-00681,2024-08-25 00:00:00,Question,High,Mobile,In Progress,19.3,4
+TCK-00682,2024-08-25 03:00:00,Bug,Medium,Platform,Open,6.9,5
+TCK-00683,2024-08-25 06:00:00,Bug,Low,Platform,Closed,5.1,4
+TCK-00684,2024-08-25 09:00:00,Question,Medium,Platform,Resolved,2.5,4
+TCK-00685,2024-08-25 12:00:00,Bug,Low,Data,Resolved,10.6,5
+TCK-00686,2024-08-25 15:00:00,Question,Low,Platform,Closed,17.5,5
+TCK-00687,2024-08-25 18:00:00,Question,High,Platform,Resolved,8.9,2
+TCK-00688,2024-08-25 21:00:00,Bug,High,Platform,Closed,7.7,3
+TCK-00689,2024-08-26 00:00:00,Feature Request,High,Mobile,Closed,31.0,5
+TCK-00690,2024-08-26 03:00:00,Feature Request,Medium,Data,Open,25.0,5
+TCK-00691,2024-08-26 06:00:00,Feature Request,Low,Data,In Progress,16.7,4
+TCK-00692,2024-08-26 09:00:00,Bug,Medium,Platform,Closed,12.6,
+TCK-00693,2024-08-26 12:00:00,Bug,High,Billing,Open,11.2,3
+TCK-00694,2024-08-26 15:00:00,Question,Medium,Mobile,Closed,13.5,4
+TCK-00695,2024-08-26 18:00:00,Question,Medium,Web,In Progress,17.9,5
+TCK-00696,2024-08-26 21:00:00,Feature Request,Medium,Data,Resolved,2.7,3
+TCK-00697,2024-08-27 00:00:00,Bug,High,Platform,Resolved,42.0,3
+TCK-00698,2024-08-27 03:00:00,Billing,High,Web,Resolved,9.3,
+TCK-00699,2024-08-27 06:00:00,Bug,Critical,Platform,Open,8.4,3
+TCK-00700,2024-08-27 09:00:00,Bug,Medium,Billing,In Progress,34.7,5
+TCK-00701,2024-08-27 12:00:00,Feature Request,Medium,Platform,Closed,16.6,3
+TCK-00702,2024-08-27 15:00:00,Outage,Low,Data,In Progress,6.8,4
+TCK-00703,2024-08-27 18:00:00,Bug,Low,Web,Resolved,32.6,4
+TCK-00704,2024-08-27 21:00:00,Bug,High,Mobile,Resolved,10.9,2
+TCK-00705,2024-08-28 00:00:00,Feature Request,Low,Mobile,In Progress,8.2,4
+TCK-00706,2024-08-28 03:00:00,Question,Medium,Mobile,Closed,4.8,4
+TCK-00707,2024-08-28 06:00:00,Billing,Low,Mobile,Open,26.9,3
+TCK-00708,2024-08-28 09:00:00,Bug,Medium,Platform,In Progress,25.1,5
+TCK-00709,2024-08-28 12:00:00,Question,Medium,Billing,Resolved,10.9,4
+TCK-00710,2024-08-28 15:00:00,Outage,Low,Platform,Resolved,29.8,5
+TCK-00711,2024-08-28 18:00:00,Question,High,Mobile,Open,5.0,3
+TCK-00712,2024-08-28 21:00:00,Bug,Medium,Platform,Resolved,4.8,4
+TCK-00713,2024-08-29 00:00:00,Bug,Medium,Mobile,Resolved,39.3,5
+TCK-00714,2024-08-29 03:00:00,Bug,Low,Platform,Resolved,25.2,3
+TCK-00715,2024-08-29 06:00:00,Bug,Medium,Web,Resolved,36.4,3
+TCK-00716,2024-08-29 09:00:00,Bug,Medium,Billing,Resolved,4.5,4
+TCK-00717,2024-08-29 12:00:00,Outage,Medium,Platform,Open,3.1,4
+TCK-00718,2024-08-29 15:00:00,Bug,Low,Billing,Resolved,24.7,3
+TCK-00719,2024-08-29 18:00:00,Question,High,Web,Closed,21.2,4
+TCK-00720,2024-08-29 21:00:00,Bug,Medium,Billing,Resolved,1.3,3
+TCK-00721,2024-08-30 00:00:00,Bug,Low,Platform,Resolved,34.7,4
+TCK-00722,2024-08-30 03:00:00,Bug,Low,Platform,In Progress,16.7,4
+TCK-00723,2024-08-30 06:00:00,Bug,Critical,Web,Open,11.2,3
+TCK-00724,2024-08-30 09:00:00,Feature Request,Low,Platform,Resolved,23.9,4
+TCK-00725,2024-08-30 12:00:00,Outage,Medium,Data,Resolved,17.6,
+TCK-00726,2024-08-30 15:00:00,Outage,Low,Platform,In Progress,40.0,4
+TCK-00727,2024-08-30 18:00:00,Question,Medium,Data,In Progress,14.0,4
+TCK-00728,2024-08-30 21:00:00,Question,Medium,Mobile,Resolved,5.9,4
+TCK-00729,2024-08-31 00:00:00,Question,Low,Web,Open,3.1,4
+TCK-00730,2024-08-31 03:00:00,Bug,Low,Mobile,Resolved,33.1,4
+TCK-00731,2024-08-31 06:00:00,Bug,Medium,Mobile,Resolved,13.8,4
+TCK-00732,2024-08-31 09:00:00,Outage,Medium,Billing,Resolved,15.3,2
+TCK-00733,2024-08-31 12:00:00,Bug,Low,Data,Open,3.9,5
+TCK-00734,2024-08-31 15:00:00,Bug,Medium,Web,In Progress,32.5,4
+TCK-00735,2024-08-31 18:00:00,Bug,High,Platform,Resolved,5.5,3
+TCK-00736,2024-08-31 21:00:00,Bug,High,Data,In Progress,16.2,5
+TCK-00737,2024-09-01 00:00:00,Question,Medium,Data,Open,0.5,4
+TCK-00738,2024-09-01 03:00:00,Bug,Medium,Data,In Progress,3.9,
+TCK-00739,2024-09-01 06:00:00,Bug,High,Mobile,Resolved,12.9,2
+TCK-00740,2024-09-01 09:00:00,Bug,Critical,Platform,Resolved,15.9,4
+TCK-00741,2024-09-01 12:00:00,Outage,Medium,Platform,Closed,18.7,2
+TCK-00742,2024-09-01 15:00:00,Bug,Critical,Platform,Resolved,2.4,5
+TCK-00743,2024-09-01 18:00:00,Bug,Low,Mobile,Resolved,13.6,3
+TCK-00744,2024-09-01 21:00:00,Outage,Medium,Platform,Resolved,2.1,3
+TCK-00745,2024-09-02 00:00:00,Billing,Medium,Platform,In Progress,20.0,
+TCK-00746,2024-09-02 03:00:00,Feature Request,Medium,Mobile,Resolved,6.7,5
+TCK-00747,2024-09-02 06:00:00,Bug,Medium,Web,Open,29.9,3
+TCK-00748,2024-09-02 09:00:00,Bug,Low,Platform,Resolved,12.7,3
+TCK-00749,2024-09-02 12:00:00,Bug,Medium,Mobile,Resolved,27.3,3
+TCK-00750,2024-09-02 15:00:00,Feature Request,Medium,Data,Resolved,19.9,1
+TCK-00751,2024-09-02 18:00:00,Bug,Low,Billing,Resolved,18.2,4
+TCK-00752,2024-09-02 21:00:00,Bug,Low,Data,Resolved,8.5,3
+TCK-00753,2024-09-03 00:00:00,Bug,Critical,Billing,Closed,14.2,4
+TCK-00754,2024-09-03 03:00:00,Question,Critical,Platform,In Progress,24.0,3
+TCK-00755,2024-09-03 06:00:00,Billing,Critical,Platform,Closed,9.5,4
+TCK-00756,2024-09-03 09:00:00,Bug,Medium,Web,Resolved,33.6,5
+TCK-00757,2024-09-03 12:00:00,Question,Medium,Platform,In Progress,18.2,4
+TCK-00758,2024-09-03 15:00:00,Billing,High,Platform,In Progress,15.1,3
+TCK-00759,2024-09-03 18:00:00,Billing,Medium,Web,Resolved,18.7,4
+TCK-00760,2024-09-03 21:00:00,Bug,Medium,Platform,Closed,5.1,4
+TCK-00761,2024-09-04 00:00:00,Bug,Medium,Billing,Closed,17.0,4
+TCK-00762,2024-09-04 03:00:00,Question,High,Web,Resolved,27.7,3
+TCK-00763,2024-09-04 06:00:00,Bug,Low,Platform,Open,24.0,3
+TCK-00764,2024-09-04 09:00:00,Question,High,Platform,Resolved,15.8,4
+TCK-00765,2024-09-04 12:00:00,Outage,Critical,Mobile,Resolved,16.7,4
+TCK-00766,2024-09-04 15:00:00,Bug,Low,Data,Resolved,8.1,4
+TCK-00767,2024-09-04 18:00:00,Outage,Medium,Mobile,Resolved,3.4,
+TCK-00768,2024-09-04 21:00:00,Feature Request,Critical,Billing,Resolved,12.9,4
+TCK-00769,2024-09-05 00:00:00,Outage,High,Data,Resolved,3.4,3
+TCK-00770,2024-09-05 03:00:00,Question,High,Platform,Resolved,2.1,3
+TCK-00771,2024-09-05 06:00:00,Question,High,Billing,Resolved,5.4,4
+TCK-00772,2024-09-05 09:00:00,Question,Low,Data,Open,5.4,4
+TCK-00773,2024-09-05 12:00:00,Question,Low,Platform,Resolved,25.6,5
+TCK-00774,2024-09-05 15:00:00,Bug,Medium,Platform,Resolved,41.5,1
+TCK-00775,2024-09-05 18:00:00,Question,High,Mobile,Resolved,19.5,5
+TCK-00776,2024-09-05 21:00:00,Bug,Low,Platform,Resolved,2.7,
+TCK-00777,2024-09-06 00:00:00,Question,Low,Platform,Closed,21.9,
+TCK-00778,2024-09-06 03:00:00,Bug,Medium,Mobile,In Progress,22.5,1
+TCK-00779,2024-09-06 06:00:00,Question,Medium,Web,Closed,7.9,2
+TCK-00780,2024-09-06 09:00:00,Feature Request,Critical,Platform,Resolved,6.9,5
+TCK-00781,2024-09-06 12:00:00,Bug,Low,Platform,Resolved,15.8,4
+TCK-00782,2024-09-06 15:00:00,Question,Low,Data,Resolved,22.8,1
+TCK-00783,2024-09-06 18:00:00,Bug,Low,Billing,Resolved,5.5,5
+TCK-00784,2024-09-06 21:00:00,Bug,Low,Platform,Closed,16.5,1
+TCK-00785,2024-09-07 00:00:00,Question,High,Platform,Resolved,25.6,4
+TCK-00786,2024-09-07 03:00:00,Bug,Low,Platform,In Progress,25.9,5
+TCK-00787,2024-09-07 06:00:00,Billing,Low,Platform,Resolved,24.0,5
+TCK-00788,2024-09-07 09:00:00,Question,Low,Platform,Closed,8.0,4
+TCK-00789,2024-09-07 12:00:00,Bug,Medium,Data,In Progress,14.7,4
+TCK-00790,2024-09-07 15:00:00,Feature Request,Low,Mobile,Resolved,32.5,
+TCK-00791,2024-09-07 18:00:00,Question,Medium,Data,Resolved,9.6,5
+TCK-00792,2024-09-07 21:00:00,Bug,Medium,Platform,In Progress,18.6,
+TCK-00793,2024-09-08 00:00:00,Bug,Medium,Billing,In Progress,19.0,
+TCK-00794,2024-09-08 03:00:00,Bug,Medium,Mobile,In Progress,12.9,1
+TCK-00795,2024-09-08 06:00:00,Bug,Medium,Platform,In Progress,5.9,
+TCK-00796,2024-09-08 09:00:00,Bug,High,Platform,In Progress,13.3,
+TCK-00797,2024-09-08 12:00:00,Bug,Medium,Platform,In Progress,20.4,
+TCK-00798,2024-09-08 15:00:00,Feature Request,Medium,Platform,Closed,20.8,
+TCK-00799,2024-09-08 18:00:00,Bug,High,Platform,Resolved,25.1,4
+TCK-00800,2024-09-08 21:00:00,Bug,Medium,Platform,Resolved,7.2,4

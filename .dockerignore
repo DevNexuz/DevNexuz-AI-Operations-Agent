@@ -1,0 +1,54 @@
+# =============================================================================
+# .dockerignore — files NOT to copy into the Docker build context.
+# =============================================================================
+# Smaller context = faster builds and smaller images.
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Secrets — NEVER ship these into an image.
+.env
+*.pem
+*.key
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Project artifacts
+outputs/*
+!outputs/.gitkeep
+logs/
+*.log
+demo.gif
+demo.cast
+
+# Docs / CI we don't need at runtime
+.github/
+*.md
+!README.md
+
+# Build artifacts
+dist/
+build/
+*.egg
+
+# OS
+Thumbs.db
