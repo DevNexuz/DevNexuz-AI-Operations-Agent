@@ -1,4 +1,4 @@
-order_id,date,region,product,channel,units,unit_price,revenue
+﻿order_id,date,region,product,channel,units,unit_price,revenue
 ORD-00381,2024-01-02,Central,Tablet,Online,1,460.64,460.64
 ORD-00773,2024-01-02,South,Phone,Retail,5,618.65,3093.25
 ORD-00901,2024-01-02,East,Headphones,Partner,5,492.24,2461.2

@@ -1,4 +1,4 @@
-employee_id,department,level,years_at_company,performance_score,salary
+﻿employee_id,department,level,years_at_company,performance_score,salary
 EMP-0001,HR,Mid,8,4.1,64790.0
 EMP-0002,HR,Senior,7,3.0,125270.0
 EMP-0003,Marketing,Mid,2,3.65,77453.0

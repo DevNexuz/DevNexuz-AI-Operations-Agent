@@ -1,0 +1,701 @@
+﻿id_ticket,creado_en,pais,categoria,prioridad,equipo_asignado,estado,horas_resolucion,satisfaccion_cliente
+LAT-TCK-00001,2024-06-01 00:00:00,Perú,Consulta,Crítica,Móvil,En progreso,11.3,4
+LAT-TCK-00002,2024-06-01 03:30:00,Perú,Error,Media,Móvil,En progreso,39.4,4
+LAT-TCK-00003,2024-06-01 07:00:00,Colombia,Consulta,Media,Plataforma,Resuelto,44.4,4
+LAT-TCK-00004,2024-06-01 10:30:00,Perú,Consulta,Media,Móvil,En progreso,41.9,4
+LAT-TCK-00005,2024-06-01 14:00:00,Colombia,Consulta,Alta,Plataforma,Resuelto,35.9,4
+LAT-TCK-00006,2024-06-01 17:30:00,Colombia,Interrupción,Alta,Móvil,Abierto,17.2,3
+LAT-TCK-00007,2024-06-01 21:00:00,Colombia,Error,Baja,Web,Resuelto,13.0,4
+LAT-TCK-00008,2024-06-02 00:30:00,Colombia,Facturación,Media,Plataforma,Resuelto,57.0,4
+LAT-TCK-00009,2024-06-02 04:00:00,Chile,Error,Media,Facturación,Abierto,20.2,3
+LAT-TCK-00010,2024-06-02 07:30:00,México,Facturación,Baja,Facturación,En progreso,21.4,1
+LAT-TCK-00011,2024-06-02 11:00:00,México,Consulta,Crítica,Móvil,En progreso,55.5,3
+LAT-TCK-00012,2024-06-02 14:30:00,Argentina,Solicitud de función,Crítica,Web,Resuelto,24.9,
+LAT-TCK-00013,2024-06-02 18:00:00,Chile,Interrupción,Media,Plataforma,Resuelto,4.9,5
+LAT-TCK-00014,2024-06-02 21:30:00,Argentina,Consulta,Media,Plataforma,Resuelto,19.1,5
+LAT-TCK-00015,2024-06-03 01:00:00,México,Consulta,Crítica,Web,Resuelto,25.2,
+LAT-TCK-00016,2024-06-03 04:30:00,México,Consulta,Baja,Móvil,Abierto,55.4,
+LAT-TCK-00017,2024-06-03 08:00:00,Chile,Solicitud de función,Alta,Datos,Resuelto,41.5,2
+LAT-TCK-00018,2024-06-03 11:30:00,México,Facturación,Baja,Facturación,Abierto,5.3,3
+LAT-TCK-00019,2024-06-03 15:00:00,Argentina,Interrupción,Crítica,Móvil,Resuelto,31.0,3
+LAT-TCK-00020,2024-06-03 18:30:00,Colombia,Consulta,Media,Web,En progreso,8.9,4
+LAT-TCK-00021,2024-06-03 22:00:00,Colombia,Error,Crítica,Web,En progreso,11.6,5
+LAT-TCK-00022,2024-06-04 01:30:00,Chile,Error,Baja,Datos,Resuelto,9.9,5
+LAT-TCK-00023,2024-06-04 05:00:00,Argentina,Error,Media,Plataforma,Abierto,48.9,5
+LAT-TCK-00024,2024-06-04 08:30:00,México,Consulta,Baja,Plataforma,Resuelto,24.9,5
+LAT-TCK-00025,2024-06-04 12:00:00,México,Facturación,Media,Móvil,Resuelto,14.0,3
+LAT-TCK-00026,2024-06-04 15:30:00,Colombia,Error,Baja,Móvil,En progreso,23.4,3
+LAT-TCK-00027,2024-06-04 19:00:00,Chile,Error,Media,Facturación,Resuelto,23.5,5
+LAT-TCK-00028,2024-06-04 22:30:00,Argentina,Consulta,Baja,Facturación,Abierto,8.6,1
+LAT-TCK-00029,2024-06-05 02:00:00,Argentina,Consulta,Baja,Móvil,En progreso,16.6,4
+LAT-TCK-00030,2024-06-05 05:30:00,Chile,Solicitud de función,Media,Plataforma,Cerrado,11.7,2
+LAT-TCK-00031,2024-06-05 09:00:00,Perú,Interrupción,Baja,Plataforma,Resuelto,12.9,4
+LAT-TCK-00032,2024-06-05 12:30:00,Chile,Solicitud de función,Crítica,Móvil,En progreso,18.7,4
+LAT-TCK-00033,2024-06-05 16:00:00,Chile,Error,Alta,Web,Cerrado,22.6,
+LAT-TCK-00034,2024-06-05 19:30:00,Colombia,Error,Media,Plataforma,Resuelto,9.8,4
+LAT-TCK-00035,2024-06-05 23:00:00,Argentina,Interrupción,Crítica,Plataforma,Resuelto,13.5,4
+LAT-TCK-00036,2024-06-06 02:30:00,México,Interrupción,Crítica,Plataforma,Cerrado,8.8,
+LAT-TCK-00037,2024-06-06 06:00:00,México,Solicitud de función,Alta,Plataforma,En progreso,14.0,4
+LAT-TCK-00038,2024-06-06 09:30:00,Colombia,Interrupción,Media,Móvil,Abierto,11.6,3
+LAT-TCK-00039,2024-06-06 13:00:00,Argentina,Error,Media,Facturación,Abierto,6.0,4
+LAT-TCK-00040,2024-06-06 16:30:00,México,Consulta,Alta,Móvil,Resuelto,82.7,4
+LAT-TCK-00041,2024-06-06 20:00:00,Colombia,Consulta,Crítica,Móvil,Resuelto,76.9,2
+LAT-TCK-00042,2024-06-06 23:30:00,Argentina,Error,Media,Datos,Resuelto,7.3,2
+LAT-TCK-00043,2024-06-07 03:00:00,Chile,Solicitud de función,Baja,Web,Abierto,0.6,5
+LAT-TCK-00044,2024-06-07 06:30:00,Argentina,Error,Crítica,Móvil,Resuelto,56.0,4
+LAT-TCK-00045,2024-06-07 10:00:00,Colombia,Facturación,Alta,Web,En progreso,21.7,4
+LAT-TCK-00046,2024-06-07 13:30:00,Argentina,Interrupción,Baja,Web,En progreso,27.5,4
+LAT-TCK-00047,2024-06-07 17:00:00,México,Solicitud de función,Media,Plataforma,Abierto,29.9,3
+LAT-TCK-00048,2024-06-07 20:30:00,Argentina,Consulta,Media,Plataforma,Resuelto,20.3,1
+LAT-TCK-00049,2024-06-08 00:00:00,Colombia,Consulta,Media,Móvil,En progreso,79.4,5
+LAT-TCK-00050,2024-06-08 03:30:00,Colombia,Facturación,Media,Móvil,Resuelto,47.6,3
+LAT-TCK-00051,2024-06-08 07:00:00,México,Facturación,Media,Móvil,Abierto,9.5,3
+LAT-TCK-00052,2024-06-08 10:30:00,México,Interrupción,Baja,Datos,Cerrado,4.8,
+LAT-TCK-00053,2024-06-08 14:00:00,Argentina,Solicitud de función,Media,Facturación,En progreso,11.5,4
+LAT-TCK-00054,2024-06-08 17:30:00,Perú,Interrupción,Media,Plataforma,En progreso,22.3,2
+LAT-TCK-00055,2024-06-08 21:00:00,Colombia,Consulta,Media,Plataforma,Resuelto,30.6,4
+LAT-TCK-00056,2024-06-09 00:30:00,México,Error,Baja,Móvil,En progreso,22.8,4
+LAT-TCK-00057,2024-06-09 04:00:00,México,Consulta,Media,Datos,Cerrado,4.8,4
+LAT-TCK-00058,2024-06-09 07:30:00,México,Facturación,Alta,Móvil,Resuelto,43.8,2
+LAT-TCK-00059,2024-06-09 11:00:00,México,Error,Baja,Web,En progreso,4.7,1
+LAT-TCK-00060,2024-06-09 14:30:00,Colombia,Error,Baja,Web,En progreso,13.4,2
+LAT-TCK-00061,2024-06-09 18:00:00,México,Error,Media,Web,Cerrado,2.9,4
+LAT-TCK-00062,2024-06-09 21:30:00,Colombia,Consulta,Media,Plataforma,Resuelto,19.8,4
+LAT-TCK-00063,2024-06-10 01:00:00,Colombia,Error,Crítica,Móvil,En progreso,8.3,2
+LAT-TCK-00064,2024-06-10 04:30:00,Colombia,Error,Media,Facturación,En progreso,9.8,2
+LAT-TCK-00065,2024-06-10 08:00:00,Perú,Error,Media,Web,Resuelto,21.2,5
+LAT-TCK-00066,2024-06-10 11:30:00,México,Solicitud de función,Baja,Web,Cerrado,11.4,4
+LAT-TCK-00067,2024-06-10 15:00:00,Chile,Error,Media,Plataforma,Abierto,27.1,1
+LAT-TCK-00068,2024-06-10 18:30:00,Chile,Solicitud de función,Alta,Móvil,Abierto,19.4,3
+LAT-TCK-00069,2024-06-10 22:00:00,México,Error,Media,Móvil,Abierto,102.2,1
+LAT-TCK-00070,2024-06-11 01:30:00,Argentina,Error,Media,Datos,En progreso,2.2,2
+LAT-TCK-00071,2024-06-11 05:00:00,Chile,Error,Baja,Plataforma,En progreso,10.0,3
+LAT-TCK-00072,2024-06-11 08:30:00,México,Facturación,Baja,Web,Cerrado,35.6,
+LAT-TCK-00073,2024-06-11 12:00:00,México,Error,Baja,Plataforma,Resuelto,12.5,3
+LAT-TCK-00074,2024-06-11 15:30:00,Argentina,Facturación,Alta,Móvil,Resuelto,12.0,4
+LAT-TCK-00075,2024-06-11 19:00:00,México,Facturación,Alta,Móvil,Abierto,17.0,
+LAT-TCK-00076,2024-06-11 22:30:00,Argentina,Consulta,Crítica,Móvil,En progreso,10.7,3
+LAT-TCK-00077,2024-06-12 02:00:00,Argentina,Solicitud de función,Media,Datos,Cerrado,10.1,3
+LAT-TCK-00078,2024-06-12 05:30:00,Perú,Consulta,Media,Web,Resuelto,16.2,2
+LAT-TCK-00079,2024-06-12 09:00:00,México,Consulta,Alta,Móvil,Resuelto,22.2,3
+LAT-TCK-00080,2024-06-12 12:30:00,México,Error,Media,Datos,Abierto,8.7,1
+LAT-TCK-00081,2024-06-12 16:00:00,México,Solicitud de función,Crítica,Móvil,Resuelto,58.1,3
+LAT-TCK-00082,2024-06-12 19:30:00,Argentina,Error,Crítica,Móvil,En progreso,27.7,
+LAT-TCK-00083,2024-06-12 23:00:00,México,Facturación,Alta,Móvil,Abierto,68.3,4
+LAT-TCK-00084,2024-06-13 02:30:00,Colombia,Interrupción,Media,Móvil,Abierto,44.5,3
+LAT-TCK-00085,2024-06-13 06:00:00,Colombia,Solicitud de función,Baja,Datos,Resuelto,26.4,1
+LAT-TCK-00086,2024-06-13 09:30:00,Perú,Facturación,Baja,Datos,En progreso,39.5,4
+LAT-TCK-00087,2024-06-13 13:00:00,Chile,Consulta,Media,Móvil,Abierto,16.5,3
+LAT-TCK-00088,2024-06-13 16:30:00,Argentina,Consulta,Media,Plataforma,Resuelto,19.9,1
+LAT-TCK-00089,2024-06-13 20:00:00,México,Error,Media,Web,En progreso,22.0,4
+LAT-TCK-00090,2024-06-13 23:30:00,Perú,Error,Media,Plataforma,Abierto,24.8,4
+LAT-TCK-00091,2024-06-14 03:00:00,Colombia,Consulta,Media,Móvil,Abierto,42.6,4
+LAT-TCK-00092,2024-06-14 06:30:00,Argentina,Consulta,Crítica,Web,Abierto,5.5,4
+LAT-TCK-00093,2024-06-14 10:00:00,México,Facturación,Media,Plataforma,Resuelto,8.6,5
+LAT-TCK-00094,2024-06-14 13:30:00,México,Consulta,Media,Móvil,Resuelto,40.9,4
+LAT-TCK-00095,2024-06-14 17:00:00,Argentina,Error,Crítica,Móvil,Cerrado,21.3,4
+LAT-TCK-00096,2024-06-14 20:30:00,Chile,Solicitud de función,Crítica,Móvil,Resuelto,31.4,5
+LAT-TCK-00097,2024-06-15 00:00:00,Colombia,Consulta,Media,Plataforma,Cerrado,1.5,2
+LAT-TCK-00098,2024-06-15 03:30:00,Chile,Error,Media,Móvil,Cerrado,33.6,3
+LAT-TCK-00099,2024-06-15 07:00:00,Perú,Facturación,Baja,Plataforma,Abierto,1.5,4
+LAT-TCK-00100,2024-06-15 10:30:00,Chile,Consulta,Baja,Móvil,Resuelto,75.3,3
+LAT-TCK-00101,2024-06-15 14:00:00,Chile,Error,Baja,Móvil,En progreso,14.2,4
+LAT-TCK-00102,2024-06-15 17:30:00,México,Consulta,Crítica,Móvil,Abierto,31.3,5
+LAT-TCK-00103,2024-06-15 21:00:00,Colombia,Interrupción,Media,Plataforma,Resuelto,6.1,4
+LAT-TCK-00104,2024-06-16 00:30:00,Perú,Consulta,Media,Plataforma,Resuelto,3.7,
+LAT-TCK-00105,2024-06-16 04:00:00,Perú,Error,Crítica,Móvil,Cerrado,34.1,2
+LAT-TCK-00106,2024-06-16 07:30:00,México,Facturación,Crítica,Móvil,Cerrado,49.1,5
+LAT-TCK-00107,2024-06-16 11:00:00,México,Error,Media,Móvil,En progreso,46.0,
+LAT-TCK-00108,2024-06-16 14:30:00,Perú,Error,Baja,Plataforma,Resuelto,18.7,1
+LAT-TCK-00109,2024-06-16 18:00:00,Colombia,Consulta,Crítica,Móvil,Abierto,11.7,3
+LAT-TCK-00110,2024-06-16 21:30:00,Perú,Consulta,Crítica,Datos,Resuelto,5.3,1
+LAT-TCK-00111,2024-06-17 01:00:00,Chile,Error,Baja,Móvil,Abierto,12.4,1
+LAT-TCK-00112,2024-06-17 04:30:00,México,Error,Media,Plataforma,Resuelto,10.8,4
+LAT-TCK-00113,2024-06-17 08:00:00,Colombia,Consulta,Media,Plataforma,En progreso,49.7,1
+LAT-TCK-00114,2024-06-17 11:30:00,México,Error,Alta,Web,Resuelto,15.9,5
+LAT-TCK-00115,2024-06-17 15:00:00,Argentina,Consulta,Baja,Plataforma,Resuelto,18.5,3
+LAT-TCK-00116,2024-06-17 18:30:00,México,Solicitud de función,Crítica,Móvil,Abierto,12.1,1
+LAT-TCK-00117,2024-06-17 22:00:00,Colombia,Error,Media,Plataforma,Abierto,15.2,4
+LAT-TCK-00118,2024-06-18 01:30:00,Argentina,Error,Crítica,Móvil,Cerrado,50.8,2
+LAT-TCK-00119,2024-06-18 05:00:00,México,Solicitud de función,Alta,Móvil,En progreso,113.0,
+LAT-TCK-00120,2024-06-18 08:30:00,Argentina,Error,Baja,Web,En progreso,45.5,4
+LAT-TCK-00121,2024-06-18 12:00:00,México,Consulta,Alta,Móvil,En progreso,23.0,2
+LAT-TCK-00122,2024-06-18 15:30:00,México,Error,Baja,Móvil,En progreso,40.1,2
+LAT-TCK-00123,2024-06-18 19:00:00,Chile,Interrupción,Media,Datos,En progreso,7.2,3
+LAT-TCK-00124,2024-06-18 22:30:00,Perú,Error,Media,Web,Resuelto,24.6,4
+LAT-TCK-00125,2024-06-19 02:00:00,Perú,Consulta,Baja,Datos,En progreso,10.6,3
+LAT-TCK-00126,2024-06-19 05:30:00,Argentina,Consulta,Crítica,Facturación,Cerrado,12.0,1
+LAT-TCK-00127,2024-06-19 09:00:00,Chile,Error,Media,Móvil,En progreso,101.1,5
+LAT-TCK-00128,2024-06-19 12:30:00,Argentina,Error,Media,Web,Resuelto,31.3,2
+LAT-TCK-00129,2024-06-19 16:00:00,México,Solicitud de función,Media,Plataforma,Resuelto,13.6,3
+LAT-TCK-00130,2024-06-19 19:30:00,México,Solicitud de función,Crítica,Móvil,En progreso,34.6,4
+LAT-TCK-00131,2024-06-19 23:00:00,México,Error,Alta,Móvil,En progreso,103.7,4
+LAT-TCK-00132,2024-06-20 02:30:00,México,Solicitud de función,Crítica,Móvil,En progreso,32.7,4
+LAT-TCK-00133,2024-06-20 06:00:00,Argentina,Interrupción,Baja,Web,En progreso,9.4,2
+LAT-TCK-00134,2024-06-20 09:30:00,México,Consulta,Crítica,Móvil,Resuelto,61.5,4
+LAT-TCK-00135,2024-06-20 13:00:00,Argentina,Interrupción,Media,Datos,Resuelto,6.7,4
+LAT-TCK-00136,2024-06-20 16:30:00,Argentina,Error,Alta,Plataforma,Resuelto,3.9,2
+LAT-TCK-00137,2024-06-20 20:00:00,Chile,Error,Crítica,Móvil,Abierto,45.8,2
+LAT-TCK-00138,2024-06-20 23:30:00,Argentina,Consulta,Baja,Web,En progreso,16.1,
+LAT-TCK-00139,2024-06-21 03:00:00,Chile,Solicitud de función,Baja,Web,Abierto,36.9,4
+LAT-TCK-00140,2024-06-21 06:30:00,Argentina,Error,Baja,Facturación,En progreso,13.3,3
+LAT-TCK-00141,2024-06-21 10:00:00,Chile,Error,Media,Móvil,Resuelto,6.4,5
+LAT-TCK-00142,2024-06-21 13:30:00,México,Consulta,Baja,Web,Resuelto,15.5,3
+LAT-TCK-00143,2024-06-21 17:00:00,México,Facturación,Alta,Móvil,Abierto,20.7,1
+LAT-TCK-00144,2024-06-21 20:30:00,Colombia,Error,Media,Móvil,Resuelto,8.2,3
+LAT-TCK-00145,2024-06-22 00:00:00,Argentina,Consulta,Baja,Móvil,Abierto,85.2,
+LAT-TCK-00146,2024-06-22 03:30:00,México,Facturación,Baja,Móvil,Resuelto,25.2,3
+LAT-TCK-00147,2024-06-22 07:00:00,México,Interrupción,Media,Plataforma,En progreso,39.8,3
+LAT-TCK-00148,2024-06-22 10:30:00,México,Facturación,Alta,Móvil,Abierto,19.3,2
+LAT-TCK-00149,2024-06-22 14:00:00,México,Interrupción,Media,Datos,Cerrado,46.5,2
+LAT-TCK-00150,2024-06-22 17:30:00,Colombia,Consulta,Baja,Plataforma,En progreso,9.6,2
+LAT-TCK-00151,2024-06-22 21:00:00,Argentina,Consulta,Crítica,Móvil,Cerrado,12.0,2
+LAT-TCK-00152,2024-06-23 00:30:00,México,Facturación,Alta,Móvil,En progreso,46.3,3
+LAT-TCK-00153,2024-06-23 04:00:00,Chile,Solicitud de función,Baja,Web,Resuelto,15.5,4
+LAT-TCK-00154,2024-06-23 07:30:00,Chile,Consulta,Alta,Plataforma,Cerrado,11.6,2
+LAT-TCK-00155,2024-06-23 11:00:00,México,Solicitud de función,Crítica,Móvil,En progreso,36.1,
+LAT-TCK-00156,2024-06-23 14:30:00,Colombia,Facturación,Media,Móvil,En progreso,72.8,3
+LAT-TCK-00157,2024-06-23 18:00:00,Argentina,Solicitud de función,Alta,Facturación,Resuelto,4.8,5
+LAT-TCK-00158,2024-06-23 21:30:00,México,Error,Alta,Móvil,Resuelto,57.5,4
+LAT-TCK-00159,2024-06-24 01:00:00,Colombia,Consulta,Baja,Plataforma,Abierto,1.3,4
+LAT-TCK-00160,2024-06-24 04:30:00,México,Consulta,Media,Móvil,Abierto,46.9,1
+LAT-TCK-00161,2024-06-24 08:00:00,México,Error,Crítica,Móvil,Resuelto,17.3,1
+LAT-TCK-00162,2024-06-24 11:30:00,México,Error,Crítica,Móvil,En progreso,14.3,1
+LAT-TCK-00163,2024-06-24 15:00:00,México,Solicitud de función,Alta,Facturación,En progreso,3.2,1
+LAT-TCK-00164,2024-06-24 18:30:00,México,Solicitud de función,Alta,Móvil,Abierto,20.3,3
+LAT-TCK-00165,2024-06-24 22:00:00,Perú,Interrupción,Media,Datos,Resuelto,11.1,4
+LAT-TCK-00166,2024-06-25 01:30:00,Argentina,Error,Crítica,Datos,Abierto,33.2,4
+LAT-TCK-00167,2024-06-25 05:00:00,México,Error,Alta,Móvil,Resuelto,42.1,5
+LAT-TCK-00168,2024-06-25 08:30:00,Perú,Consulta,Alta,Web,Resuelto,6.5,2
+LAT-TCK-00169,2024-06-25 12:00:00,Colombia,Error,Alta,Móvil,Resuelto,34.7,5
+LAT-TCK-00170,2024-06-25 15:30:00,México,Consulta,Alta,Móvil,Abierto,42.3,1
+LAT-TCK-00171,2024-06-25 19:00:00,Chile,Facturación,Alta,Web,Resuelto,4.8,3
+LAT-TCK-00172,2024-06-25 22:30:00,Perú,Error,Baja,Móvil,Abierto,56.3,4
+LAT-TCK-00173,2024-06-26 02:00:00,México,Consulta,Media,Plataforma,Resuelto,13.3,4
+LAT-TCK-00174,2024-06-26 05:30:00,México,Consulta,Crítica,Móvil,Abierto,61.4,4
+LAT-TCK-00175,2024-06-26 09:00:00,México,Consulta,Baja,Facturación,Resuelto,36.9,5
+LAT-TCK-00176,2024-06-26 12:30:00,Argentina,Solicitud de función,Media,Móvil,En progreso,17.0,3
+LAT-TCK-00177,2024-06-26 16:00:00,México,Error,Media,Plataforma,Cerrado,26.7,2
+LAT-TCK-00178,2024-06-26 19:30:00,Chile,Solicitud de función,Alta,Plataforma,Resuelto,2.8,2
+LAT-TCK-00179,2024-06-26 23:00:00,México,Error,Crítica,Web,Cerrado,8.5,2
+LAT-TCK-00180,2024-06-27 02:30:00,Argentina,Error,Baja,Web,Cerrado,13.4,1
+LAT-TCK-00181,2024-06-27 06:00:00,Chile,Error,Media,Web,Resuelto,8.6,4
+LAT-TCK-00182,2024-06-27 09:30:00,Argentina,Facturación,Media,Facturación,Abierto,12.0,2
+LAT-TCK-00183,2024-06-27 13:00:00,México,Solicitud de función,Alta,Móvil,Abierto,43.6,4
+LAT-TCK-00184,2024-06-27 16:30:00,Colombia,Error,Media,Web,Resuelto,7.0,3
+LAT-TCK-00185,2024-06-27 20:00:00,México,Solicitud de función,Alta,Móvil,En progreso,31.2,4
+LAT-TCK-00186,2024-06-27 23:30:00,Perú,Error,Media,Plataforma,Resuelto,13.9,4
+LAT-TCK-00187,2024-06-28 03:00:00,Argentina,Interrupción,Crítica,Facturación,Abierto,25.2,2
+LAT-TCK-00188,2024-06-28 06:30:00,México,Consulta,Baja,Datos,En progreso,5.5,1
+LAT-TCK-00189,2024-06-28 10:00:00,Colombia,Consulta,Media,Móvil,Resuelto,25.1,
+LAT-TCK-00190,2024-06-28 13:30:00,México,Error,Baja,Plataforma,En progreso,13.6,1
+LAT-TCK-00191,2024-06-28 17:00:00,Perú,Solicitud de función,Baja,Facturación,Cerrado,46.4,4
+LAT-TCK-00192,2024-06-28 20:30:00,Chile,Consulta,Crítica,Móvil,Resuelto,31.8,4
+LAT-TCK-00193,2024-06-29 00:00:00,México,Error,Alta,Web,Cerrado,15.3,4
+LAT-TCK-00194,2024-06-29 03:30:00,Perú,Error,Alta,Móvil,Resuelto,29.8,3
+LAT-TCK-00195,2024-06-29 07:00:00,Perú,Consulta,Alta,Móvil,En progreso,48.7,2
+LAT-TCK-00196,2024-06-29 10:30:00,Argentina,Consulta,Media,Plataforma,Cerrado,5.6,3
+LAT-TCK-00197,2024-06-29 14:00:00,México,Consulta,Media,Plataforma,Resuelto,16.1,3
+LAT-TCK-00198,2024-06-29 17:30:00,México,Facturación,Media,Móvil,En progreso,19.2,2
+LAT-TCK-00199,2024-06-29 21:00:00,Chile,Interrupción,Crítica,Móvil,Abierto,59.0,4
+LAT-TCK-00200,2024-06-30 00:30:00,Chile,Solicitud de función,Alta,Plataforma,Abierto,8.2,4
+LAT-TCK-00201,2024-06-30 04:00:00,México,Facturación,Baja,Web,Resuelto,11.8,4
+LAT-TCK-00202,2024-06-30 07:30:00,México,Consulta,Crítica,Web,Resuelto,15.7,4
+LAT-TCK-00203,2024-06-30 11:00:00,México,Consulta,Alta,Facturación,Cerrado,6.6,5
+LAT-TCK-00204,2024-06-30 14:30:00,Argentina,Error,Alta,Móvil,En progreso,60.6,3
+LAT-TCK-00205,2024-06-30 18:00:00,Chile,Solicitud de función,Media,Facturación,En progreso,11.7,1
+LAT-TCK-00206,2024-06-30 21:30:00,México,Solicitud de función,Media,Facturación,Cerrado,4.5,4
+LAT-TCK-00207,2024-07-01 01:00:00,Chile,Facturación,Media,Web,En progreso,10.9,1
+LAT-TCK-00208,2024-07-01 04:30:00,Colombia,Error,Media,Facturación,En progreso,19.7,1
+LAT-TCK-00209,2024-07-01 08:00:00,Chile,Error,Baja,Datos,En progreso,5.0,5
+LAT-TCK-00210,2024-07-01 11:30:00,México,Error,Media,Facturación,Cerrado,12.6,4
+LAT-TCK-00211,2024-07-01 15:00:00,México,Solicitud de función,Alta,Móvil,Resuelto,17.1,
+LAT-TCK-00212,2024-07-01 18:30:00,Colombia,Solicitud de función,Alta,Móvil,Resuelto,50.9,1
+LAT-TCK-00213,2024-07-01 22:00:00,Colombia,Error,Alta,Plataforma,Resuelto,17.2,4
+LAT-TCK-00214,2024-07-02 01:30:00,Colombia,Error,Baja,Móvil,En progreso,31.2,3
+LAT-TCK-00215,2024-07-02 05:00:00,Chile,Facturación,Baja,Web,En progreso,13.6,4
+LAT-TCK-00216,2024-07-02 08:30:00,Colombia,Solicitud de función,Alta,Móvil,Abierto,26.5,2
+LAT-TCK-00217,2024-07-02 12:00:00,México,Consulta,Alta,Datos,Abierto,17.5,3
+LAT-TCK-00218,2024-07-02 15:30:00,México,Error,Baja,Plataforma,Abierto,17.0,
+LAT-TCK-00219,2024-07-02 19:00:00,Colombia,Consulta,Baja,Web,Abierto,3.3,3
+LAT-TCK-00220,2024-07-02 22:30:00,Argentina,Consulta,Media,Móvil,En progreso,63.0,1
+LAT-TCK-00221,2024-07-03 02:00:00,México,Facturación,Media,Móvil,Resuelto,47.1,5
+LAT-TCK-00222,2024-07-03 05:30:00,México,Solicitud de función,Media,Datos,Resuelto,3.0,1
+LAT-TCK-00223,2024-07-03 09:00:00,Chile,Solicitud de función,Baja,Web,En progreso,6.0,2
+LAT-TCK-00224,2024-07-03 12:30:00,Colombia,Solicitud de función,Media,Datos,Resuelto,43.2,3
+LAT-TCK-00225,2024-07-03 16:00:00,Argentina,Error,Media,Móvil,Resuelto,44.3,2
+LAT-TCK-00226,2024-07-03 19:30:00,México,Consulta,Media,Plataforma,Resuelto,34.9,1
+LAT-TCK-00227,2024-07-03 23:00:00,México,Solicitud de función,Media,Datos,Resuelto,6.5,
+LAT-TCK-00228,2024-07-04 02:30:00,Argentina,Consulta,Media,Plataforma,Resuelto,3.3,3
+LAT-TCK-00229,2024-07-04 06:00:00,Colombia,Error,Media,Plataforma,Resuelto,11.8,2
+LAT-TCK-00230,2024-07-04 09:30:00,México,Solicitud de función,Media,Móvil,Cerrado,18.8,2
+LAT-TCK-00231,2024-07-04 13:00:00,Chile,Error,Baja,Web,Cerrado,10.2,
+LAT-TCK-00232,2024-07-04 16:30:00,México,Error,Baja,Plataforma,Cerrado,2.7,2
+LAT-TCK-00233,2024-07-04 20:00:00,Argentina,Consulta,Media,Facturación,Resuelto,19.6,2
+LAT-TCK-00234,2024-07-04 23:30:00,México,Consulta,Media,Web,Resuelto,20.1,3
+LAT-TCK-00235,2024-07-05 03:00:00,Colombia,Facturación,Alta,Datos,Resuelto,14.3,4
+LAT-TCK-00236,2024-07-05 06:30:00,México,Solicitud de función,Alta,Plataforma,Abierto,26.4,3
+LAT-TCK-00237,2024-07-05 10:00:00,Colombia,Solicitud de función,Baja,Web,Abierto,22.5,4
+LAT-TCK-00238,2024-07-05 13:30:00,México,Consulta,Baja,Datos,Abierto,28.2,3
+LAT-TCK-00239,2024-07-05 17:00:00,Colombia,Error,Media,Móvil,En progreso,34.7,3
+LAT-TCK-00240,2024-07-05 20:30:00,Colombia,Error,Alta,Móvil,En progreso,15.9,1
+LAT-TCK-00241,2024-07-06 00:00:00,Colombia,Consulta,Media,Datos,En progreso,6.8,4
+LAT-TCK-00242,2024-07-06 03:30:00,Perú,Facturación,Media,Plataforma,Cerrado,23.1,3
+LAT-TCK-00243,2024-07-06 07:00:00,Argentina,Consulta,Alta,Datos,Resuelto,10.9,4
+LAT-TCK-00244,2024-07-06 10:30:00,Argentina,Error,Media,Facturación,Abierto,24.7,3
+LAT-TCK-00245,2024-07-06 14:00:00,Chile,Error,Crítica,Móvil,En progreso,26.3,2
+LAT-TCK-00246,2024-07-06 17:30:00,México,Error,Media,Móvil,En progreso,39.9,5
+LAT-TCK-00247,2024-07-06 21:00:00,Argentina,Consulta,Media,Plataforma,Resuelto,7.6,3
+LAT-TCK-00248,2024-07-07 00:30:00,México,Interrupción,Media,Plataforma,Resuelto,8.2,
+LAT-TCK-00249,2024-07-07 04:00:00,Chile,Facturación,Media,Plataforma,Abierto,6.9,5
+LAT-TCK-00250,2024-07-07 07:30:00,México,Error,Alta,Móvil,Cerrado,46.4,4
+LAT-TCK-00251,2024-07-07 11:00:00,Colombia,Consulta,Crítica,Móvil,En progreso,64.7,2
+LAT-TCK-00252,2024-07-07 14:30:00,Argentina,Error,Alta,Plataforma,Resuelto,9.3,5
+LAT-TCK-00253,2024-07-07 18:00:00,México,Consulta,Media,Web,Resuelto,11.8,5
+LAT-TCK-00254,2024-07-07 21:30:00,Argentina,Error,Alta,Móvil,Abierto,3.4,2
+LAT-TCK-00255,2024-07-08 01:00:00,Argentina,Error,Media,Datos,Cerrado,9.9,2
+LAT-TCK-00256,2024-07-08 04:30:00,Chile,Error,Media,Datos,Cerrado,8.5,2
+LAT-TCK-00257,2024-07-08 08:00:00,Chile,Consulta,Baja,Datos,Cerrado,4.2,3
+LAT-TCK-00258,2024-07-08 11:30:00,Argentina,Facturación,Crítica,Móvil,En progreso,6.9,1
+LAT-TCK-00259,2024-07-08 15:00:00,Colombia,Error,Alta,Móvil,Resuelto,64.6,4
+LAT-TCK-00260,2024-07-08 18:30:00,Argentina,Error,Baja,Plataforma,Resuelto,14.9,4
+LAT-TCK-00261,2024-07-08 22:00:00,México,Facturación,Media,Web,Cerrado,23.0,4
+LAT-TCK-00262,2024-07-09 01:30:00,Chile,Facturación,Crítica,Móvil,Cerrado,114.6,5
+LAT-TCK-00263,2024-07-09 05:00:00,México,Consulta,Baja,Móvil,Resuelto,56.2,1
+LAT-TCK-00264,2024-07-09 08:30:00,Perú,Solicitud de función,Media,Plataforma,En progreso,5.5,3
+LAT-TCK-00265,2024-07-09 12:00:00,México,Solicitud de función,Media,Móvil,Resuelto,56.8,1
+LAT-TCK-00266,2024-07-09 15:30:00,Colombia,Solicitud de función,Media,Datos,Resuelto,18.0,3
+LAT-TCK-00267,2024-07-09 19:00:00,Chile,Solicitud de función,Alta,Facturación,En progreso,3.4,2
+LAT-TCK-00268,2024-07-09 22:30:00,Chile,Error,Crítica,Móvil,En progreso,36.8,4
+LAT-TCK-00269,2024-07-10 02:00:00,Colombia,Interrupción,Media,Plataforma,Abierto,5.4,2
+LAT-TCK-00270,2024-07-10 05:30:00,Argentina,Facturación,Media,Web,Abierto,2.4,3
+LAT-TCK-00271,2024-07-10 09:00:00,Colombia,Consulta,Alta,Web,Resuelto,2.6,2
+LAT-TCK-00272,2024-07-10 12:30:00,Colombia,Error,Crítica,Móvil,Resuelto,34.2,3
+LAT-TCK-00273,2024-07-10 16:00:00,Colombia,Error,Crítica,Móvil,Resuelto,6.7,1
+LAT-TCK-00274,2024-07-10 19:30:00,Chile,Consulta,Baja,Web,Resuelto,9.1,4
+LAT-TCK-00275,2024-07-10 23:00:00,Argentina,Solicitud de función,Baja,Móvil,Resuelto,36.0,3
+LAT-TCK-00276,2024-07-11 02:30:00,Argentina,Solicitud de función,Alta,Facturación,Abierto,24.3,3
+LAT-TCK-00277,2024-07-11 06:00:00,Argentina,Error,Media,Plataforma,Cerrado,15.5,3
+LAT-TCK-00278,2024-07-11 09:30:00,Perú,Interrupción,Baja,Plataforma,Resuelto,23.8,3
+LAT-TCK-00279,2024-07-11 13:00:00,México,Facturación,Media,Móvil,Resuelto,43.8,3
+LAT-TCK-00280,2024-07-11 16:30:00,Perú,Error,Baja,Web,En progreso,7.7,2
+LAT-TCK-00281,2024-07-11 20:00:00,Colombia,Error,Baja,Datos,En progreso,12.4,4
+LAT-TCK-00282,2024-07-11 23:30:00,Colombia,Facturación,Baja,Plataforma,En progreso,18.1,3
+LAT-TCK-00283,2024-07-12 03:00:00,Chile,Error,Baja,Web,Resuelto,9.8,3
+LAT-TCK-00284,2024-07-12 06:30:00,México,Error,Baja,Móvil,Resuelto,5.8,4
+LAT-TCK-00285,2024-07-12 10:00:00,Colombia,Error,Baja,Móvil,En progreso,33.3,3
+LAT-TCK-00286,2024-07-12 13:30:00,Colombia,Error,Alta,Móvil,Resuelto,19.0,4
+LAT-TCK-00287,2024-07-12 17:00:00,México,Error,Media,Datos,Cerrado,8.3,1
+LAT-TCK-00288,2024-07-12 20:30:00,México,Consulta,Alta,Móvil,Resuelto,52.9,3
+LAT-TCK-00289,2024-07-13 00:00:00,México,Solicitud de función,Alta,Facturación,Abierto,3.6,5
+LAT-TCK-00290,2024-07-13 03:30:00,Argentina,Error,Media,Móvil,Cerrado,69.6,2
+LAT-TCK-00291,2024-07-13 07:00:00,México,Consulta,Baja,Plataforma,Abierto,30.9,3
+LAT-TCK-00292,2024-07-13 10:30:00,Colombia,Consulta,Alta,Móvil,Resuelto,15.9,3
+LAT-TCK-00293,2024-07-13 14:00:00,México,Solicitud de función,Media,Móvil,Abierto,7.7,2
+LAT-TCK-00294,2024-07-13 17:30:00,México,Error,Media,Facturación,Cerrado,7.5,
+LAT-TCK-00295,2024-07-13 21:00:00,Chile,Error,Crítica,Móvil,Resuelto,47.8,4
+LAT-TCK-00296,2024-07-14 00:30:00,Perú,Error,Baja,Web,En progreso,7.9,3
+LAT-TCK-00297,2024-07-14 04:00:00,México,Consulta,Alta,Móvil,Cerrado,17.0,3
+LAT-TCK-00298,2024-07-14 07:30:00,México,Error,Alta,Web,En progreso,18.9,5
+LAT-TCK-00299,2024-07-14 11:00:00,Chile,Error,Media,Plataforma,Cerrado,13.9,3
+LAT-TCK-00300,2024-07-14 14:30:00,Chile,Solicitud de función,Media,Web,Abierto,22.7,5
+LAT-TCK-00301,2024-07-14 18:00:00,México,Error,Alta,Móvil,En progreso,25.1,1
+LAT-TCK-00302,2024-07-14 21:30:00,México,Consulta,Crítica,Móvil,En progreso,34.1,2
+LAT-TCK-00303,2024-07-15 01:00:00,México,Interrupción,Alta,Plataforma,Abierto,10.9,1
+LAT-TCK-00304,2024-07-15 04:30:00,México,Error,Alta,Datos,Resuelto,34.2,4
+LAT-TCK-00305,2024-07-15 08:00:00,Argentina,Interrupción,Media,Plataforma,Resuelto,14.8,3
+LAT-TCK-00306,2024-07-15 11:30:00,México,Facturación,Media,Web,Resuelto,8.0,
+LAT-TCK-00307,2024-07-15 15:00:00,México,Interrupción,Alta,Móvil,Resuelto,29.3,3
+LAT-TCK-00308,2024-07-15 18:30:00,Colombia,Consulta,Crítica,Móvil,Abierto,23.1,5
+LAT-TCK-00309,2024-07-15 22:00:00,Colombia,Consulta,Baja,Móvil,Abierto,96.4,1
+LAT-TCK-00310,2024-07-16 01:30:00,Colombia,Consulta,Alta,Móvil,Resuelto,36.7,2
+LAT-TCK-00311,2024-07-16 05:00:00,Argentina,Solicitud de función,Crítica,Móvil,En progreso,25.3,2
+LAT-TCK-00312,2024-07-16 08:30:00,Chile,Consulta,Alta,Facturación,Resuelto,16.8,4
+LAT-TCK-00313,2024-07-16 12:00:00,Perú,Error,Alta,Web,Resuelto,7.7,4
+LAT-TCK-00314,2024-07-16 15:30:00,México,Consulta,Media,Web,Resuelto,13.1,
+LAT-TCK-00315,2024-07-16 19:00:00,Colombia,Error,Baja,Web,En progreso,30.5,
+LAT-TCK-00316,2024-07-16 22:30:00,Colombia,Interrupción,Baja,Web,Cerrado,9.6,5
+LAT-TCK-00317,2024-07-17 02:00:00,México,Error,Crítica,Móvil,Resuelto,13.4,5
+LAT-TCK-00318,2024-07-17 05:30:00,Perú,Interrupción,Alta,Plataforma,Abierto,24.3,4
+LAT-TCK-00319,2024-07-17 09:00:00,Colombia,Error,Alta,Móvil,Abierto,33.6,3
+LAT-TCK-00320,2024-07-17 12:30:00,Argentina,Error,Media,Móvil,Resuelto,26.9,
+LAT-TCK-00321,2024-07-17 16:00:00,Argentina,Error,Baja,Web,Resuelto,5.6,3
+LAT-TCK-00322,2024-07-17 19:30:00,Colombia,Error,Media,Móvil,Resuelto,79.8,4
+LAT-TCK-00323,2024-07-17 23:00:00,México,Facturación,Baja,Facturación,Abierto,24.2,4
+LAT-TCK-00324,2024-07-18 02:30:00,Colombia,Error,Media,Móvil,Cerrado,60.4,5
+LAT-TCK-00325,2024-07-18 06:00:00,Argentina,Error,Media,Móvil,Cerrado,26.8,
+LAT-TCK-00326,2024-07-18 09:30:00,Chile,Interrupción,Media,Web,Abierto,4.9,2
+LAT-TCK-00327,2024-07-18 13:00:00,Colombia,Error,Media,Móvil,Resuelto,13.1,4
+LAT-TCK-00328,2024-07-18 16:30:00,México,Error,Baja,Plataforma,Cerrado,8.0,4
+LAT-TCK-00329,2024-07-18 20:00:00,Colombia,Error,Alta,Facturación,Resuelto,8.9,5
+LAT-TCK-00330,2024-07-18 23:30:00,Colombia,Solicitud de función,Media,Facturación,Resuelto,19.1,2
+LAT-TCK-00331,2024-07-19 03:00:00,Colombia,Consulta,Baja,Plataforma,Resuelto,32.7,1
+LAT-TCK-00332,2024-07-19 06:30:00,Argentina,Interrupción,Baja,Facturación,Cerrado,16.9,4
+LAT-TCK-00333,2024-07-19 10:00:00,Colombia,Error,Baja,Datos,En progreso,21.4,2
+LAT-TCK-00334,2024-07-19 13:30:00,México,Consulta,Baja,Plataforma,Resuelto,51.2,2
+LAT-TCK-00335,2024-07-19 17:00:00,Chile,Consulta,Baja,Facturación,Resuelto,12.1,2
+LAT-TCK-00336,2024-07-19 20:30:00,Colombia,Consulta,Media,Plataforma,Resuelto,23.7,5
+LAT-TCK-00337,2024-07-20 00:00:00,México,Consulta,Baja,Plataforma,En progreso,20.7,4
+LAT-TCK-00338,2024-07-20 03:30:00,Chile,Solicitud de función,Media,Móvil,Abierto,98.7,2
+LAT-TCK-00339,2024-07-20 07:00:00,Colombia,Solicitud de función,Baja,Plataforma,En progreso,12.4,3
+LAT-TCK-00340,2024-07-20 10:30:00,México,Solicitud de función,Crítica,Móvil,Resuelto,30.3,5
+LAT-TCK-00341,2024-07-20 14:00:00,Chile,Solicitud de función,Media,Datos,Abierto,26.5,4
+LAT-TCK-00342,2024-07-20 17:30:00,Argentina,Error,Baja,Plataforma,Resuelto,23.9,3
+LAT-TCK-00343,2024-07-20 21:00:00,Perú,Solicitud de función,Baja,Facturación,Cerrado,12.7,2
+LAT-TCK-00344,2024-07-21 00:30:00,México,Consulta,Baja,Plataforma,Cerrado,35.1,2
+LAT-TCK-00345,2024-07-21 04:00:00,Colombia,Error,Baja,Web,En progreso,9.4,3
+LAT-TCK-00346,2024-07-21 07:30:00,Perú,Solicitud de función,Baja,Móvil,En progreso,42.7,1
+LAT-TCK-00347,2024-07-21 11:00:00,Colombia,Solicitud de función,Alta,Móvil,Cerrado,19.5,5
+LAT-TCK-00348,2024-07-21 14:30:00,Argentina,Solicitud de función,Media,Móvil,En progreso,34.1,2
+LAT-TCK-00349,2024-07-21 18:00:00,Perú,Error,Media,Web,En progreso,8.9,3
+LAT-TCK-00350,2024-07-21 21:30:00,Perú,Consulta,Baja,Web,En progreso,3.9,4
+LAT-TCK-00351,2024-07-22 01:00:00,México,Interrupción,Media,Web,En progreso,15.3,3
+LAT-TCK-00352,2024-07-22 04:30:00,México,Consulta,Crítica,Móvil,En progreso,51.7,1
+LAT-TCK-00353,2024-07-22 08:00:00,México,Facturación,Crítica,Web,Resuelto,3.3,2
+LAT-TCK-00354,2024-07-22 11:30:00,Perú,Facturación,Media,Plataforma,Resuelto,12.8,2
+LAT-TCK-00355,2024-07-22 15:00:00,Colombia,Error,Alta,Móvil,Abierto,39.8,2
+LAT-TCK-00356,2024-07-22 18:30:00,México,Interrupción,Baja,Web,En progreso,2.5,4
+LAT-TCK-00357,2024-07-22 22:00:00,Argentina,Interrupción,Baja,Facturación,Cerrado,14.0,5
+LAT-TCK-00358,2024-07-23 01:30:00,Chile,Interrupción,Alta,Móvil,Abierto,17.0,5
+LAT-TCK-00359,2024-07-23 05:00:00,Colombia,Error,Media,Web,Abierto,34.7,4
+LAT-TCK-00360,2024-07-23 08:30:00,Colombia,Consulta,Media,Web,Abierto,21.2,3
+LAT-TCK-00361,2024-07-23 12:00:00,Perú,Error,Baja,Facturación,Resuelto,7.9,3
+LAT-TCK-00362,2024-07-23 15:30:00,México,Facturación,Media,Móvil,En progreso,6.7,4
+LAT-TCK-00363,2024-07-23 19:00:00,México,Error,Alta,Móvil,Cerrado,69.3,2
+LAT-TCK-00364,2024-07-23 22:30:00,México,Error,Baja,Facturación,Resuelto,12.3,4
+LAT-TCK-00365,2024-07-24 02:00:00,Perú,Error,Baja,Web,Resuelto,7.8,3
+LAT-TCK-00366,2024-07-24 05:30:00,Argentina,Error,Media,Plataforma,Cerrado,2.4,2
+LAT-TCK-00367,2024-07-24 09:00:00,México,Error,Crítica,Móvil,En progreso,33.2,1
+LAT-TCK-00368,2024-07-24 12:30:00,Chile,Error,Alta,Móvil,Abierto,55.5,3
+LAT-TCK-00369,2024-07-24 16:00:00,México,Consulta,Baja,Web,En progreso,7.6,3
+LAT-TCK-00370,2024-07-24 19:30:00,México,Error,Alta,Móvil,Abierto,27.7,5
+LAT-TCK-00371,2024-07-24 23:00:00,México,Error,Media,Móvil,Abierto,29.0,2
+LAT-TCK-00372,2024-07-25 02:30:00,México,Error,Media,Web,Resuelto,31.6,2
+LAT-TCK-00373,2024-07-25 06:00:00,Chile,Consulta,Alta,Móvil,En progreso,38.8,3
+LAT-TCK-00374,2024-07-25 09:30:00,Perú,Error,Baja,Móvil,En progreso,42.6,2
+LAT-TCK-00375,2024-07-25 13:00:00,México,Consulta,Alta,Plataforma,En progreso,14.2,1
+LAT-TCK-00376,2024-07-25 16:30:00,México,Consulta,Crítica,Móvil,En progreso,46.8,4
+LAT-TCK-00377,2024-07-25 20:00:00,México,Consulta,Alta,Móvil,Resuelto,33.1,
+LAT-TCK-00378,2024-07-25 23:30:00,Colombia,Consulta,Media,Plataforma,Cerrado,19.5,3
+LAT-TCK-00379,2024-07-26 03:00:00,Colombia,Error,Media,Web,Resuelto,10.8,4
+LAT-TCK-00380,2024-07-26 06:30:00,México,Solicitud de función,Baja,Datos,Cerrado,8.2,4
+LAT-TCK-00381,2024-07-26 10:00:00,México,Consulta,Alta,Web,Resuelto,25.2,1
+LAT-TCK-00382,2024-07-26 13:30:00,México,Facturación,Baja,Datos,Abierto,31.3,4
+LAT-TCK-00383,2024-07-26 17:00:00,México,Interrupción,Baja,Datos,En progreso,27.3,4
+LAT-TCK-00384,2024-07-26 20:30:00,México,Solicitud de función,Alta,Móvil,Abierto,19.3,2
+LAT-TCK-00385,2024-07-27 00:00:00,México,Interrupción,Baja,Plataforma,Resuelto,21.4,3
+LAT-TCK-00386,2024-07-27 03:30:00,Argentina,Consulta,Baja,Móvil,Cerrado,10.2,3
+LAT-TCK-00387,2024-07-27 07:00:00,Argentina,Interrupción,Baja,Web,Abierto,14.4,
+LAT-TCK-00388,2024-07-27 10:30:00,México,Consulta,Crítica,Móvil,En progreso,155.6,4
+LAT-TCK-00389,2024-07-27 14:00:00,Colombia,Solicitud de función,Baja,Plataforma,En progreso,4.2,3
+LAT-TCK-00390,2024-07-27 17:30:00,Argentina,Error,Baja,Datos,En progreso,7.1,4
+LAT-TCK-00391,2024-07-27 21:00:00,Chile,Facturación,Alta,Plataforma,En progreso,9.7,2
+LAT-TCK-00392,2024-07-28 00:30:00,México,Error,Media,Móvil,Resuelto,14.4,2
+LAT-TCK-00393,2024-07-28 04:00:00,Colombia,Error,Baja,Web,Cerrado,2.1,1
+LAT-TCK-00394,2024-07-28 07:30:00,México,Consulta,Crítica,Móvil,En progreso,78.5,3
+LAT-TCK-00395,2024-07-28 11:00:00,Perú,Solicitud de función,Baja,Datos,Resuelto,13.4,2
+LAT-TCK-00396,2024-07-28 14:30:00,México,Consulta,Alta,Móvil,Abierto,43.8,1
+LAT-TCK-00397,2024-07-28 18:00:00,Argentina,Interrupción,Alta,Web,En progreso,11.0,3
+LAT-TCK-00398,2024-07-28 21:30:00,Colombia,Consulta,Alta,Web,En progreso,10.1,2
+LAT-TCK-00399,2024-07-29 01:00:00,Colombia,Facturación,Crítica,Móvil,Resuelto,11.5,4
+LAT-TCK-00400,2024-07-29 04:30:00,Colombia,Consulta,Baja,Facturación,Abierto,8.0,3
+LAT-TCK-00401,2024-07-29 08:00:00,México,Consulta,Baja,Datos,En progreso,22.0,3
+LAT-TCK-00402,2024-07-29 11:30:00,México,Consulta,Alta,Móvil,Resuelto,61.1,5
+LAT-TCK-00403,2024-07-29 15:00:00,México,Consulta,Media,Plataforma,Abierto,15.7,3
+LAT-TCK-00404,2024-07-29 18:30:00,Argentina,Solicitud de función,Baja,Web,Resuelto,7.5,4
+LAT-TCK-00405,2024-07-29 22:00:00,Colombia,Error,Media,Facturación,Resuelto,21.8,1
+LAT-TCK-00406,2024-07-30 01:30:00,Argentina,Interrupción,Media,Móvil,Resuelto,28.6,5
+LAT-TCK-00407,2024-07-30 05:00:00,México,Error,Alta,Móvil,En progreso,53.7,2
+LAT-TCK-00408,2024-07-30 08:30:00,Chile,Solicitud de función,Crítica,Móvil,Cerrado,23.5,3
+LAT-TCK-00409,2024-07-30 12:00:00,Colombia,Facturación,Alta,Móvil,En progreso,19.5,4
+LAT-TCK-00410,2024-07-30 15:30:00,México,Error,Alta,Datos,Abierto,34.9,3
+LAT-TCK-00411,2024-07-30 19:00:00,Argentina,Consulta,Alta,Móvil,Abierto,47.5,5
+LAT-TCK-00412,2024-07-30 22:30:00,Argentina,Error,Media,Móvil,Resuelto,37.2,3
+LAT-TCK-00413,2024-07-31 02:00:00,Argentina,Error,Media,Móvil,Resuelto,25.4,2
+LAT-TCK-00414,2024-07-31 05:30:00,México,Consulta,Media,Móvil,En progreso,21.4,5
+LAT-TCK-00415,2024-07-31 09:00:00,México,Error,Alta,Móvil,Cerrado,13.6,3
+LAT-TCK-00416,2024-07-31 12:30:00,México,Solicitud de función,Media,Móvil,En progreso,13.0,5
+LAT-TCK-00417,2024-07-31 16:00:00,México,Consulta,Alta,Móvil,Abierto,50.0,3
+LAT-TCK-00418,2024-07-31 19:30:00,Perú,Error,Alta,Facturación,Resuelto,35.5,3
+LAT-TCK-00419,2024-07-31 23:00:00,México,Error,Baja,Facturación,En progreso,17.4,2
+LAT-TCK-00420,2024-08-01 02:30:00,Argentina,Error,Media,Plataforma,En progreso,6.4,3
+LAT-TCK-00421,2024-08-01 06:00:00,Colombia,Error,Media,Web,Abierto,16.8,
+LAT-TCK-00422,2024-08-01 09:30:00,Argentina,Interrupción,Alta,Móvil,Resuelto,103.3,2
+LAT-TCK-00423,2024-08-01 13:00:00,México,Facturación,Media,Datos,Resuelto,10.2,5
+LAT-TCK-00424,2024-08-01 16:30:00,México,Interrupción,Baja,Web,Resuelto,16.0,3
+LAT-TCK-00425,2024-08-01 20:00:00,Chile,Solicitud de función,Crítica,Móvil,En progreso,9.1,3
+LAT-TCK-00426,2024-08-01 23:30:00,Perú,Solicitud de función,Alta,Plataforma,En progreso,44.6,4
+LAT-TCK-00427,2024-08-02 03:00:00,Chile,Solicitud de función,Alta,Web,En progreso,15.1,4
+LAT-TCK-00428,2024-08-02 06:30:00,México,Facturación,Media,Móvil,Abierto,24.3,5
+LAT-TCK-00429,2024-08-02 10:00:00,Chile,Facturación,Baja,Móvil,En progreso,59.1,3
+LAT-TCK-00430,2024-08-02 13:30:00,México,Facturación,Crítica,Web,Resuelto,1.9,4
+LAT-TCK-00431,2024-08-02 17:00:00,Chile,Facturación,Media,Plataforma,En progreso,17.7,1
+LAT-TCK-00432,2024-08-02 20:30:00,Chile,Error,Media,Móvil,Resuelto,32.7,3
+LAT-TCK-00433,2024-08-03 00:00:00,México,Facturación,Media,Móvil,En progreso,65.6,4
+LAT-TCK-00434,2024-08-03 03:30:00,Argentina,Consulta,Media,Web,Resuelto,19.6,3
+LAT-TCK-00435,2024-08-03 07:00:00,México,Consulta,Media,Facturación,Abierto,6.6,1
+LAT-TCK-00436,2024-08-03 10:30:00,Chile,Facturación,Crítica,Móvil,Cerrado,40.0,5
+LAT-TCK-00437,2024-08-03 14:00:00,México,Error,Baja,Web,Resuelto,16.4,4
+LAT-TCK-00438,2024-08-03 17:30:00,Colombia,Error,Media,Plataforma,Abierto,3.4,4
+LAT-TCK-00439,2024-08-03 21:00:00,México,Interrupción,Baja,Web,Abierto,12.3,5
+LAT-TCK-00440,2024-08-04 00:30:00,Colombia,Consulta,Crítica,Móvil,Resuelto,71.1,2
+LAT-TCK-00441,2024-08-04 04:00:00,Colombia,Facturación,Media,Plataforma,Cerrado,9.9,3
+LAT-TCK-00442,2024-08-04 07:30:00,México,Interrupción,Crítica,Móvil,Resuelto,52.3,3
+LAT-TCK-00443,2024-08-04 11:00:00,México,Error,Media,Móvil,Resuelto,28.5,5
+LAT-TCK-00444,2024-08-04 14:30:00,Colombia,Error,Media,Web,En progreso,20.8,4
+LAT-TCK-00445,2024-08-04 18:00:00,México,Facturación,Alta,Móvil,En progreso,29.0,
+LAT-TCK-00446,2024-08-04 21:30:00,Chile,Consulta,Crítica,Móvil,Resuelto,58.1,4
+LAT-TCK-00447,2024-08-05 01:00:00,Colombia,Consulta,Baja,Plataforma,Abierto,5.7,
+LAT-TCK-00448,2024-08-05 04:30:00,México,Consulta,Alta,Web,Cerrado,13.6,3
+LAT-TCK-00449,2024-08-05 08:00:00,Colombia,Consulta,Media,Datos,Resuelto,16.4,1
+LAT-TCK-00450,2024-08-05 11:30:00,Colombia,Consulta,Media,Plataforma,Abierto,18.3,3
+LAT-TCK-00451,2024-08-05 15:00:00,México,Error,Alta,Plataforma,Abierto,16.9,5
+LAT-TCK-00452,2024-08-05 18:30:00,México,Facturación,Alta,Móvil,En progreso,31.1,4
+LAT-TCK-00453,2024-08-05 22:00:00,México,Error,Media,Datos,En progreso,5.7,5
+LAT-TCK-00454,2024-08-06 01:30:00,Colombia,Error,Media,Móvil,Cerrado,35.3,4
+LAT-TCK-00455,2024-08-06 05:00:00,Chile,Consulta,Crítica,Móvil,En progreso,38.3,3
+LAT-TCK-00456,2024-08-06 08:30:00,Colombia,Error,Crítica,Móvil,Cerrado,44.6,5
+LAT-TCK-00457,2024-08-06 12:00:00,Colombia,Solicitud de función,Crítica,Móvil,Resuelto,36.8,4
+LAT-TCK-00458,2024-08-06 15:30:00,Argentina,Error,Alta,Web,Resuelto,9.0,5
+LAT-TCK-00459,2024-08-06 19:00:00,México,Consulta,Baja,Plataforma,Resuelto,6.7,5
+LAT-TCK-00460,2024-08-06 22:30:00,Colombia,Solicitud de función,Baja,Web,Resuelto,18.6,
+LAT-TCK-00461,2024-08-07 02:00:00,Colombia,Error,Alta,Web,Abierto,51.0,3
+LAT-TCK-00462,2024-08-07 05:30:00,Argentina,Solicitud de función,Alta,Móvil,Resuelto,15.3,4
+LAT-TCK-00463,2024-08-07 09:00:00,Perú,Consulta,Media,Móvil,Abierto,73.1,
+LAT-TCK-00464,2024-08-07 12:30:00,Argentina,Error,Baja,Móvil,En progreso,33.2,3
+LAT-TCK-00465,2024-08-07 16:00:00,México,Error,Alta,Facturación,En progreso,3.7,3
+LAT-TCK-00466,2024-08-07 19:30:00,México,Facturación,Alta,Móvil,Cerrado,33.0,
+LAT-TCK-00467,2024-08-07 23:00:00,Argentina,Consulta,Media,Plataforma,Cerrado,2.8,4
+LAT-TCK-00468,2024-08-08 02:30:00,Colombia,Error,Media,Datos,Abierto,9.6,3
+LAT-TCK-00469,2024-08-08 06:00:00,México,Interrupción,Alta,Móvil,Resuelto,10.1,
+LAT-TCK-00470,2024-08-08 09:30:00,México,Error,Baja,Datos,Cerrado,20.9,5
+LAT-TCK-00471,2024-08-08 13:00:00,Perú,Consulta,Alta,Móvil,Resuelto,22.7,5
+LAT-TCK-00472,2024-08-08 16:30:00,Argentina,Error,Media,Móvil,En progreso,20.3,4
+LAT-TCK-00473,2024-08-08 20:00:00,México,Solicitud de función,Alta,Móvil,Abierto,13.0,5
+LAT-TCK-00474,2024-08-08 23:30:00,México,Error,Crítica,Datos,Cerrado,4.3,
+LAT-TCK-00475,2024-08-09 03:00:00,México,Error,Crítica,Facturación,En progreso,4.8,4
+LAT-TCK-00476,2024-08-09 06:30:00,Colombia,Facturación,Baja,Plataforma,Resuelto,18.7,3
+LAT-TCK-00477,2024-08-09 10:00:00,Chile,Error,Crítica,Móvil,Abierto,93.1,4
+LAT-TCK-00478,2024-08-09 13:30:00,México,Consulta,Media,Web,Cerrado,3.8,2
+LAT-TCK-00479,2024-08-09 17:00:00,Colombia,Interrupción,Crítica,Móvil,Resuelto,31.5,5
+LAT-TCK-00480,2024-08-09 20:30:00,Perú,Facturación,Baja,Web,Resuelto,16.1,3
+LAT-TCK-00481,2024-08-10 00:00:00,Colombia,Consulta,Baja,Móvil,Abierto,76.4,1
+LAT-TCK-00482,2024-08-10 03:30:00,Argentina,Consulta,Media,Datos,Resuelto,4.8,5
+LAT-TCK-00483,2024-08-10 07:00:00,México,Error,Crítica,Móvil,Resuelto,49.2,2
+LAT-TCK-00484,2024-08-10 10:30:00,Perú,Facturación,Media,Facturación,Resuelto,7.5,5
+LAT-TCK-00485,2024-08-10 14:00:00,México,Solicitud de función,Alta,Móvil,Cerrado,24.9,5
+LAT-TCK-00486,2024-08-10 17:30:00,México,Error,Crítica,Móvil,Resuelto,54.3,4
+LAT-TCK-00487,2024-08-10 21:00:00,México,Consulta,Crítica,Móvil,Resuelto,81.4,1
+LAT-TCK-00488,2024-08-11 00:30:00,Chile,Consulta,Alta,Datos,Cerrado,23.8,4
+LAT-TCK-00489,2024-08-11 04:00:00,México,Error,Media,Web,Cerrado,6.4,4
+LAT-TCK-00490,2024-08-11 07:30:00,México,Solicitud de función,Media,Plataforma,En progreso,18.6,4
+LAT-TCK-00491,2024-08-11 11:00:00,México,Facturación,Crítica,Móvil,Resuelto,15.0,2
+LAT-TCK-00492,2024-08-11 14:30:00,México,Interrupción,Media,Datos,Abierto,12.6,2
+LAT-TCK-00493,2024-08-11 18:00:00,Argentina,Error,Alta,Móvil,Resuelto,35.1,5
+LAT-TCK-00494,2024-08-11 21:30:00,Argentina,Solicitud de función,Baja,Móvil,Resuelto,22.4,1
+LAT-TCK-00495,2024-08-12 01:00:00,Argentina,Facturación,Media,Facturación,En progreso,4.3,4
+LAT-TCK-00496,2024-08-12 04:30:00,Colombia,Error,Alta,Móvil,Abierto,16.8,3
+LAT-TCK-00497,2024-08-12 08:00:00,Colombia,Error,Crítica,Móvil,Abierto,53.9,1
+LAT-TCK-00498,2024-08-12 11:30:00,Perú,Error,Media,Datos,En progreso,26.1,1
+LAT-TCK-00499,2024-08-12 15:00:00,Perú,Error,Media,Plataforma,Abierto,10.2,5
+LAT-TCK-00500,2024-08-12 18:30:00,Argentina,Error,Baja,Web,Resuelto,6.2,
+LAT-TCK-00501,2024-08-12 22:00:00,México,Error,Media,Móvil,En progreso,143.3,2
+LAT-TCK-00502,2024-08-13 01:30:00,México,Error,Media,Móvil,Abierto,73.2,4
+LAT-TCK-00503,2024-08-13 05:00:00,Chile,Facturación,Alta,Móvil,Resuelto,70.6,4
+LAT-TCK-00504,2024-08-13 08:30:00,Argentina,Consulta,Baja,Plataforma,Abierto,8.2,3
+LAT-TCK-00505,2024-08-13 12:00:00,Argentina,Consulta,Baja,Web,Resuelto,17.0,3
+LAT-TCK-00506,2024-08-13 15:30:00,Colombia,Error,Media,Móvil,En progreso,51.1,3
+LAT-TCK-00507,2024-08-13 19:00:00,Colombia,Interrupción,Baja,Datos,Resuelto,11.8,2
+LAT-TCK-00508,2024-08-13 22:30:00,Perú,Error,Alta,Móvil,Abierto,21.0,3
+LAT-TCK-00509,2024-08-14 02:00:00,México,Error,Media,Web,Abierto,1.5,3
+LAT-TCK-00510,2024-08-14 05:30:00,México,Consulta,Alta,Móvil,En progreso,6.6,
+LAT-TCK-00511,2024-08-14 09:00:00,Colombia,Solicitud de función,Crítica,Web,En progreso,12.4,3
+LAT-TCK-00512,2024-08-14 12:30:00,Colombia,Facturación,Alta,Datos,Resuelto,12.7,3
+LAT-TCK-00513,2024-08-14 16:00:00,Colombia,Error,Baja,Datos,Abierto,4.3,5
+LAT-TCK-00514,2024-08-14 19:30:00,México,Error,Baja,Plataforma,Resuelto,3.2,5
+LAT-TCK-00515,2024-08-14 23:00:00,Colombia,Facturación,Baja,Facturación,Resuelto,19.9,2
+LAT-TCK-00516,2024-08-15 02:30:00,Colombia,Error,Alta,Plataforma,Resuelto,22.5,
+LAT-TCK-00517,2024-08-15 06:00:00,Colombia,Interrupción,Crítica,Móvil,En progreso,16.4,5
+LAT-TCK-00518,2024-08-15 09:30:00,Colombia,Error,Media,Plataforma,Abierto,5.8,4
+LAT-TCK-00519,2024-08-15 13:00:00,México,Consulta,Media,Web,En progreso,12.9,2
+LAT-TCK-00520,2024-08-15 16:30:00,Argentina,Interrupción,Media,Móvil,Resuelto,44.5,4
+LAT-TCK-00521,2024-08-15 20:00:00,Chile,Interrupción,Media,Datos,Cerrado,23.1,2
+LAT-TCK-00522,2024-08-15 23:30:00,México,Error,Baja,Facturación,En progreso,14.7,1
+LAT-TCK-00523,2024-08-16 03:00:00,México,Error,Crítica,Móvil,En progreso,65.7,5
+LAT-TCK-00524,2024-08-16 06:30:00,Argentina,Solicitud de función,Baja,Plataforma,En progreso,13.5,5
+LAT-TCK-00525,2024-08-16 10:00:00,México,Facturación,Media,Web,Cerrado,8.8,4
+LAT-TCK-00526,2024-08-16 13:30:00,México,Consulta,Media,Plataforma,Abierto,4.1,3
+LAT-TCK-00527,2024-08-16 17:00:00,Chile,Consulta,Alta,Móvil,Abierto,45.2,4
+LAT-TCK-00528,2024-08-16 20:30:00,México,Consulta,Alta,Móvil,En progreso,9.8,3
+LAT-TCK-00529,2024-08-17 00:00:00,México,Error,Baja,Web,Resuelto,4.5,5
+LAT-TCK-00530,2024-08-17 03:30:00,México,Error,Alta,Móvil,Resuelto,71.4,2
+LAT-TCK-00531,2024-08-17 07:00:00,Chile,Error,Crítica,Móvil,Resuelto,45.5,4
+LAT-TCK-00532,2024-08-17 10:30:00,México,Error,Media,Plataforma,Abierto,12.2,5
+LAT-TCK-00533,2024-08-17 14:00:00,Perú,Error,Alta,Móvil,Abierto,35.8,2
+LAT-TCK-00534,2024-08-17 17:30:00,Chile,Consulta,Media,Móvil,En progreso,37.8,
+LAT-TCK-00535,2024-08-17 21:00:00,México,Solicitud de función,Crítica,Móvil,Abierto,89.7,5
+LAT-TCK-00536,2024-08-18 00:30:00,Colombia,Error,Baja,Datos,En progreso,13.3,1
+LAT-TCK-00537,2024-08-18 04:00:00,Perú,Consulta,Crítica,Móvil,Cerrado,65.6,2
+LAT-TCK-00538,2024-08-18 07:30:00,Colombia,Interrupción,Media,Móvil,Abierto,35.8,3
+LAT-TCK-00539,2024-08-18 11:00:00,Colombia,Consulta,Media,Datos,Resuelto,3.7,5
+LAT-TCK-00540,2024-08-18 14:30:00,Argentina,Error,Alta,Datos,Resuelto,12.5,5
+LAT-TCK-00541,2024-08-18 18:00:00,Argentina,Error,Alta,Móvil,Abierto,147.0,3
+LAT-TCK-00542,2024-08-18 21:30:00,Argentina,Consulta,Crítica,Móvil,Resuelto,4.0,4
+LAT-TCK-00543,2024-08-19 01:00:00,México,Error,Media,Móvil,Resuelto,80.4,2
+LAT-TCK-00544,2024-08-19 04:30:00,México,Facturación,Media,Móvil,En progreso,13.3,
+LAT-TCK-00545,2024-08-19 08:00:00,Colombia,Consulta,Media,Datos,En progreso,14.5,2
+LAT-TCK-00546,2024-08-19 11:30:00,Colombia,Error,Alta,Móvil,Cerrado,37.5,2
+LAT-TCK-00547,2024-08-19 15:00:00,Colombia,Consulta,Media,Móvil,Abierto,71.6,
+LAT-TCK-00548,2024-08-19 18:30:00,Colombia,Error,Alta,Móvil,Cerrado,29.6,2
+LAT-TCK-00549,2024-08-19 22:00:00,Perú,Error,Media,Móvil,Resuelto,16.5,3
+LAT-TCK-00550,2024-08-20 01:30:00,México,Facturación,Alta,Web,Abierto,10.2,4
+LAT-TCK-00551,2024-08-20 05:00:00,Argentina,Consulta,Baja,Web,Cerrado,6.4,
+LAT-TCK-00552,2024-08-20 08:30:00,México,Error,Media,Plataforma,En progreso,28.3,
+LAT-TCK-00553,2024-08-20 12:00:00,Chile,Error,Crítica,Móvil,Abierto,27.9,2
+LAT-TCK-00554,2024-08-20 15:30:00,Argentina,Consulta,Media,Plataforma,En progreso,9.0,1
+LAT-TCK-00555,2024-08-20 19:00:00,México,Solicitud de función,Crítica,Móvil,Cerrado,38.2,4
+LAT-TCK-00556,2024-08-20 22:30:00,México,Consulta,Alta,Plataforma,Resuelto,16.3,3
+LAT-TCK-00557,2024-08-21 02:00:00,Argentina,Solicitud de función,Media,Móvil,Abierto,29.9,4
+LAT-TCK-00558,2024-08-21 05:30:00,Chile,Solicitud de función,Baja,Datos,Abierto,4.7,1
+LAT-TCK-00559,2024-08-21 09:00:00,Argentina,Error,Media,Plataforma,Resuelto,16.0,
+LAT-TCK-00560,2024-08-21 12:30:00,Argentina,Consulta,Baja,Web,En progreso,7.0,4
+LAT-TCK-00561,2024-08-21 16:00:00,México,Interrupción,Alta,Móvil,Abierto,69.2,5
+LAT-TCK-00562,2024-08-21 19:30:00,Colombia,Consulta,Baja,Móvil,Abierto,51.8,4
+LAT-TCK-00563,2024-08-21 23:00:00,Argentina,Error,Media,Facturación,Abierto,1.0,4
+LAT-TCK-00564,2024-08-22 02:30:00,Colombia,Facturación,Media,Móvil,En progreso,68.8,3
+LAT-TCK-00565,2024-08-22 06:00:00,México,Facturación,Crítica,Móvil,Abierto,44.0,4
+LAT-TCK-00566,2024-08-22 09:30:00,México,Interrupción,Media,Web,En progreso,9.1,2
+LAT-TCK-00567,2024-08-22 13:00:00,Chile,Error,Alta,Plataforma,Resuelto,9.9,1
+LAT-TCK-00568,2024-08-22 16:30:00,Argentina,Error,Media,Móvil,Abierto,49.2,5
+LAT-TCK-00569,2024-08-22 20:00:00,México,Solicitud de función,Baja,Facturación,Resuelto,7.8,2
+LAT-TCK-00570,2024-08-22 23:30:00,Chile,Solicitud de función,Media,Móvil,En progreso,63.3,2
+LAT-TCK-00571,2024-08-23 03:00:00,México,Error,Alta,Plataforma,En progreso,18.1,5
+LAT-TCK-00572,2024-08-23 06:30:00,Argentina,Error,Baja,Móvil,Abierto,62.8,5
+LAT-TCK-00573,2024-08-23 10:00:00,México,Consulta,Crítica,Móvil,En progreso,65.3,1
+LAT-TCK-00574,2024-08-23 13:30:00,Colombia,Error,Media,Datos,Resuelto,9.0,4
+LAT-TCK-00575,2024-08-23 17:00:00,México,Error,Media,Facturación,En progreso,12.1,3
+LAT-TCK-00576,2024-08-23 20:30:00,México,Facturación,Baja,Web,Resuelto,20.5,5
+LAT-TCK-00577,2024-08-24 00:00:00,Colombia,Consulta,Media,Móvil,Cerrado,41.4,5
+LAT-TCK-00578,2024-08-24 03:30:00,México,Solicitud de función,Baja,Facturación,Abierto,12.1,4
+LAT-TCK-00579,2024-08-24 07:00:00,Argentina,Error,Crítica,Web,Abierto,7.1,1
+LAT-TCK-00580,2024-08-24 10:30:00,Perú,Error,Media,Plataforma,Cerrado,76.8,5
+LAT-TCK-00581,2024-08-24 14:00:00,México,Facturación,Media,Móvil,En progreso,22.5,
+LAT-TCK-00582,2024-08-24 17:30:00,México,Solicitud de función,Media,Datos,Abierto,52.5,5
+LAT-TCK-00583,2024-08-24 21:00:00,Colombia,Interrupción,Baja,Web,Resuelto,6.5,2
+LAT-TCK-00584,2024-08-25 00:30:00,Perú,Solicitud de función,Media,Plataforma,En progreso,20.8,5
+LAT-TCK-00585,2024-08-25 04:00:00,Chile,Consulta,Media,Web,Cerrado,5.9,4
+LAT-TCK-00586,2024-08-25 07:30:00,Chile,Error,Alta,Móvil,Cerrado,16.4,2
+LAT-TCK-00587,2024-08-25 11:00:00,Perú,Error,Baja,Móvil,En progreso,94.2,1
+LAT-TCK-00588,2024-08-25 14:30:00,México,Consulta,Media,Plataforma,En progreso,7.2,4
+LAT-TCK-00589,2024-08-25 18:00:00,Chile,Error,Alta,Móvil,Abierto,40.2,3
+LAT-TCK-00590,2024-08-25 21:30:00,México,Interrupción,Media,Móvil,Cerrado,67.5,2
+LAT-TCK-00591,2024-08-26 01:00:00,Colombia,Consulta,Alta,Móvil,Cerrado,34.9,1
+LAT-TCK-00592,2024-08-26 04:30:00,Argentina,Consulta,Crítica,Plataforma,En progreso,26.6,3
+LAT-TCK-00593,2024-08-26 08:00:00,Perú,Error,Crítica,Móvil,Abierto,43.0,5
+LAT-TCK-00594,2024-08-26 11:30:00,México,Consulta,Baja,Plataforma,Abierto,15.0,3
+LAT-TCK-00595,2024-08-26 15:00:00,México,Solicitud de función,Baja,Móvil,En progreso,38.0,3
+LAT-TCK-00596,2024-08-26 18:30:00,México,Solicitud de función,Media,Móvil,Cerrado,21.9,3
+LAT-TCK-00597,2024-08-26 22:00:00,Chile,Error,Media,Plataforma,Abierto,12.5,2
+LAT-TCK-00598,2024-08-27 01:30:00,México,Error,Media,Móvil,En progreso,47.6,5
+LAT-TCK-00599,2024-08-27 05:00:00,México,Solicitud de función,Media,Datos,Abierto,6.9,1
+LAT-TCK-00600,2024-08-27 08:30:00,Colombia,Facturación,Media,Móvil,Resuelto,14.7,1
+LAT-TCK-00601,2024-08-27 12:00:00,Argentina,Consulta,Alta,Facturación,Cerrado,24.7,3
+LAT-TCK-00602,2024-08-27 15:30:00,Perú,Error,Alta,Plataforma,En progreso,10.3,1
+LAT-TCK-00603,2024-08-27 19:00:00,Chile,Error,Alta,Móvil,Cerrado,64.6,4
+LAT-TCK-00604,2024-08-27 22:30:00,México,Solicitud de función,Media,Plataforma,En progreso,12.1,4
+LAT-TCK-00605,2024-08-28 02:00:00,México,Interrupción,Media,Plataforma,En progreso,14.5,5
+LAT-TCK-00606,2024-08-28 05:30:00,Colombia,Solicitud de función,Media,Móvil,Cerrado,41.7,4
+LAT-TCK-00607,2024-08-28 09:00:00,México,Solicitud de función,Alta,Plataforma,Cerrado,3.1,4
+LAT-TCK-00608,2024-08-28 12:30:00,México,Error,Media,Plataforma,Resuelto,13.0,4
+LAT-TCK-00609,2024-08-28 16:00:00,Colombia,Error,Media,Móvil,Resuelto,17.0,3
+LAT-TCK-00610,2024-08-28 19:30:00,Perú,Consulta,Media,Web,Resuelto,3.7,4
+LAT-TCK-00611,2024-08-28 23:00:00,México,Solicitud de función,Media,Plataforma,En progreso,2.5,5
+LAT-TCK-00612,2024-08-29 02:30:00,México,Consulta,Crítica,Móvil,Resuelto,46.9,3
+LAT-TCK-00613,2024-08-29 06:00:00,Argentina,Error,Alta,Web,Abierto,16.5,3
+LAT-TCK-00614,2024-08-29 09:30:00,México,Consulta,Baja,Web,Abierto,14.7,4
+LAT-TCK-00615,2024-08-29 13:00:00,Argentina,Error,Baja,Datos,Cerrado,1.0,4
+LAT-TCK-00616,2024-08-29 16:30:00,Colombia,Error,Crítica,Móvil,Cerrado,40.1,5
+LAT-TCK-00617,2024-08-29 20:00:00,Colombia,Consulta,Media,Móvil,Resuelto,91.6,5
+LAT-TCK-00618,2024-08-29 23:30:00,Colombia,Error,Crítica,Móvil,Abierto,40.2,2
+LAT-TCK-00619,2024-08-30 03:00:00,Chile,Consulta,Media,Móvil,Resuelto,63.2,3
+LAT-TCK-00620,2024-08-30 06:30:00,Chile,Error,Baja,Web,Cerrado,29.5,2
+LAT-TCK-00621,2024-08-30 10:00:00,Argentina,Solicitud de función,Baja,Plataforma,Resuelto,8.9,4
+LAT-TCK-00622,2024-08-30 13:30:00,Argentina,Error,Baja,Web,Resuelto,12.2,4
+LAT-TCK-00623,2024-08-30 17:00:00,Colombia,Facturación,Media,Móvil,Abierto,50.6,3
+LAT-TCK-00624,2024-08-30 20:30:00,Argentina,Error,Alta,Móvil,En progreso,27.4,3
+LAT-TCK-00625,2024-08-31 00:00:00,México,Consulta,Alta,Móvil,Resuelto,45.9,
+LAT-TCK-00626,2024-08-31 03:30:00,Argentina,Consulta,Media,Facturación,Abierto,16.3,4
+LAT-TCK-00627,2024-08-31 07:00:00,Chile,Error,Baja,Web,Cerrado,28.3,2
+LAT-TCK-00628,2024-08-31 10:30:00,Colombia,Error,Alta,Plataforma,Resuelto,20.3,2
+LAT-TCK-00629,2024-08-31 14:00:00,México,Error,Crítica,Web,Resuelto,1.2,3
+LAT-TCK-00630,2024-08-31 17:30:00,México,Error,Baja,Móvil,Resuelto,52.5,
+LAT-TCK-00631,2024-08-31 21:00:00,Chile,Solicitud de función,Alta,Plataforma,Abierto,18.1,4
+LAT-TCK-00632,2024-09-01 00:30:00,Argentina,Facturación,Crítica,Facturación,Cerrado,10.2,2
+LAT-TCK-00633,2024-09-01 04:00:00,Colombia,Solicitud de función,Alta,Móvil,Resuelto,36.0,3
+LAT-TCK-00634,2024-09-01 07:30:00,Argentina,Consulta,Media,Móvil,Abierto,44.5,2
+LAT-TCK-00635,2024-09-01 11:00:00,Argentina,Error,Crítica,Móvil,Resuelto,31.4,2
+LAT-TCK-00636,2024-09-01 14:30:00,Argentina,Solicitud de función,Baja,Facturación,Resuelto,10.9,4
+LAT-TCK-00637,2024-09-01 18:00:00,Colombia,Solicitud de función,Media,Datos,En progreso,26.1,3
+LAT-TCK-00638,2024-09-01 21:30:00,Chile,Facturación,Crítica,Móvil,Resuelto,37.4,2
+LAT-TCK-00639,2024-09-02 01:00:00,México,Facturación,Baja,Datos,Resuelto,12.7,1
+LAT-TCK-00640,2024-09-02 04:30:00,Chile,Consulta,Baja,Plataforma,Cerrado,8.9,4
+LAT-TCK-00641,2024-09-02 08:00:00,Argentina,Consulta,Alta,Plataforma,Resuelto,5.6,4
+LAT-TCK-00642,2024-09-02 11:30:00,México,Interrupción,Alta,Móvil,Resuelto,15.4,2
+LAT-TCK-00643,2024-09-02 15:00:00,Argentina,Facturación,Crítica,Móvil,Resuelto,64.3,2
+LAT-TCK-00644,2024-09-02 18:30:00,Chile,Error,Crítica,Móvil,En progreso,14.2,5
+LAT-TCK-00645,2024-09-02 22:00:00,Argentina,Error,Baja,Plataforma,Abierto,21.6,3
+LAT-TCK-00646,2024-09-03 01:30:00,México,Error,Baja,Plataforma,En progreso,8.5,4
+LAT-TCK-00647,2024-09-03 05:00:00,Argentina,Facturación,Crítica,Móvil,Resuelto,46.5,4
+LAT-TCK-00648,2024-09-03 08:30:00,Chile,Solicitud de función,Baja,Web,En progreso,13.9,4
+LAT-TCK-00649,2024-09-03 12:00:00,Argentina,Error,Crítica,Móvil,Resuelto,35.2,2
+LAT-TCK-00650,2024-09-03 15:30:00,Colombia,Consulta,Alta,Móvil,Abierto,59.0,5
+LAT-TCK-00651,2024-09-03 19:00:00,Argentina,Consulta,Crítica,Plataforma,Resuelto,3.7,5
+LAT-TCK-00652,2024-09-03 22:30:00,Chile,Interrupción,Media,Móvil,Resuelto,56.6,2
+LAT-TCK-00653,2024-09-04 02:00:00,México,Error,Alta,Móvil,Abierto,12.9,
+LAT-TCK-00654,2024-09-04 05:30:00,Colombia,Facturación,Media,Plataforma,En progreso,10.8,3
+LAT-TCK-00655,2024-09-04 09:00:00,México,Consulta,Baja,Facturación,En progreso,3.1,
+LAT-TCK-00656,2024-09-04 12:30:00,México,Error,Crítica,Móvil,Resuelto,39.9,4
+LAT-TCK-00657,2024-09-04 16:00:00,Colombia,Error,Alta,Móvil,En progreso,25.2,
+LAT-TCK-00658,2024-09-04 19:30:00,Colombia,Error,Crítica,Móvil,Abierto,71.1,1
+LAT-TCK-00659,2024-09-04 23:00:00,México,Consulta,Baja,Plataforma,Resuelto,9.6,4
+LAT-TCK-00660,2024-09-05 02:30:00,Perú,Error,Alta,Web,Resuelto,2.5,5
+LAT-TCK-00661,2024-09-05 06:00:00,México,Error,Crítica,Plataforma,Cerrado,9.1,
+LAT-TCK-00662,2024-09-05 09:30:00,Perú,Error,Baja,Móvil,Resuelto,32.2,4
+LAT-TCK-00663,2024-09-05 13:00:00,Argentina,Consulta,Baja,Móvil,Abierto,34.3,2
+LAT-TCK-00664,2024-09-05 16:30:00,Colombia,Error,Media,Móvil,Abierto,73.8,3
+LAT-TCK-00665,2024-09-05 20:00:00,Argentina,Consulta,Crítica,Móvil,Cerrado,47.2,3
+LAT-TCK-00666,2024-09-05 23:30:00,Colombia,Error,Baja,Plataforma,Resuelto,34.2,4
+LAT-TCK-00667,2024-09-06 03:00:00,Chile,Error,Media,Móvil,En progreso,47.8,
+LAT-TCK-00668,2024-09-06 06:30:00,Argentina,Consulta,Baja,Web,Cerrado,12.7,
+LAT-TCK-00669,2024-09-06 10:00:00,Argentina,Error,Crítica,Móvil,En progreso,60.0,1
+LAT-TCK-00670,2024-09-06 13:30:00,México,Error,Alta,Web,Abierto,6.1,2
+LAT-TCK-00671,2024-09-06 17:00:00,Argentina,Solicitud de función,Baja,Facturación,Abierto,22.3,3
+LAT-TCK-00672,2024-09-06 20:30:00,Colombia,Consulta,Media,Plataforma,En progreso,9.4,3
+LAT-TCK-00673,2024-09-07 00:00:00,México,Error,Media,Facturación,Resuelto,8.0,4
+LAT-TCK-00674,2024-09-07 03:30:00,Colombia,Error,Crítica,Móvil,Abierto,43.3,3
+LAT-TCK-00675,2024-09-07 07:00:00,Perú,Interrupción,Crítica,Datos,Abierto,8.6,2
+LAT-TCK-00676,2024-09-07 10:30:00,Chile,Solicitud de función,Alta,Móvil,Cerrado,84.7,3
+LAT-TCK-00677,2024-09-07 14:00:00,Colombia,Interrupción,Crítica,Móvil,Resuelto,29.0,2
+LAT-TCK-00678,2024-09-07 17:30:00,México,Error,Alta,Datos,Resuelto,17.8,5
+LAT-TCK-00679,2024-09-07 21:00:00,Chile,Solicitud de función,Media,Web,Cerrado,10.0,1
+LAT-TCK-00680,2024-09-08 00:30:00,Perú,Error,Alta,Plataforma,En progreso,11.7,1
+LAT-TCK-00681,2024-09-08 04:00:00,México,Error,Alta,Móvil,En progreso,23.4,2
+LAT-TCK-00682,2024-09-08 07:30:00,Colombia,Consulta,Baja,Móvil,Abierto,103.4,4
+LAT-TCK-00683,2024-09-08 11:00:00,Colombia,Solicitud de función,Crítica,Datos,En progreso,16.2,2
+LAT-TCK-00684,2024-09-08 14:30:00,México,Interrupción,Alta,Móvil,Resuelto,76.2,3
+LAT-TCK-00685,2024-09-08 18:00:00,México,Facturación,Alta,Plataforma,Resuelto,3.0,4
+LAT-TCK-00686,2024-09-08 21:30:00,Colombia,Solicitud de función,Crítica,Móvil,Abierto,68.9,5
+LAT-TCK-00687,2024-09-09 01:00:00,Chile,Error,Media,Datos,En progreso,9.5,3
+LAT-TCK-00688,2024-09-09 04:30:00,Perú,Error,Crítica,Datos,Cerrado,8.6,2
+LAT-TCK-00689,2024-09-09 08:00:00,Colombia,Interrupción,Media,Móvil,Resuelto,59.8,3
+LAT-TCK-00690,2024-09-09 11:30:00,México,Error,Alta,Móvil,En progreso,42.0,4
+LAT-TCK-00691,2024-09-09 15:00:00,Chile,Interrupción,Alta,Móvil,Resuelto,40.4,
+LAT-TCK-00692,2024-09-09 18:30:00,Perú,Consulta,Alta,Web,Abierto,4.3,3
+LAT-TCK-00693,2024-09-09 22:00:00,Perú,Solicitud de función,Crítica,Móvil,Abierto,15.1,5
+LAT-TCK-00694,2024-09-10 01:30:00,Colombia,Consulta,Media,Móvil,Abierto,32.4,4
+LAT-TCK-00695,2024-09-10 05:00:00,México,Error,Baja,Plataforma,Cerrado,16.9,2
+LAT-TCK-00696,2024-09-10 08:30:00,México,Error,Alta,Facturación,Abierto,29.8,4
+LAT-TCK-00697,2024-09-10 12:00:00,Colombia,Solicitud de función,Media,Facturación,En progreso,24.1,1
+LAT-TCK-00698,2024-09-10 15:30:00,Chile,Error,Baja,Móvil,Abierto,47.5,4
+LAT-TCK-00699,2024-09-10 19:00:00,Argentina,Consulta,Crítica,Plataforma,Resuelto,4.7,1
+LAT-TCK-00700,2024-09-10 22:30:00,Chile,Facturación,Alta,Móvil,En progreso,19.0,4

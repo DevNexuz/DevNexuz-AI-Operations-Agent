@@ -1,4 +1,4 @@
-ticket_id,created_at,category,priority,assigned_team,status,resolution_hours,customer_satisfaction
+﻿ticket_id,created_at,category,priority,assigned_team,status,resolution_hours,customer_satisfaction
 TCK-00001,2024-06-01 00:00:00,Bug,Low,Platform,Open,13.4,2
 TCK-00002,2024-06-01 03:00:00,Bug,High,Data,Resolved,5.5,3
 TCK-00003,2024-06-01 06:00:00,Feature Request,Medium,Platform,Open,6.6,4

@@ -7,9 +7,6 @@ from agent.llm_factory import (
     get_llm,
     get_planner_llm,
     get_reasoning_llm,
-    get_analysis_llm,
-    validate_provider_config,
-    get_available_providers,
 )
 from agent.memory import AgentMemory, LogEntry, StepResult
 from agent.planner import Plan, Planner, PlanStep
@@ -39,9 +36,6 @@ __all__ = [
     "get_llm",
     "get_planner_llm",
     "get_reasoning_llm",
-    "get_analysis_llm",
-    "validate_provider_config",
-    "get_available_providers",
     # Logger functions
     "banner",
     "show_plan",

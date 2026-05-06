@@ -77,7 +77,7 @@ def profile_dataset(dataset_id: str) -> dict:
         return {"error": str(exc)}
 
     numeric_cols = df.select_dtypes(include="number").columns.tolist()
-    categorical_cols = df.select_dtypes(include=["object", "category"]).columns.tolist()
+    categorical_cols = df.select_dtypes(include=["object", "str", "category"]).columns.tolist()
     datetime_cols = df.select_dtypes(include="datetime").columns.tolist()
 
     profile = {
