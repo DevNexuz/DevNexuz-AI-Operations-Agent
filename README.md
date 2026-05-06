@@ -306,8 +306,10 @@ This project is **100% BYOK** — you bring your own API key, we don't host anyt
 | 🦙 **Ollama** | **Free (local)** ✨ | 🐢 Depends on your machine | [Install](https://ollama.com/) |
 | 🤖 **OpenAI** | 💰 Pay per token | ⚡⚡ Fast | [Get key](https://platform.openai.com/) |
 | 🧠 **Anthropic** | 💰 Pay per token | ⚡⚡ Fast | [Get key](https://console.anthropic.com/) |
+| 🤖 **xAI (Grok)** | **Free tier** ✨ | ⚡⚡ Fast | [Get key](https://console.x.ai/) |
+| 💎 **Google Gemini** | **Free tier** ✨ | ⚡⚡ Fast | [Get key](https://aistudio.google.com/apikey) |
 
-> 💡 **No credit card?** Use **Groq** (free tier) or **Ollama** (local, fully free).
+> 💡 **No credit card?** Use **Groq**, **Gemini**, or **xAI** (free tiers) — or **Ollama** (local, fully free).
 
 ---
 
@@ -589,7 +591,7 @@ ai-ops-agent/
 │   ├── planner.py
 │   ├── executor.py
 │   ├── memory.py
-│   └── llm_factory.py     ⭐ Abstrae OpenAI/Anthropic/Groq/Ollama
+│   └── llm_factory.py     ⭐ Abstrae OpenAI/Anthropic/Groq/Ollama/xAI/Gemini
 ├── tools/
 │   ├── csv_tools.py
 │   ├── analysis_tools.py
@@ -617,7 +619,7 @@ ai-ops-agent/
 - **📊 Rich Output**: Beautiful reports with charts and visualizations
 - **🔄 Error Handling**: Automatic retry and fallback mechanisms
 - **📝 Transparent Logs**: See the agent "thinking" in real-time
-- **🌐 Multi-Provider**: Support for OpenAI, Anthropic, Groq, and Ollama
+- **🌐 Multi-Provider**: Support for OpenAI, Anthropic, Groq, Ollama, xAI (Grok), and Google Gemini
 
 ## 📊 Without Agent vs With Agent
 

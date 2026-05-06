@@ -10,6 +10,8 @@ Supported providers:
     - ollama    (local, fully free, no key needed)
     - openai    (paid)
     - anthropic (paid)
+    - xai       (Grok models by xAI — free tier available)
+    - gemini    (Google Gemini — generous free tier via AI Studio)
     - demo      (mock responses for testing)
 
 Usage:
@@ -32,6 +34,8 @@ DEFAULT_MODELS = {
     "ollama": "llama3.1",
     "openai": "gpt-4o-mini",
     "anthropic": "claude-3-5-haiku-20241022",
+    "xai": "grok-3-mini",
+    "gemini": "gemini-2.0-flash",
     "demo": "demo-model",
 }
 
@@ -50,7 +54,7 @@ def get_llm(
     Build a LangChain chat model from environment variables or explicit args.
 
     Args:
-        provider: One of "groq", "ollama", "openai", "anthropic", "demo".
+        provider: One of "groq", "ollama", "openai", "anthropic", "xai", "gemini", "demo".
                   If None, uses the LLM_PROVIDER env variable.
         model:    Specific model name. If None, uses LLM_MODEL or the default
                   for the chosen provider.
@@ -83,6 +87,10 @@ def get_llm(
         return _build_openai(model, temperature)
     if provider == "anthropic":
         return _build_anthropic(model, temperature)
+    if provider == "xai":
+        return _build_xai(model, temperature)
+    if provider == "gemini":
+        return _build_gemini(model, temperature)
 
     raise LLMConfigError(
         f"Unknown provider '{provider}'. "
@@ -182,6 +190,28 @@ def _build_anthropic(model: str, temperature: float) -> BaseChatModel:
     return ChatAnthropic(model=model, temperature=temperature, api_key=api_key)
 
 
+def _build_xai(model: str, temperature: float) -> BaseChatModel:
+    api_key = os.getenv("XAI_API_KEY")
+    if not api_key or api_key.startswith("xai-your_key"):
+        raise LLMConfigError(
+            "XAI_API_KEY is not set. Get a free key at https://console.x.ai/ "
+            "and add it to your .env file."
+        )
+    from langchain_xai import ChatXAI
+    return ChatXAI(model=model, temperature=temperature, xai_api_key=api_key)
+
+
+def _build_gemini(model: str, temperature: float) -> BaseChatModel:
+    api_key = os.getenv("GOOGLE_API_KEY")
+    if not api_key or api_key.startswith("AIza-your_key"):
+        raise LLMConfigError(
+            "GOOGLE_API_KEY is not set. Get a free key at https://aistudio.google.com/apikey "
+            "and add it to your .env file."
+        )
+    from langchain_google_genai import ChatGoogleGenerativeAI
+    return ChatGoogleGenerativeAI(model=model, temperature=temperature, google_api_key=api_key)
+
+
 def _build_demo() -> BaseChatModel:
     """Build demo model for testing without API keys."""
     return DemoChatModel()
@@ -259,6 +289,10 @@ def validate_provider_config(provider: str) -> bool:
         return bool(os.getenv("GROQ_API_KEY"))
     elif provider == "ollama":
         return True  # Ollama doesn't need API key
+    elif provider == "xai":
+        return bool(os.getenv("XAI_API_KEY"))
+    elif provider == "gemini":
+        return bool(os.getenv("GOOGLE_API_KEY"))
     else:
         return False
 
@@ -275,5 +309,7 @@ def get_available_providers() -> dict:
         "ollama": "Ollama local models (no API key required, fully free)",
         "openai": "OpenAI GPT models (requires OPENAI_API_KEY, paid)",
         "anthropic": "Anthropic Claude models (requires ANTHROPIC_API_KEY, paid)",
+        "xai": "xAI Grok models (requires XAI_API_KEY, free tier available)",
+        "gemini": "Google Gemini models (requires GOOGLE_API_KEY, generous free tier)",
         "demo": "Demo mode with mock responses (no API key required)"
     }

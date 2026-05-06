@@ -8,6 +8,8 @@ langchain-openai>=0.2.5
 langchain-anthropic>=0.2.4
 langchain-groq>=0.2.1
 langchain-ollama>=0.2.0
+langchain-xai>=0.2.0
+langchain-google-genai>=2.0.0
 
 # Data analysis
 pandas>=2.2.0
