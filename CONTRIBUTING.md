@@ -5,8 +5,8 @@ Thanks for your interest! This project is intentionally small and approachable, 
 ## 🚀 Quick start for contributors
 
 ```bash
-git clone https://github.com/[your-username]/ai-operations-agent.git
-cd ai-operations-agent
+git clone https://github.com/[your-username]/DevNexuz-AI-Operations-Agent.git
+cd DevNexuz-AI-Operations-Agent
 pip install -r requirements.txt
 cp .env.example .env   # add your key, or run with --demo
 python main.py --demo  # verify everything works

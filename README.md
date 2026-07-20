@@ -12,8 +12,6 @@
 [![BYOK](https://img.shields.io/badge/API-BYOK-orange.svg)](#-bring-your-own-key)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-![demo](demo.gif)
-
 </div>
 
 ---
@@ -87,9 +85,9 @@ graph TD
 
 | Platform | Command |
 |---|---|
-| 🐧 Mac/Linux | `curl -sSL https://raw.githubusercontent.com/DevNexuz/ai-operations-agent/main/install.sh \| bash` |
-| 🪟 Windows (PowerShell) | `iwr -useb https://raw.githubusercontent.com/DevNexuz/ai-operations-agent/main/install.ps1 \| iex` |
-| 🪟 Windows (CMD) | `powershell -Command "iwr -useb https://raw.githubusercontent.com/DevNexuz/ai-operations-agent/main/install.ps1 \| iex"` |
+| 🐧 Mac/Linux | `curl -sSL https://raw.githubusercontent.com/DevNexuz/DevNexuz-AI-Operations-Agent/main/install.sh \| bash` |
+| 🪟 Windows (PowerShell) | `iwr -useb https://raw.githubusercontent.com/DevNexuz/DevNexuz-AI-Operations-Agent/main/install.ps1 \| iex` |
+| 🪟 Windows (CMD) | `powershell -Command "iwr -useb https://raw.githubusercontent.com/DevNexuz/DevNexuz-AI-Operations-Agent/main/install.ps1 \| iex"` |
 
 **The script will:**
 1. ✅ Verify your Python version
@@ -101,7 +99,7 @@ graph TD
 **⚠️ Security Note:** Always review scripts before piping from internet. View the source code first:
 ```bash
 # Review before running
-curl -sSL https://raw.githubusercontent.com/DevNexuz/ai-operations-agent/main/install.sh
+curl -sSL https://raw.githubusercontent.com/DevNexuz/DevNexuz-AI-Operations-Agent/main/install.sh
 ```
 
 ---
@@ -273,8 +271,8 @@ install.bat
 **Clone & install manually:**
 
 ```bash
-git clone https://github.com/DevNexuz/ai-operations-agent.git
-cd ai-operations-agent
+git clone https://github.com/DevNexuz/DevNexuz-AI-Operations-Agent.git
+cd DevNexuz-AI-Operations-Agent
 pip install -r requirements.txt
 ```
 
