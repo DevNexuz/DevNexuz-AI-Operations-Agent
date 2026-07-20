@@ -176,7 +176,7 @@ echo -e "\n${BLUE}🧪 Verifying Critical Packages...${NC}"
 
 python -c "
 import sys
-packages = ['langchain', 'pandas', 'numpy', 'matplotlib', 'seaborn', 'rich', 'pydantic']
+packages = ['langchain', 'pandas', 'numpy', 'matplotlib', 'rich', 'pydantic']
 missing = []
 for pkg in packages:
     try:

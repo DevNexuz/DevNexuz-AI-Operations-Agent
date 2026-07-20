@@ -56,10 +56,11 @@ graph TD
     
     subgraph "Tools"
         I[CSV Reader]
-        J[Pandas Analysis]
-        K[Python Exec]
-        L[Report Writer]
-        M[Visualizer]
+        J[Dataset Profiler]
+        K[Aggregation & Top-N]
+        L[Anomaly Detection]
+        M[Chart Generator]
+        N[Report Writer]
     end
     
     D --> I
@@ -67,6 +68,7 @@ graph TD
     D --> K
     D --> L
     D --> M
+    D --> N
 ```
 
 **Core components:**
