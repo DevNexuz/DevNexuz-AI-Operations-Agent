@@ -67,6 +67,28 @@ class AgentMemory:
         self.artifacts[name] = path
         self.add_log("executor", f"Artifact registered: {name} -> {path}")
 
+    def register_artifacts_from_results(self) -> None:
+        """Scan successful step results for produced files and register them.
+
+        Tools report their outputs as dicts with well-known keys
+        (chart_path, report_path). Real runs never called add_artifact —
+        only the scripted demo did — so this backfills the artifacts map
+        right before persisting. Idempotent: re-registering the same
+        name/path pair is a no-op.
+        """
+        charts_seen = 0
+        for result in self.results:
+            if result.status != "success" or not isinstance(result.output, dict):
+                continue
+            if chart_path := result.output.get("chart_path"):
+                charts_seen += 1
+                name = f"chart_{charts_seen}"
+                if self.artifacts.get(name) != str(chart_path):
+                    self.add_artifact(name, str(chart_path))
+            if report_path := result.output.get("report_path"):
+                if self.artifacts.get("final_report") != str(report_path):
+                    self.add_artifact("final_report", str(report_path))
+
     def add_log(self, phase: str, message: str, data: Optional[dict] = None) -> None:
         self.log.append(LogEntry(phase=phase, message=message, data=data))
 

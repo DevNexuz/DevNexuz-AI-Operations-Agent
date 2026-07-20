@@ -187,6 +187,7 @@ def run_agent(goal: str, provider: str | None, model: str | None, language: str 
 
     # 4. Persist memory + summary --------------------------------------------
     OUTPUTS_DIR.mkdir(parents=True, exist_ok=True)
+    memory.register_artifacts_from_results()
     memory.save_to_json(str(MEMORY_DUMP))
     ui.info(f"Decision log saved to {MEMORY_DUMP}")
     ui.final_summary(memory)
