@@ -97,6 +97,32 @@ streamlit run app.py
 
 The CLI (`python main.py --goal "..."`) remains fully supported — the web UI is a renderer on top of the same agent core, wired into the Executor's step callbacks.
 
+Every run's decision log is also inspectable after the fact in the **🔍 Trace inspector** tab: per-step status, tool, output, retries, and artifacts — no changes needed, it just reads the `agent_memory.json` the agent already writes.
+
+---
+
+## 📊 Benchmarks
+
+"It works on my machine" isn't good enough for an autonomous agent — so this project ships its own eval harness (`evals/`) instead of relying on vibes. It runs the **real** Planner → Executor → tools pipeline end-to-end against the bundled sample datasets, and scores each run with **deterministic checks** (no LLM judge): did every step succeed, was the right tool used, does the report name the *actually correct* top group (recomputed from the CSV with pandas at check time — never hardcoded), how many steps and retries did it take, how long, how many tokens.
+
+```bash
+python -m evals.run --provider groq --trials 3
+python -m evals.run --provider ollama --model qwen2.5-coder:7b
+python -m evals.run --list-cases
+```
+
+Results are written to `evals/results/` as Markdown (paste-ready table) + JSON, with a full per-case, per-check breakdown for debugging failures. Real run, local 7B model, no cherry-picking:
+
+| Provider | Model | Success | Avg steps | Avg retries | Avg latency | Tokens |
+|---|---|---|---|---|---|---|
+| ollama | qwen2.5-coder:7b | 25% (1/4) | 5.5 | 1.5 | 27.1s | 42,017 in / 3,010 out |
+
+That's not a bug in the harness — it's the honest gap between a 7B local model and the tasks it's asked to do. It nailed the straightforward aggregation case but tripped on report depth, exact-value recall, and one case where it skipped `generate_chart` entirely. This is exactly the signal an eval harness exists to surface. Run it against Groq, OpenAI, or Anthropic to see how a bigger model closes that gap:
+
+```bash
+python -m evals.run --provider groq --trials 3
+```
+
 ---
 
 ## 🚀 One-Line Install
