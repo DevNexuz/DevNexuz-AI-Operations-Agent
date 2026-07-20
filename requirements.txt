@@ -23,6 +23,9 @@ pydantic>=2.9.0
 # Web UI
 streamlit>=1.40.0
 
+# MCP server (exposes the tools to Claude Desktop / Claude Code / Cursor)
+mcp>=1.2.0
+
 # Development & Testing
 pytest>=7.0.0
 black>=23.0.0
