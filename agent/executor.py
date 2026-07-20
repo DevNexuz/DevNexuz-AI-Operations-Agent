@@ -24,6 +24,10 @@ from agent.planner import Plan, PlanStep
 from prompts.prompts import EXECUTOR_SYSTEM_PROMPT, EXECUTOR_USER_PROMPT
 
 
+class ToolExecutionError(RuntimeError):
+    """A tool ran but reported a failure in its return value."""
+
+
 class Executor:
     """Sequential plan executor with tool binding and basic error recovery."""
 
@@ -176,6 +180,16 @@ class Executor:
 
         tool = self.tools_by_name[tool_name]
         output = tool.invoke(tool_args)
+
+        # Tools signal failure by returning {"error": ...} rather than raising,
+        # so without this the step would be recorded as a success carrying an
+        # error payload, and the retry loop would never run.
+        if isinstance(output, dict) and "error" in output:
+            raise ToolExecutionError(
+                f"Tool '{tool_name}' called with arguments {tool_args} "
+                f"failed: {output['error']}"
+            )
+
         return tool_name, tool_args, output
 
     @staticmethod
