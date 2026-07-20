@@ -13,7 +13,7 @@ from __future__ import annotations
 import time
 from pathlib import Path
 
-from agent import logger as ui
+from agent import logger as terminal_ui
 from agent.memory import AgentMemory, StepResult
 from agent.planner import Plan, PlanStep
 from tools.analysis_tools import (
@@ -90,8 +90,17 @@ def _demo_plan() -> Plan:
     )
 
 
-def run_demo_flow() -> int:
-    """Replay a full agent run using real tools + a hardcoded plan."""
+def run_demo_flow(ui=None) -> int:
+    """Replay a full agent run using real tools + a hardcoded plan.
+
+    Args:
+        ui: Renderer implementing the logger protocol (banner, show_plan,
+            step_start, step_success, info, warn, final_summary). Defaults
+            to the Rich terminal logger; the Streamlit app injects its own.
+    """
+    if ui is None:
+        ui = terminal_ui
+
     ui.info("🎬 Demo mode — no API key required. Using mocked agent responses.\n")
     ui.banner(DEMO_GOAL)
 

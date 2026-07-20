@@ -81,6 +81,24 @@ graph TD
 
 ---
 
+## 🖥️ Web UI
+
+The agent ships with a Streamlit interface — the friendliest way to use it:
+
+```bash
+streamlit run app.py
+```
+
+- **🎬 Demo mode by default** — watch a full run (plan → tools → report) with zero configuration and no API key.
+- **📤 Drag & drop your CSV** — or pick one of the bundled sample datasets.
+- **💡 Example goals as buttons** — one click fills in a ready-to-run objective.
+- **🔑 BYOK in the sidebar** — pick a provider, paste a key (never stored), or point it at your local Ollama.
+- **📈 Live progress** — the plan and every step render in real time, then the report and charts appear inline with download buttons.
+
+The CLI (`python main.py --goal "..."`) remains fully supported — the web UI is a renderer on top of the same agent core, wired into the Executor's step callbacks.
+
+---
+
 ## 🚀 One-Line Install
 
 **⚡ Install instantly without downloading files:**
@@ -555,7 +573,7 @@ These are conscious design tradeoffs, not oversights. Understanding them helps y
 
 - [ ] Sandboxed `python_exec` tool (Docker-isolated)
 - [ ] `summarize_data` tool with business / quality / statistical modes
-- [ ] Web UI with Streamlit
+- [x] Web UI with Streamlit (`streamlit run app.py`)
 - [ ] Support for Excel/Parquet files
 - [ ] PDF report export
 - [ ] Multi-agent mode (CrewAI)
