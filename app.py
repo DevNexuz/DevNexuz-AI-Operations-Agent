@@ -243,6 +243,7 @@ def run_real_agent(
         return None
 
     OUTPUTS_DIR.mkdir(parents=True, exist_ok=True)
+    memory.register_artifacts_from_results()
     memory.save_to_json(str(OUTPUTS_DIR / "agent_memory.json"))
     renderer.final_summary(memory)
     return memory
@@ -317,123 +318,206 @@ with st.sidebar:
 
 
 # -----------------------------------------------------------------------------
+# Trace inspector tab
+# -----------------------------------------------------------------------------
+def render_trace_tab() -> None:
+    """Render the decision log of a run as an inspectable trace."""
+    import json
+
+    from agent.trace import parse_trace
+
+    st.subheader("🔍 Trace inspector")
+    st.caption(
+        "Every run persists its full decision log. Inspect the last run below, "
+        "or upload any agent_memory.json to analyze it."
+    )
+
+    uploaded_dump = st.file_uploader(
+        "Upload a decision log (agent_memory.json)", type=["json"], key="trace_upload"
+    )
+    default_dump = OUTPUTS_DIR / "agent_memory.json"
+
+    if uploaded_dump is not None:
+        raw, source_label = uploaded_dump.getvalue(), uploaded_dump.name
+    elif default_dump.exists():
+        raw, source_label = default_dump.read_bytes(), str(default_dump)
+    else:
+        st.info("No run recorded yet — run the agent (or the demo) first.")
+        return
+
+    try:
+        trace = parse_trace(json.loads(raw))
+    except (ValueError, json.JSONDecodeError) as exc:
+        st.error(f"Could not parse {source_label}: {exc}")
+        return
+
+    st.markdown(f"**Goal:** {trace.goal or '(unknown)'}")
+    if trace.plan_reasoning:
+        st.caption(f"🧠 {trace.plan_reasoning}")
+
+    m1, m2, m3, m4, m5 = st.columns(5)
+    m1.metric("Steps", trace.total_steps)
+    m2.metric("Succeeded", trace.succeeded)
+    m3.metric("Failed", trace.failed)
+    m4.metric("Retries", trace.total_retries)
+    m5.metric(
+        "Duration",
+        f"{trace.duration_seconds:.1f}s" if trace.duration_seconds is not None else "—",
+    )
+
+    for step in trace.steps:
+        icon = {"success": "✅", "error": "❌"}.get(step.status, "❔")
+        retry_note = f" · {step.attempts} attempts" if step.attempts > 1 else ""
+        title = f"{icon} Step {step.step_id} — {step.description or step.tool_used or '?'}{retry_note}"
+        with st.expander(title):
+            st.markdown(
+                f"**Tool:** `{step.tool_used or step.suggested_tool or '?'}` · "
+                f"**Status:** {step.status}"
+                + (f" · **Finished:** {step.timestamp}" if step.timestamp else "")
+            )
+            for i, err in enumerate(step.retry_errors, start=1):
+                st.warning(f"Attempt {i} failed and was retried: {err}")
+            if step.error:
+                st.error(step.error)
+            if step.output is not None:
+                if isinstance(step.output, (dict, list)):
+                    st.json(step.output, expanded=False)
+                else:
+                    st.code(str(step.output))
+
+    if trace.artifacts:
+        st.markdown("**Artifacts**")
+        for name, path in trace.artifacts.items():
+            exists = Path(path).exists()
+            st.markdown(f"- `{name}` → `{path}`" + ("" if exists else " *(missing)*"))
+            if exists and path.lower().endswith(".png"):
+                st.image(path, width=420)
+
+
+# -----------------------------------------------------------------------------
 # Main area
 # -----------------------------------------------------------------------------
 st.header("Autonomous data analysis, from goal to report")
 
-if demo_mode_on:
-    st.markdown(
-        "Press the button and watch the agent load, profile, analyze and "
-        "chart the sample sales data, then write its report."
-    )
-    if st.button("🎬 Run demo", type="primary"):
-        ensure_sample_data()
-        progress_area = st.container()
-        renderer = StreamlitRenderer(progress_area)
-        from demo_mode import run_demo_flow
+tab_run, tab_trace = st.tabs(["🚀 Run", "🔍 Trace inspector"])
 
-        run_demo_flow(ui=renderer)
-        st.session_state["last_artifacts"] = {
-            "charts": ["outputs/charts/revenue_by_region.png"],
-            "report_path": "outputs/report.md",
-        }
-else:
-    # 1. Data source ----------------------------------------------------------
-    st.subheader("1 · Choose your data")
-    source = st.radio(
-        "Data source", ["Sample dataset", "Upload a CSV"], horizontal=True,
-        label_visibility="collapsed",
-    )
-    if source == "Sample dataset":
-        ensure_sample_data()
-        choice = st.selectbox("Sample dataset", list(SAMPLE_DATASETS.keys()))
-        csv_path = SAMPLE_DATASETS[choice]
+with tab_trace:
+    render_trace_tab()
+
+with tab_run:
+    if demo_mode_on:
+        st.markdown(
+            "Press the button and watch the agent load, profile, analyze and "
+            "chart the sample sales data, then write its report."
+        )
+        if st.button("🎬 Run demo", type="primary"):
+            ensure_sample_data()
+            progress_area = st.container()
+            renderer = StreamlitRenderer(progress_area)
+            from demo_mode import run_demo_flow
+
+            run_demo_flow(ui=renderer)
+            st.session_state["last_artifacts"] = {
+                "charts": ["outputs/charts/revenue_by_region.png"],
+                "report_path": "outputs/report.md",
+            }
     else:
-        uploaded = st.file_uploader("Upload a CSV file", type=["csv"])
-        csv_path = str(save_upload(uploaded)).replace("\\", "/") if uploaded else None
-        if csv_path:
-            st.caption(f"Saved as `{csv_path}`")
+        # 1. Data source ----------------------------------------------------------
+        st.subheader("1 · Choose your data")
+        source = st.radio(
+            "Data source", ["Sample dataset", "Upload a CSV"], horizontal=True,
+            label_visibility="collapsed",
+        )
+        if source == "Sample dataset":
+            ensure_sample_data()
+            choice = st.selectbox("Sample dataset", list(SAMPLE_DATASETS.keys()))
+            csv_path = SAMPLE_DATASETS[choice]
+        else:
+            uploaded = st.file_uploader("Upload a CSV file", type=["csv"])
+            csv_path = str(save_upload(uploaded)).replace("\\", "/") if uploaded else None
+            if csv_path:
+                st.caption(f"Saved as `{csv_path}`")
 
-    # 2. Goal -----------------------------------------------------------------
-    st.subheader("2 · What should the agent do?")
+        # 2. Goal -----------------------------------------------------------------
+        st.subheader("2 · What should the agent do?")
 
-    def _fill_goal(template: str) -> None:
-        st.session_state["goal_text"] = template.format(file=csv_path or "your CSV")
+        def _fill_goal(template: str) -> None:
+            st.session_state["goal_text"] = template.format(file=csv_path or "your CSV")
 
-    cols = st.columns(2)
-    for i, template in enumerate(EXAMPLE_GOALS):
-        label = template.format(file=Path(csv_path).name if csv_path else "…")
-        cols[i % 2].button(
-            label, key=f"example_{i}", on_click=_fill_goal, args=(template,),
-            use_container_width=True,
+        cols = st.columns(2)
+        for i, template in enumerate(EXAMPLE_GOALS):
+            label = template.format(file=Path(csv_path).name if csv_path else "…")
+            cols[i % 2].button(
+                label, key=f"example_{i}", on_click=_fill_goal, args=(template,),
+                use_container_width=True,
+            )
+
+        goal = st.text_area(
+            "Goal",
+            key="goal_text",
+            placeholder=f"e.g. Analyze {csv_path or 'data/sales.csv'} and find the top regions…",
+            height=90,
         )
 
-    goal = st.text_area(
-        "Goal",
-        key="goal_text",
-        placeholder=f"e.g. Analyze {csv_path or 'data/sales.csv'} and find the top regions…",
-        height=90,
-    )
+        # 3. Run ------------------------------------------------------------------
+        st.subheader("3 · Run")
+        needs_key = provider != "ollama" and not api_key
+        run_disabled = not goal.strip() or not csv_path or needs_key
+        if st.button("🚀 Run agent", type="primary", disabled=run_disabled):
+            env_var = PROVIDER_KEY_ENV.get(provider)
+            if env_var and api_key:
+                os.environ[env_var] = api_key  # session-scoped; llm_factory reads env
 
-    # 3. Run ------------------------------------------------------------------
-    st.subheader("3 · Run")
-    needs_key = provider != "ollama" and not api_key
-    run_disabled = not goal.strip() or not csv_path or needs_key
-    if st.button("🚀 Run agent", type="primary", disabled=run_disabled):
-        env_var = PROVIDER_KEY_ENV.get(provider)
-        if env_var and api_key:
-            os.environ[env_var] = api_key  # session-scoped; llm_factory reads env
+            progress_area = st.container()
+            renderer = StreamlitRenderer(progress_area)
+            memory = run_real_agent(goal.strip(), provider, model, language, renderer)
+            if memory is not None:
+                st.session_state["last_artifacts"] = collect_artifacts(memory)
 
-        progress_area = st.container()
-        renderer = StreamlitRenderer(progress_area)
-        memory = run_real_agent(goal.strip(), provider, model, language, renderer)
-        if memory is not None:
-            st.session_state["last_artifacts"] = collect_artifacts(memory)
-
-    if run_disabled:
-        hints = []
-        if not csv_path:
-            hints.append("choose or upload a dataset")
-        if not goal.strip():
-            hints.append("write a goal")
-        if needs_key:
-            hints.append("configure an API key in the sidebar")
-        st.caption("To enable the run button: " + ", ".join(hints) + ".")
+        if run_disabled:
+            hints = []
+            if not csv_path:
+                hints.append("choose or upload a dataset")
+            if not goal.strip():
+                hints.append("write a goal")
+            if needs_key:
+                hints.append("configure an API key in the sidebar")
+            st.caption("To enable the run button: " + ", ".join(hints) + ".")
 
 
-# -----------------------------------------------------------------------------
-# Results — persisted across reruns so downloads don't wipe the view
-# -----------------------------------------------------------------------------
-artifacts = st.session_state.get("last_artifacts")
-if artifacts:
-    st.divider()
-    st.subheader("📄 Results")
+    # -----------------------------------------------------------------------------
+    # Results — persisted across reruns so downloads don't wipe the view
+    # -----------------------------------------------------------------------------
+    artifacts = st.session_state.get("last_artifacts")
+    if artifacts:
+        st.divider()
+        st.subheader("📄 Results")
 
-    report_path = artifacts.get("report_path")
-    charts = [p for p in artifacts.get("charts", []) if Path(p).exists()]
+        report_path = artifacts.get("report_path")
+        charts = [p for p in artifacts.get("charts", []) if Path(p).exists()]
 
-    col_report, col_charts = st.columns([3, 2])
+        col_report, col_charts = st.columns([3, 2])
 
-    with col_report:
-        if report_path and Path(report_path).exists():
-            report_text = Path(report_path).read_text(encoding="utf-8")
-            st.markdown(strip_markdown_images(report_text))
-            st.download_button(
-                "⬇️ Download report (Markdown)",
-                data=report_text,
-                file_name="report.md",
-                mime="text/markdown",
-            )
+        with col_report:
+            if report_path and Path(report_path).exists():
+                report_text = Path(report_path).read_text(encoding="utf-8")
+                st.markdown(strip_markdown_images(report_text))
+                st.download_button(
+                    "⬇️ Download report (Markdown)",
+                    data=report_text,
+                    file_name="report.md",
+                    mime="text/markdown",
+                )
 
-    with col_charts:
-        for chart in charts:
-            st.image(chart, use_container_width=True)
+        with col_charts:
+            for chart in charts:
+                st.image(chart, use_container_width=True)
 
-        memory_dump = OUTPUTS_DIR / "agent_memory.json"
-        if memory_dump.exists():
-            st.download_button(
-                "⬇️ Download decision log (JSON)",
-                data=memory_dump.read_text(encoding="utf-8"),
-                file_name="agent_memory.json",
-                mime="application/json",
-            )
+            memory_dump = OUTPUTS_DIR / "agent_memory.json"
+            if memory_dump.exists():
+                st.download_button(
+                    "⬇️ Download decision log (JSON)",
+                    data=memory_dump.read_text(encoding="utf-8"),
+                    file_name="agent_memory.json",
+                    mime="application/json",
+                )
