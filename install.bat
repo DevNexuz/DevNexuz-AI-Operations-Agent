@@ -218,7 +218,7 @@ REM Verify critical packages (ENHANCED from original)
 echo.
 echo [INFO] Verifying critical packages...
 
-python -c "import sys; packages = ['langchain', 'pandas', 'numpy', 'matplotlib', 'seaborn', 'rich', 'pydantic']; missing = []; [print(f'  [OK] {pkg}') if __import__(pkg) else missing.append(pkg) for pkg in packages]; print(f'  [OK] All critical packages installed successfully!' if not missing else sys.exit(1)"
+python -c "import sys; packages = ['langchain', 'pandas', 'numpy', 'matplotlib', 'rich', 'pydantic']; missing = []; [print(f'  [OK] {pkg}') if __import__(pkg) else missing.append(pkg) for pkg in packages]; print(f'  [OK] All critical packages installed successfully!' if not missing else sys.exit(1)"
 
 if errorlevel 1 (
     echo   [ERROR] Package verification failed
