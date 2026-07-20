@@ -1,0 +1,13 @@
+# Streamlit app configuration — applies locally and on Streamlit Community Cloud.
+
+[server]
+# Keep uploads small: the agent analyzes tabular CSVs, and the public demo
+# instance shouldn't accept arbitrarily large files.
+maxUploadSize = 20
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#4C72B0"

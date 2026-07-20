@@ -20,6 +20,9 @@ rich>=13.9.0
 python-dotenv>=1.0.0
 pydantic>=2.9.0
 
+# Web UI
+streamlit>=1.40.0
+
 # Development & Testing
 pytest>=7.0.0
 black>=23.0.0
