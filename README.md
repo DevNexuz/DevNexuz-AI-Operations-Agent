@@ -125,6 +125,36 @@ python -m evals.run --provider groq --trials 3
 
 ---
 
+## 🔌 MCP Server
+
+The same tools that power the agent — `load_csv`, `profile_dataset`, `aggregate_by`, `top_n`, `detect_anomalies`, `generate_chart`, `write_report` — are also exposed as a standalone [Model Context Protocol](https://modelcontextprotocol.io/) server, so **Claude Desktop, Claude Code, or Cursor can call them directly**. No Planner/Executor involved here: the MCP client itself decides which tool to call and in what order.
+
+```bash
+pip install mcp   # already in requirements.txt
+python mcp_server.py
+```
+
+**Claude Code:**
+```bash
+claude mcp add csv-analyst -- /path/to/venv/Scripts/python.exe /path/to/mcp_server.py
+```
+
+**Claude Desktop** (`claude_desktop_config.json`):
+```json
+{
+  "mcpServers": {
+    "csv-analyst": {
+      "command": "C:\\path\\to\\venv\\Scripts\\python.exe",
+      "args": ["C:\\path\\to\\mcp_server.py"]
+    }
+  }
+}
+```
+
+Each LangChain `@tool` is registered with zero re-implementation — FastMCP introspects the same function the CLI, the web UI, and the eval harness already call. Chart and report paths always come back absolute, regardless of the cwd the MCP client happens to launch the server from.
+
+---
+
 ## 🚀 One-Line Install
 
 **⚡ Install instantly without downloading files:**
@@ -600,6 +630,9 @@ These are conscious design tradeoffs, not oversights. Understanding them helps y
 - [ ] Sandboxed `python_exec` tool (Docker-isolated)
 - [ ] `summarize_data` tool with business / quality / statistical modes
 - [x] Web UI with Streamlit (`streamlit run app.py`)
+- [x] Trace inspector for auditing past runs
+- [x] Eval harness with deterministic checks + benchmark table
+- [x] MCP server (`python mcp_server.py`) for Claude Desktop / Claude Code / Cursor
 - [ ] Support for Excel/Parquet files
 - [ ] PDF report export
 - [ ] Multi-agent mode (CrewAI)

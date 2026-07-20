@@ -43,6 +43,11 @@ def source_of(dataset_id: str) -> Optional[str]:
     return _SOURCES.get(dataset_id)
 
 
+def all_datasets() -> dict[str, str]:
+    """Every registered dataset_id mapped to its original source path."""
+    return dict(_SOURCES)
+
+
 def reset() -> None:
     """Clear the registry. Useful between independent runs / tests."""
     _DATASETS.clear()
